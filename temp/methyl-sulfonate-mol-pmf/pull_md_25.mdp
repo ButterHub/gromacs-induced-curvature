@@ -1,0 +1,62 @@
+title               = umbrella sampling
+
+integrator          = md
+nsteps              = 20000000
+dt                  = 0.002
+
+nstxout             = 50000
+nstvout             = 50000
+nstxtcout           = 1000
+nstenergy           = 1000
+nstlog              = 1000
+energygrps          = Lipids Solvent
+
+ns_type             = grid
+nstlist             = 5
+rlist               = 1.0 
+rcoulomb            = 1.0 
+rvdw                = 1.0 
+pbc                 = xyz 
+DispCorr            = EnerPres
+
+coulombtype         = PME 
+pme_order           = 4
+fourierspacing      = 0.16
+
+tcoupl              = V-rescale
+tc-grps             = Lipids Solvent
+tau_t               = 0.1 0.1
+ref_t               = 310 310
+
+pcoupl              = parrinello-rahman
+pcoupltype          = semiisotropic
+tau_p               = 2.0 
+ref_p               = 1.0 1.0
+compressibility     = 4.5e-5 4.5e-5
+
+gen_vel             = no
+gen_temp            = 310 
+gen_seed            = -1
+continuation        = yes 
+
+constraint_algorithm = lincs
+constraints         = all-bonds
+lincs_iter          = 1
+lincs_order         = 4
+
+comm-mode           = Linear
+comm-grps           = System
+refcoord_scaling    = com
+
+pull                = umbrella
+pull_geometry       = distance
+pull_dim            = N N Y 
+pull_start          = no
+pull_nstxout        = 500 
+pull_nstfout        = 500 
+pull_ngroups        = 1
+pull_group0         = Lipids
+pull_group1         = Pull
+pull_rate1          = 0
+pull_init1          = 2.5
+pull_k1             = 2000

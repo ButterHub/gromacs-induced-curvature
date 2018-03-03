@@ -1,0 +1,72 @@
+title		= infinite bilayer
+
+integrator	= md		
+nsteps		= 25000000
+dt		= 0.002	
+
+nstxout		= 100000		
+nstvout		= 100000		
+nstxtcout	= 10000		
+nstenergy	= 10000		
+nstlog		= 100000		
+
+continuation	= yes
+constraint_algorithm = lincs	
+constraints	= all-bonds	
+lincs_iter	= 1		
+lincs_order	= 4		
+
+ns_type		= grid		
+nstlist		= 5		
+rlist		= 1.0		
+rcoulomb	= 1.0		
+rvdw		= 1.0		
+
+coulombtype	= PME	
+pme_order	= 4	
+fourierspacing	= 0.12		
+
+tcoupl		= V-rescale
+tc-grps		= NP Lipids Solvent
+tau_t		= 0.1 0.1 0.1
+ref_t		= 310 310 310
+
+pcoupl		= Berendsen
+pcoupltype	= anisotropic	
+tau_p		= 5.0		
+ref_p		= 1.0 0.0 0.0 0.0 0.0 0.0
+compressibility = 4.5e-5 0 0 0 0 0
+
+pbc		= xyz	
+
+DispCorr	= EnerPres
+
+gen_vel		= no
+gen_temp	= 310
+gen_seed	= -1
+
+comm-mode   = Linear
+comm-grps   = System
+refcoord_scaling = com
+
+pull 		= umbrella
+pull_geometry	= position
+pull_dim	= N N Y
+pull_start 	= no
+pull_ngroups	= 3 
+pull_group0	= PHOS
+pull_group1	= PULL_TAIL_1
+pull_group2	= PULL_TAIL_2
+pull_group3	= PULL_TAIL_3
+pull_rate1	= 0
+pull_init1	= 0 0 0.3
+pull_vec1	= 0 0 1
+pull_k1		= 3000
+pull_rate2      = 0
+pull_init2      = 0 0 0.3
+pull_vec2       = 0 0 1
+pull_k2         = 3000
+pull_rate3      = 0
+pull_init3      = 0 0 0.3
+pull_vec3       = 0 0 1
+pull_k3         = 3000

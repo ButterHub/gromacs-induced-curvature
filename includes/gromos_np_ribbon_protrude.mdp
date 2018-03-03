@@ -1,0 +1,91 @@
+title		= infinite bilayer
+
+;define		= -DPOSNP
+integrator	= md		
+nsteps		= 2500000
+dt		= 0.002	
+
+nstxout		= 100000		
+nstvout		= 100000		
+nstxtcout	= 10000		
+nstenergy	= 10000		
+nstlog		= 100000		
+
+continuation	= no		
+constraint_algorithm = lincs	
+constraints	= all-bonds	
+lincs_iter	= 1		
+lincs_order	= 4		
+
+ns_type		= grid		
+nstlist		= 5		
+rlist		= 1.0		
+rcoulomb	= 1.0		
+rvdw		= 1.0		
+
+coulombtype	= PME	
+pme_order	= 4	
+fourierspacing	= 0.12		
+
+tcoupl		= V-rescale
+tc-grps		= NP Lipids Solvent
+tau_t		= 0.1 0.1 0.1
+ref_t		= 310 310 310
+
+pcoupl		= Berendsen
+pcoupltype	= anisotropic	
+tau_p		= 5.0		
+ref_p		= 1.0 0.0 0.0 0.0 0.0 0.0
+compressibility = 4.5e-5 0 0 0 0 0
+
+pbc		= xyz	
+
+DispCorr	= EnerPres
+
+gen_vel		= yes		
+gen_temp	= 310
+gen_seed	= -1
+
+comm-mode   = Linear
+comm-grps   = System
+refcoord_scaling = com
+
+;pull 		= umbrella
+;pull_geometry	= position
+;pull_dim	= N N Y
+;pull_start 	= no
+;pull_ngroups	= 1
+;pull_group0	= PHOS
+;pull_group1	= PULL_TAIL_1
+;pull_rate1	= 0
+;pull_init1	= 0 0 0.3
+;pull_vec1	= 0 0 1
+;pull_k1		= 500
+
+; general pull parameters
+pull 			= yes
+; define pull groups
+pull-ngroups		= 3
+pull-group1-name	= PHOS
+pull-group2-name	= PULL_TAIL_1
+pull-group3-name	= AU
+; define reaction coordinates
+pull-ncoords		= 2
+; * rxn 1
+pull-coord1-type	= umbrella
+pull-coord1-geometry	= direction
+pull-coord1-groups	= 1 2
+pull-coord1-dim		= N N Y
+pull-coord1-vec		= 0 0 1
+pull-coord1-start	= no
+pull-coord1-init	= 1.0
+pull-coord1-rate	= 0.0
+pull-coord1-k		= 500
+; * rxn 2
+pull-coord2-type	= umbrella
+pull-coord2-geometry	= distance
+pull-coord2-groups	= 2 3
+pull-coord2-dim		= Y Y N
+pull-coord2-init	= 0.0
+pull-coord2-rate	= 0.0
+pull-coord2-k		= 500

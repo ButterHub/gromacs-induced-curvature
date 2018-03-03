@@ -1,0 +1,13 @@
+#include "gromos_54a7.itp"
+#include "gromos_54a7_spc.itp"
+#include "gromos_54a7_ions.itp"
+#include "gromos_54a7_dopc.itp"
+
+[ system ]
+molecule through bilayer
+
+[ molecules ]
+NA    1
+DOPC      128
+SOL         8514
+CL               1

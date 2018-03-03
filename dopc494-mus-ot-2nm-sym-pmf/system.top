@@ -1,0 +1,15 @@
+#include "gromos_54a7.itp"
+#include "gromos_54a7_ions.itp"
+#include "gromos_54a7_spc.itp"
+#include "gromos_54a7_dopc.itp"
+#include "mus-ot-2nm-rvanlehn.itp"
+
+[ system ]
+mus-ot-2nm-sym through dopc bilayer
+
+[ molecules ]
+AUNP    1
+DOPC    494 
+SOL     35200
+NA      129
+CL      100

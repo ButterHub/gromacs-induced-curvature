@@ -1,0 +1,14 @@
+#include "gromos_54a7.itp"
+#include "gromos_54a7_spc.itp"
+#include "gromos_54a7_ions.itp"
+#include "gromos_54a7_dopc.itp"
+#include "methyl-hydrogen-phosphate.itp"
+
+[ system ]
+molecule through bilayer
+
+[ molecules ]
+VQJG    1
+DOPC      128
+SOL         8514
+NA               1

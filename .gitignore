@@ -1,0 +1,16 @@
+# MASSIVE FILES BY GROMACS
+*.xtc
+*.out
+*.tpr
+pull*.xvg
+*.trr
+*.cpt
+*.log
+*.edr
+\#*
+step*
+
+# UNNECESSARY FILES BY GROMACS
+
+
+# CASE FOLDERS
