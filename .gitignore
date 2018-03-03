@@ -1,4 +1,5 @@
-# MASSIVE FILES BY GROMACS
+# GROMACS Simulation Output Files #
+###################################
 *.xtc
 *.out
 *.tpr
@@ -10,7 +11,24 @@ pull*.xvg
 \#*
 step*
 
-# UNNECESSARY FILES BY GROMACS
+# Packages #
+############
+# Avoid comitting non-git-compression files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
 
-
-# CASE FOLDERS
+# OS Generated Files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
