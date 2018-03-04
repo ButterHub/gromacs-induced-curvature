@@ -9,5 +9,5 @@ grompp -f pull_eq_4.mdp -c solution_em.gro -n solution.ndx -p solution.top -o pu
 mdrun -v -deffnm pulling_4_eq
 
 grompp -f pull_md_4.mdp -c pulling_4_eq.gro -n solution.ndx -p solution.top -o pulling_4_md -maxwarn 1 
-mdrun -v -pf pullf_4.xvg -px pullx_4.xvg -deffnm pulling_4_md
+mdrun -v -pf pullf_4.xvg -px pullx_4.xvg -deffnm pulling_4_md -cpi pulling_4_md.cpt
 
