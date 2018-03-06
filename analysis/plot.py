@@ -1,4 +1,5 @@
 """Plots PMF for different files when file names passed in."""
+# Can use a bash script to loop over system groups (NP, Ions, Small Molecules)
 import matplotlib
 matplotlib.use('Agg')
 import math, os, time 
