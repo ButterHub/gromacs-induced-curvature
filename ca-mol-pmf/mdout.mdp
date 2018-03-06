@@ -1,8 +1,8 @@
 ;
 ;	File 'mdout.mdp' was generated
 ;	By user: butter (1010)
-;	On host: node133
-;	At date: Sat Mar  3 22:35:57 2018
+;	On host: node55
+;	At date: Tue Mar  6 00:35:19 2018
 ;
 
 ; VARIOUS PREPROCESSING OPTIONS
@@ -270,7 +270,7 @@ pull_group1              = Pull
 pull_weights1            = 
 pull_pbcatom1            = 0
 pull_vec1                = 0.0 0.0 0.0
-pull_init1               = 2.0
+pull_init1               = .9
 pull_rate1               = 0
 pull_k1                  = 2000
 pull_kB1                 = 2000

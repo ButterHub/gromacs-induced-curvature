@@ -1,8 +1,8 @@
 ;
 ;	File 'mdout.mdp' was generated
 ;	By user: butter (1010)
-;	On host: node216
-;	At date: Fri Mar  2 10:35:27 2018
+;	On host: node159
+;	At date: Mon Mar  5 20:43:03 2018
 ;
 
 ; VARIOUS PREPROCESSING OPTIONS
@@ -17,7 +17,7 @@ integrator               = md
 ; Start time and timestep in ps
 tinit                    = 0
 dt                       = 0.002
-nsteps                   = 10000000
+nsteps                   = 2500000
 ; For exact run continuation or redoing part of a run
 init-step                = 0
 ; Part index is updated automatically on checkpointing (keeps files separate)
@@ -157,7 +157,7 @@ tc-grps                  = NP Lipids Solvent
 tau_t                    = 0.1 0.1 0.1
 ref_t                    = 310 310 310
 ; pressure coupling     
-pcoupl                   = parrinello-rahman
+pcoupl                   = Berendsen
 pcoupltype               = semiisotropic
 nstpcouple               = -1
 ; Time constant (ps), compressibility (1/bar) and reference P (bar)
@@ -206,7 +206,7 @@ annealing-time           =
 annealing-temp           = 
 
 ; GENERATE VELOCITIES FOR STARTUP RUN
-gen_vel                  = no
+gen_vel                  = yes
 gen_temp                 = 310
 gen_seed                 = -1
 
@@ -215,7 +215,7 @@ constraints              = all-bonds
 ; Type of constraint algorithm
 constraint_algorithm     = lincs
 ; Do not constrain the start configuration
-continuation             = yes
+continuation             = no
 ; Use successive overrelaxation to reduce the number of shake iterations
 Shake-SOR                = no
 ; Relative tolerance of shake
@@ -270,10 +270,10 @@ pull_group1              = Pull
 pull_weights1            = 
 pull_pbcatom1            = 0
 pull_vec1                = 0.0 0.0 0.0
-pull_init1               = 2.3
+pull_init1               = .9
 pull_rate1               = 0
-pull_k1                  = 2000
-pull_kB1                 = 2000
+pull_k1                  = 500
+pull_kB1                 = 500
 
 ; ENFORCED ROTATION    
 ; Enforced rotation: No or Yes

@@ -3,7 +3,7 @@
 #SBATCH -o pmf-19.out
 #SBATCH -N 1
 #SBATCH -n 8
-#SBATCH -p extended-mem
+#SBATCH -p regular-cpu
 
 grompp -f pull_eq_np_19.mdp -c solution_em.gro -p system.top -n system.ndx -o pulling_19_eq.tpr -maxwarn 1
 mdrun -v -deffnm pulling_19_eq -cpi pulling_19_eq.cpt
