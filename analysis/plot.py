@@ -9,7 +9,7 @@ small_molecule_files = ['methyl-phosphate-mol-pmf.xvg', 'methyl-hydrogen-phospha
 ions_files = ['na-mol-pmf.xvg', 'ca-mol-pmf.xvg']
 np_files = ['mus-2nm-sym-pmf.xvg']
 # EDIT 'FILES' ONLY
-files=ions_files
+files = np_files 
 
 # Create figure
 fig, ax = plt.subplots(1)
@@ -25,9 +25,8 @@ n_plots = len(files)
 for i, file_name in enumerate(files):
 	x, y = np.genfromtxt(file_name, unpack=True, dtype="float_")
 	plt.plot(x, y-y[-5], label=file_name, linewidth=2)
-	n_plots += 1
 legend = ax.legend(loc='upper center', shadow=True)
 
 save_name=time.strftime("%Y_%m_%d")
-plt.savefig("PMF{}_{}.pdf".format(n_plots, save_name))
+plt.savefig("PMF{0}_{1}.pdf".format(n_plots, save_name))
 
