@@ -6,3 +6,5 @@ Gromacs 4.6.5 was used for atomistic and coarse-grained simulations of Gold nano
 This project is in progress, but will finish around July 2018. Enjoy the following random images...
 
 ![NP in a Galaxy](https://i.imgur.com/f1LfHmA.jpg)
+
+Some PMFs are shown below: 
