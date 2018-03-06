@@ -9,7 +9,8 @@ small_molecule_files = ['methyl-phosphate-mol-pmf.xvg', 'methyl-hydrogen-phospha
 ions_files = ['na-mol-pmf.xvg', 'ca-mol-pmf.xvg']
 np_files = ['mus-2nm-sym-pmf.xvg']
 # EDIT 'FILES' ONLY
-files = np_files 
+files =  ['ca-mol-pmf.xvg']
+name = "calcium"
 
 # Create figure
 fig, ax = plt.subplots(1)
@@ -28,5 +29,5 @@ for i, file_name in enumerate(files):
 legend = ax.legend(loc='upper center', shadow=True)
 
 save_name=time.strftime("%Y_%m_%d")
-plt.savefig("PMF{0}_{1}.pdf".format(n_plots, save_name))
+plt.savefig("PMF-{0}{1}_{2}.pdf".format(n_plots, name, save_name))
 
