@@ -7,8 +7,8 @@ ATOM_PULL="OS3"
 NP="mus-ot-2nm-sym"
 LIGAND=${NP%%-*}
 LIPID="DOPC"
-NLIPID=494
-SYS=${LIPID,,}${NLIPID}-${NP}
+NLIPID=398
+SYS=${LIPID,,}${NLIPID}-ribbon-${NP}
 
 # Setup case directory
 CASENAME="${SYS}-pmf"
@@ -21,7 +21,7 @@ cp ../includes/gromos*itp .
 cp ../includes/pull_md_np.mdp .
 cp ../includes/pull_eq_np.mdp .
 cp ../includes/$SYS.gro .
-cp ../includes/mus-ot-2nm-rvanlehn.itp .
+cp ../includes/$SYS.itp .
 
 # Create index 
 make_ndx -f $SYS -o system.ndx<<EOF
@@ -45,7 +45,7 @@ cat > system.top<<EOF
 #include "gromos_54a7_ions.itp"
 #include "gromos_54a7_spc.itp"
 #include "gromos_54a7_${LIPID,,}.itp"
-#include "mus-ot-2nm-rvanlehn.itp"
+#include "${SYS}.itp"
 
 [ system ]
 ${NP} through ${LIPID,,} bilayer
