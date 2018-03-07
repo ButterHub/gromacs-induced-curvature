@@ -6,12 +6,12 @@ import math, os, time
 import numpy as np
 import matplotlib.pyplot as plt
 
-small_molecule_files = ['methyl-phosphate-mol-pmf.xvg', 'methyl-hydrogen-phosphate-mol-pmf.xvg', 'methyl-dihydrogen-phosphate-mol-pmf.xvg', 'methyl-sulfonate-mol-pmf.xvg']
-ion_files = ['na-mol-pmf.xvg', 'ca-mol-pmf.xvg']
-np_files = ['mus-2nm-sym-pmf.xvg']
+mols = ['methyl-phosphate-mol-pmf.xvg', 'methyl-hydrogen-phosphate-mol-pmf.xvg', 'methyl-dihydrogen-phosphate-mol-pmf.xvg', 'methyl-sulfonate-mol-pmf.xvg']
+ions = ['na-mol-pmf.xvg', 'ca-mol-pmf.xvg']
+nps = ['mus-2nm-sym-pmf.xvg']
 # EDIT 'FILES' ONLY
-files = small_molecule_files 
-name = "small"
+files = ions
+name = "ions"
 
 # Create figure
 fig, ax = plt.subplots(1)

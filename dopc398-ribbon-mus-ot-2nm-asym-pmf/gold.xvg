@@ -1,0 +1,22 @@
+# This file was created Tue Mar  6 22:43:18 2018
+# by the following command:
+# g_traj -com -f dopc398-ribbon-mus-ot-2nm-asym.gro -s dummy.tpr -n system.ndx -ox gold.xvg 
+#
+# g_traj is part of G R O M A C S:
+#
+# God Rules Over Mankind, Animals, Cosmos and Such
+#
+@    title "Center of mass"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Coordinate (nm)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Gold X"
+@ s1 legend "Gold Y"
+@ s2 legend "Gold Z"
+ 1	5.52345	5.46756	7.94743

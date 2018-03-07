@@ -4,7 +4,7 @@
 ATOM_SEL="SAU"
 ATOM_PULL="OS3"
 
-NP="mus-ot-2nm-sym"
+NP="mus-ot-2nm-asym"
 LIGAND=${NP%%-*}
 LIPID="DOPC"
 NLIPID=398
@@ -85,7 +85,7 @@ g_select -f $SYS.gro -select "z < ${NP_COM_z} and atomname ${ATOM_SEL}" -s dummy
 #g_select -f $SYS.gro -select "atomname ${ATOM_SEL} and (same residue as (z < ${NP_COM_z} and atomname ${ATOM_PULL}))" -s dummy.tpr -on thiol_sulfurs.ndx
 trjconv -f $SYS.gro -s dummy.tpr -n thiol_sulfurs.ndx -o thiol_sulfurs.gro
 # SORT GRO FILE DESCENDING Z VALUE, pick the BOTTOM to pull back down
-PULL_DETAILS=$(cat thiol_sulfurs.gro | tail -n+3 | head -n-1 | sort -k6 -rn | tail -n1)
+PULL_DETAILS=$(cat thiol_sulfurs.gro | tail -n+3 | head -n-1 | sort -k6 -rn | sed "/OT/d" | tail -n1)
 RESNR_PULL=$(echo ${PULL_DETAILS} | awk '{print $1}')
 RESNR_PULL=${RESNR_PULL%${LIGAND^^}}
 # Pulling 3 oxygens from the end group of ligand 
