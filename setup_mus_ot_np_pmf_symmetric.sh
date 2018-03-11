@@ -8,7 +8,7 @@ NP="mus-ot-2nm-sym"
 LIGAND=${NP%%-*}
 LIPID="DOPC"
 NLIPID=494
-# or 398
+# blank or 494 or 398
 SLIPID= # or -ribbon
 SYS=${LIPID,,}${NLIPID}${SLIPID}-${NP}
 

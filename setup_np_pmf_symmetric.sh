@@ -4,10 +4,11 @@
 ATOM_SEL="SAU"
 ATOM_PULL="OS3"
 
-NP="mus-2nm-checkerboard"
-LIGAND=${NP%%-*}
+NP="unreal-mup-2nm" #or mus-2nm-checkboard
+LIGAND=mus # ${NP%-*}
 LIPID="DOPC"
-SYS="${LIGAND}-2nm-sym"
+#SYS="${LIGAND}-2nm-sym"
+SYS="${NP}-sym"
 
 # Setup case directory
 CASENAME="${SYS}-pmf"
@@ -20,7 +21,8 @@ cp ../includes/gromos*itp .
 cp ../includes/pull_md_np.mdp .
 cp ../includes/pull_eq_np.mdp .
 cp ../includes/$SYS.gro .
-cp ../includes/gromos-mus-2nm-checkerboard.itp .
+cp ../includes/$SYS.itp .
+# cp ../includes/gromos-mus-2nm-checkerboard.itp .
 
 # Create index 
 make_ndx -f $SYS -o system.ndx<<EOF
@@ -44,7 +46,7 @@ cat > system.top<<EOF
 #include "gromos_54a7_ions.itp"
 #include "gromos_54a7_spc.itp"
 #include "gromos_54a7_${LIPID,,}.itp"
-#include "gromos-mus-2nm-checkerboard.itp"
+#include "${SYS}.itp"
 
 [ system ]
 ${NP} through ${LIPID,,} bilayer
@@ -119,7 +121,7 @@ cat > launch_pulling_${i}.sh <<EOF
 #SBATCH -o pmf-${i}.out
 #SBATCH -N 1
 #SBATCH -n 8
-#SBATCH -p extended-mem
+#SBATCH -p regular-cpu
 
 grompp -f pull_eq_np_${i}.mdp -c solution_em.gro -p system.top -n system.ndx -o pulling_${i}_eq.tpr -maxwarn 1
 mdrun -v -deffnm pulling_${i}_eq -cpi pulling_${i}_eq.cpt

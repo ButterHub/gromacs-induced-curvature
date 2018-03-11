@@ -9,9 +9,10 @@ import matplotlib.pyplot as plt
 mols = ['methyl-phosphate-mol-pmf.xvg', 'methyl-hydrogen-phosphate-mol-pmf.xvg', 'methyl-dihydrogen-phosphate-mol-pmf.xvg', 'methyl-sulfonate-mol-pmf.xvg']
 ions = ['na-mol-pmf.xvg', 'ca-mol-pmf.xvg']
 nps = ['mus-2nm-sym-pmf.xvg']
+water = ['water-pmf.xvg']
 # EDIT 'FILES' ONLY
-files = ions
-name = "ions"
+files = water
+name = "water"
 
 # Create figure
 fig, ax = plt.subplots(1)

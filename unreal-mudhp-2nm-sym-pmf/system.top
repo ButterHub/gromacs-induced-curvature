@@ -1,0 +1,14 @@
+#include "gromos_54a7.itp"
+#include "gromos_54a7_ions.itp"
+#include "gromos_54a7_spc.itp"
+#include "gromos_54a7_dopc.itp"
+#include "unreal-mudhp-2nm-sym.itp"
+
+[ system ]
+unreal-mudhp-2nm through dopc bilayer
+
+[ molecules ]
+AUNP    1
+DOPC   267 
+SOL    19622
+NA    58
