@@ -2,7 +2,7 @@
 #SBATCH -J 31-dopc494-mus-ot-2nm-sym
 #SBATCH -o pmf-31.out
 #SBATCH -N 1
-#SBATCH -n 8
+#SBATCH -n 32
 #SBATCH -p extended-mem
 
 grompp -f pull_eq_np_31.mdp -c solution_em.gro -p system.top -n system.ndx -o pulling_31_eq.tpr -maxwarn 1

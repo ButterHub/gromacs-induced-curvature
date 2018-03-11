@@ -2,8 +2,8 @@
 #SBATCH -J 28-dopc494-mus-ot-2nm-sym
 #SBATCH -o pmf-28.out
 #SBATCH -N 1
-#SBATCH -n 8
-#SBATCH -p regular-cpu
+#SBATCH -n 32
+#SBATCH -p extended-mem
 
 grompp -f pull_eq_np_28.mdp -c solution_em.gro -p system.top -n system.ndx -o pulling_28_eq.tpr -maxwarn 1
 mdrun -v -deffnm pulling_28_eq -cpi pulling_28_eq.cpt

@@ -2,7 +2,7 @@
 #include "gromos_54a7_ions.itp"
 #include "gromos_54a7_spc.itp"
 #include "gromos_54a7_dopc.itp"
-#include "mus-ot-2nm-rvanlehn.itp"
+#include "dopc494-mus-ot-2nm-sym.itp"
 
 [ system ]
 mus-ot-2nm-sym through dopc bilayer

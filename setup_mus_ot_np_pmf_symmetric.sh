@@ -7,8 +7,10 @@ ATOM_PULL="OS3"
 NP="mus-ot-2nm-sym"
 LIGAND=${NP%%-*}
 LIPID="DOPC"
-NLIPID=398
-SYS=${LIPID,,}${NLIPID}-ribbon-${NP}
+NLIPID=494
+# or 398
+SLIPID= # or -ribbon
+SYS=${LIPID,,}${NLIPID}${SLIPID}-${NP}
 
 # Setup case directory
 CASENAME="${SYS}-pmf"
@@ -121,8 +123,8 @@ cat > launch_pulling_${i}.sh <<EOF
 #SBATCH -J ${i}-${SYS}
 #SBATCH -o pmf-${i}.out
 #SBATCH -N 1
-#SBATCH -n 8
-#SBATCH -p extended-mem
+#SBATCH -n 64
+#SBATCH -p extended-cpu
 
 grompp -f pull_eq_np_${i}.mdp -c solution_em.gro -p system.top -n system.ndx -o pulling_${i}_eq.tpr -maxwarn 1
 mdrun -v -deffnm pulling_${i}_eq -cpi pulling_${i}_eq.cpt

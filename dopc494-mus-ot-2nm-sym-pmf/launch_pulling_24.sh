@@ -2,8 +2,8 @@
 #SBATCH -J 24-dopc494-mus-ot-2nm-sym
 #SBATCH -o pmf-24.out
 #SBATCH -N 1
-#SBATCH -n 8
-#SBATCH -p regular-cpu
+#SBATCH -n 64
+#SBATCH -p extended-cpu
 
 grompp -f pull_eq_np_24.mdp -c solution_em.gro -p system.top -n system.ndx -o pulling_24_eq.tpr -maxwarn 1
 mdrun -v -deffnm pulling_24_eq -cpi pulling_24_eq.cpt

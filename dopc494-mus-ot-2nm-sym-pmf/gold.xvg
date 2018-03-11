@@ -1,10 +1,10 @@
-# This file was created Thu Mar  1 09:55:00 2018
+# This file was created Sat Mar 10 00:06:54 2018
 # by the following command:
 # g_traj -com -f dopc494-mus-ot-2nm-sym.gro -s dummy.tpr -n system.ndx -ox gold.xvg 
 #
 # g_traj is part of G R O M A C S:
 #
-# GROwing Monsters And Cloning Shrimps
+# Great Red Oystrich Makes All Chemists Sane
 #
 @    title "Center of mass"
 @    xaxis  label "Time (ps)"

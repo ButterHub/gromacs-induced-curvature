@@ -2,8 +2,8 @@
 #SBATCH -J 15-dopc398-ribbon-mus-ot-2nm-asym
 #SBATCH -o pmf-15.out
 #SBATCH -N 1
-#SBATCH -n 64
-#SBATCH -p extended-cpu
+#SBATCH -n 8
+#SBATCH -p regular-cpu
 
 grompp -f pull_eq_np_15.mdp -c solution_em.gro -p system.top -n system.ndx -o pulling_15_eq.tpr -maxwarn 1
 mdrun -v -deffnm pulling_15_eq -cpi pulling_15_eq.cpt

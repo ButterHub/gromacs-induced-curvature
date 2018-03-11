@@ -1,10 +1,10 @@
-# This file was created Thu Mar  1 09:54:58 2018
+# This file was created Sat Mar 10 00:06:52 2018
 # by the following command:
 # g_traj -com -f dopc494-mus-ot-2nm-sym.gro -s dummy.tpr -n system.ndx -ox lipids.xvg 
 #
 # g_traj is part of G R O M A C S:
 #
-# Guyana Rwanda Oman Macau Angola Cameroon Senegal
+# God Rules Over Mankind, Animals, Cosmos and Such
 #
 @    title "Center of mass"
 @    xaxis  label "Time (ps)"

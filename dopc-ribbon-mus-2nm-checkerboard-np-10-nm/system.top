@@ -1,0 +1,15 @@
+#include "gromos_54a7.itp"
+#include "gromos_54a7_ions.itp"
+#include "gromos_54a7_spc.itp"
+#include "gromos_54a7_dopc.itp"
+#include "gromos-mus-2nm-checkerboard.itp"
+
+[ system ]
+dopc ribbon
+
+[ molecules ]
+AUNP                1
+DOPC              372
+SOL             63543
+NA                179
+CL                179

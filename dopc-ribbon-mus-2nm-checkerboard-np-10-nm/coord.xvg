@@ -1,0 +1,22 @@
+# This file was created Wed Mar  7 17:54:50 2018
+# by the following command:
+# g_traj -ox -com -s system_em.tpr -f system_em.gro -n system.ndx 
+#
+# g_traj is part of G R O M A C S:
+#
+# Gromacs Runs On Most of All Computer Systems
+#
+@    title "Center of mass"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Coordinate (nm)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Lipids X"
+@ s1 legend "Lipids Y"
+@ s2 legend "Lipids Z"
+ 0	12.2199	4.10878	6.36701
