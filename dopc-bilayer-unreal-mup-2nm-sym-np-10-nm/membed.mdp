@@ -1,0 +1,46 @@
+title		= embed NP into bilayer
+
+integrator	= md		
+nsteps		= 10000
+dt	        = 0.002	
+
+nstxout		= 100		
+nstvout		= 100		
+nstxtcout	= 100		
+nstenergy	= 100		
+nstlog		= 100		
+
+energygrps  	= NP
+freezegrps	= NP
+freezedim	= Y Y Y
+energygrp_excl	= NP NP
+
+constraint_algorithm = lincs	
+constraints	= all-bonds	
+lincs_iter	= 1		
+lincs_order	= 4		
+
+ns_type		= grid		
+nstlist		= 5		
+rlist		= 1.4		
+rcoulomb	= 1.4		
+rvdw		= 1.4		
+coulombtype	= Cut-off	
+
+tcoupl		= V-rescale	
+tc-grps		= NP Lipids Solvent	
+tau_t		= 0.1 0.1 0.1	
+ref_t		= 310 310 310	
+
+pcoupl		= Berendsen	
+pcoupltype	= semiisotropic	
+tau_p		= 1.0 1.0	
+ref_p		= 1.0 1.0	
+compressibility = 4.5e-5 4.5e-5	
+
+pbc		= xyz	
+DispCorr	= EnerPres
+
+gen_vel		= yes		
+gen-temp	= 310
+continuation	= no		

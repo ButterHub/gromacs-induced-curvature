@@ -100,7 +100,7 @@ grompp -f minim.mdp -c $SYS.gro -p system.top -n system.ndx -o solution_em
 mdrun -v -deffnm solution_em
 
 # Setup umbrella sampling simulations 
-for i in $(seq 0 35); do
+for i in $(seq 0 20); do
 INIT1=$(echo "${i} * 0.1" | bc -l)
 
 cp pull_eq_np.mdp pull_eq_np_${i}.mdp

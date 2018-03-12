@@ -8,3 +8,8 @@ This project is in progress, but will finish around July 2018. Enjoy the followi
 ![NP in a Galaxy](https://i.imgur.com/f1LfHmA.jpg)
 
 Some PMFs are shown below: 
+
+
+Cases:
+dopc494 (from rvan) is a bilayer.
+dopc398 (from rvan) is a ribbon.

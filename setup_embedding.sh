@@ -2,17 +2,15 @@
 # Setup bilayer or ribbon from building block bilayer and embed nanoparticle using g_membed
 
 # Input parameters
-NP="mus-2nm-checkerboard"
-NNA=58
+NP="mus-2nm-checkerboard" # or mus-2nm-checkerboard or unreal-mup-2nm-sym
+NNA=58 # 58 for normal, but MUP has -2 charge 116
 LIPID="DOPC"
 CROP=10
-SLIPID="ribbon" # bilayer or ribbon
+SLIPID="bilayer" # bilayer or ribbon
 
 # Define basename
 BASENAME=${LIPID,,}-${SLIPID}-${NP,,}-np-${CROP}-nm
-
-NP="gromos-${NP}"
-
+NP="gromos-${NP}" # Prepending as thats the file name
 mkdir $BASENAME
 cd $BASENAME
 
@@ -75,7 +73,7 @@ name 3 NP
 q
 INPUT
 
-# Center bilayer in z-direction
+# Center bilayer in z-direction - centering system to solvent
 trjconv -f system_em.gro -s system_em.tpr -n system.ndx -o system_em.gro -center -pbc mol <<INPUT
 Solvent
 System
@@ -87,7 +85,7 @@ INPUT
 
 BOX_Z=$(tail -n 1 system_em.gro | awk '{print $3}')
 BILAYER_COM_Z=$(tail -n 1 coord.xvg | awk '{print $4}')
-DZ=$(echo "($BOX_Z / 2) - $BILAYER_COM_Z" | bc -l)
+DZ=$(echo "($BOX_Z / 2) - $BILAYER_COM_Z" | bc -l) # Precision may cause issues for trjconv below.
 
 trjconv -f system_em.gro -s system_em.tpr -n system.ndx -o system_em.gro -trans 0 0 $DZ -pbc mol <<INPUT
 System

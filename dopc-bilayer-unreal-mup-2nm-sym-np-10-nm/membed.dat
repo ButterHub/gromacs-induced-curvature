@@ -1,0 +1,17 @@
+;
+;	File 'membed.dat' was generated
+;	By user: butter (1010)
+;	On host: login
+;	At date: Sun Mar 11 23:16:08 2018
+;
+nxy                      = 10000
+nz                       = 0
+xyinit                   = 0.100000
+xyend                    = 1.000000
+zinit                    = 1.000000
+zend                     = 1.000000
+rad                      = 0.220000
+ndiff                    = 0
+maxwarn                  = 1
+pieces                   = 1
+asymmetry                = no
