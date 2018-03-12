@@ -11,8 +11,8 @@ ions = ['na-mol-pmf.xvg', 'ca-mol-pmf.xvg']
 nps = ['mus-2nm-sym-pmf.xvg']
 water = ['water-pmf.xvg']
 # EDIT 'FILES' ONLY
-files = water
-name = "water"
+files = mols
+name = "methyl-phosphates"
 
 # Create figure
 fig, ax = plt.subplots(1)
