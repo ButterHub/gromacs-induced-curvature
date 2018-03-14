@@ -1,14 +1,9 @@
 #!/bin/bash
-#SBATCH -J _K04-13
+#SBATCH -J 13-methyl-phosphate
 #SBATCH -o pmf-13.out
 #SBATCH -N 1
 #SBATCH -n 8
 #SBATCH -p regular-cpu
 
-grompp -f pull_eq_13.mdp -c solution_em.gro -n solution.ndx -p solution.top -o pulling_13_eq -maxwarn 1 
-mdrun -v -deffnm pulling_13_eq
+mdrun -v -pf pullf_13.xvg -px pullx_13.xvg -deffnm pulling_13_md -cpi pulling_13_md.cpt
 
-grompp -f pull_md_13.mdp -c pulling_13_eq.gro -n solution.ndx -p solution.top -o pulling_13_md -maxwarn 1 
-mdrun -v -pf pullf_13.xvg -px pullx_13.xvg -deffnm pulling_13_md
-
-rm \#*

@@ -4,15 +4,17 @@
 MOL=$1
 MOL_Z=8
 LIPID="DOPC"
+SIZE=large #LARGE OR SMALL
 
 # Setup case directory 
-CASENAME="${MOL}-mol-pmf"
+CASENAME="${MOL}-mol-pmf-${SIZE,,}"
 mkdir $CASENAME
 cd $CASENAME
 
 # Copy over required files
 cp ../includes/gromos*itp .
-cp ../includes/dopc-bilayer.gro ./bilayer.gro
+# Can switch from -s and -l. 128 to 254 lipids.
+cp ../includes/dopc-bilayer-${SIZE:0:1}.gro ./bilayer.gro
 cp ../includes/${MOL}.gro .
 cp ../includes/${MOL}.itp .
 cp ../includes/minim.mdp .
@@ -93,7 +95,7 @@ sed -i -e "s/TBD/${INIT1}/g" pull_md_${i}.mdp
 
 cat > launch_pulling_${i}.sh <<INPUT
 #!/bin/bash
-#SBATCH -J ${RESNAME}-${i}
+#SBATCH -J ${i}-${SIZE:0:1}-${RESNAME}
 #SBATCH -o pmf-${i}.out
 #SBATCH -N 1
 #SBATCH -n 8 

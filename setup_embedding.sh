@@ -73,12 +73,13 @@ name 3 NP
 q
 INPUT
 
-# Center bilayer in z-direction - centering system to solvent
+# Center bilayer in z-direction - centering solvent to com of system
 trjconv -f system_em.gro -s system_em.tpr -n system.ndx -o system_em.gro -center -pbc mol <<INPUT
 Solvent
 System
 INPUT
 
+# Getting position of Lipids COM. Default output is coord.xtc
 g_traj -ox -com -s system_em.tpr -f system_em.gro -n system.ndx <<INPUT
 Lipids
 INPUT

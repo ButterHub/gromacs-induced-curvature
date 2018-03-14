@@ -1,8 +1,9 @@
 #!/bin/bash
-#SBATCH -J VQJG-10
+#SBATCH -J 10-methyl-hydrogen-phosphate
 #SBATCH -o pmf-10.out
 #SBATCH -N 1
 #SBATCH -n 8
-#SBATCH -p extended-mem
+#SBATCH -p regular-cpu
 
-mdrun -v -pf pullf_10.xvg -px pullx_10.xvg -deffnm pulling_10_md -cpi pulling_10_md.cpt
+mdrun -v -pf pullf_10.xvg -px pullx_10.xvg -s pulling_10_md_2.tpr -deffnm pulling_10_md -cpi pulling_10_md.cpt
+

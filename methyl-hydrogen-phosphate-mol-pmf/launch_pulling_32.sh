@@ -1,8 +1,9 @@
 #!/bin/bash
-#SBATCH -J VQJG-32
+#SBATCH -J 32-methyl-hydrogen-phosphate
 #SBATCH -o pmf-32.out
 #SBATCH -N 1
 #SBATCH -n 8
-#SBATCH -p extended-mem
+#SBATCH -p regular-cpu
 
-mdrun -v -pf pullf_32.xvg -px pullx_32.xvg -deffnm pulling_32_md -cpi pulling_32_md.cpt
+mdrun -v -pf pullf_32.xvg -px pullx_32.xvg -s pulling_32_md_2.tpr -deffnm pulling_32_md -cpi pulling_32_md.cpt
+

@@ -1,14 +1,9 @@
 #!/bin/bash
-#SBATCH -J _K04-9
+#SBATCH -J 9-methyl-phosphate
 #SBATCH -o pmf-9.out
 #SBATCH -N 1
 #SBATCH -n 8
 #SBATCH -p regular-cpu
 
-grompp -f pull_eq_9.mdp -c solution_em.gro -n solution.ndx -p solution.top -o pulling_9_eq -maxwarn 1 
-mdrun -v -deffnm pulling_9_eq
+mdrun -v -pf pullf_9.xvg -px pullx_9.xvg -deffnm pulling_9_md -cpi pulling_9_md.cpt
 
-grompp -f pull_md_9.mdp -c pulling_9_eq.gro -n solution.ndx -p solution.top -o pulling_9_md -maxwarn 1 
-mdrun -v -pf pullf_9.xvg -px pullx_9.xvg -deffnm pulling_9_md
-
-rm \#*

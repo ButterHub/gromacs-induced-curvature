@@ -1,8 +1,9 @@
 #!/bin/bash
-#SBATCH -J VQJG-4
+#SBATCH -J 4-methyl-hydrogen-phosphate
 #SBATCH -o pmf-4.out
 #SBATCH -N 1
 #SBATCH -n 8
-#SBATCH -p extended-mem
+#SBATCH -p regular-cpu
 
-mdrun -v -pf pullf_4.xvg -px pullx_4.xvg -deffnm pulling_4_md -cpi pulling_4_md.cpt
+mdrun -v -pf pullf_4.xvg -px pullx_4.xvg -s pulling_4_md_2.tpr -deffnm pulling_4_md -cpi pulling_4_md.cpt
+

@@ -1,0 +1,14 @@
+#include "gromos_54a7.itp"
+#include "gromos_54a7_spc.itp"
+#include "gromos_54a7_ions.itp"
+#include "gromos_54a7_dopc.itp"
+#include "methyl-phosphate.itp"
+
+[ system ]
+molecule through bilayer
+
+[ molecules ]
+_K04    1
+DOPC      253
+SOL         14569
+NA               2

@@ -1,13 +1,9 @@
 #!/bin/bash
-#SBATCH -J IXUV-24
+#SBATCH -J 24-methyl-sulfonate
 #SBATCH -o pmf-24.out
 #SBATCH -N 1
-#SBATCH -n 8 
-#SBATCH -p extended-mem 
+#SBATCH -n 8
+#SBATCH -p regular-cpu
 
-grompp -f pull_eq_24.mdp -c solution_em.gro -n solution.ndx -p solution.top -o pulling_24_eq -maxwarn 1 
-mdrun -v -deffnm pulling_24_eq
-
-grompp -f pull_md_24.mdp -c pulling_24_eq.gro -n solution.ndx -p solution.top -o pulling_24_md -maxwarn 1 
-mdrun -v -pf pullf_24.xvg -px pullx_24.xvg -deffnm pulling_24_md
+mdrun -v -pf pullf_24.xvg -px pullx_24.xvg -s pulling_24_md_2.tpr -deffnm pulling_24_md -cpi pulling_24_md.cpt
 

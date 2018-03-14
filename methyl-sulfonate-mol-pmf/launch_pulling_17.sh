@@ -1,13 +1,9 @@
 #!/bin/bash
-#SBATCH -J IXUV-17
+#SBATCH -J 17-methyl-sulfonate
 #SBATCH -o pmf-17.out
 #SBATCH -N 1
-#SBATCH -n 8 
-#SBATCH -p extended-mem 
+#SBATCH -n 8
+#SBATCH -p regular-cpu
 
-grompp -f pull_eq_17.mdp -c solution_em.gro -n solution.ndx -p solution.top -o pulling_17_eq -maxwarn 1 
-mdrun -v -deffnm pulling_17_eq
-
-grompp -f pull_md_17.mdp -c pulling_17_eq.gro -n solution.ndx -p solution.top -o pulling_17_md -maxwarn 1 
-mdrun -v -pf pullf_17.xvg -px pullx_17.xvg -deffnm pulling_17_md
+mdrun -v -pf pullf_17.xvg -px pullx_17.xvg -s pulling_17_md_2.tpr -deffnm pulling_17_md -cpi pulling_17_md.cpt
 
