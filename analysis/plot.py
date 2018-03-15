@@ -27,7 +27,7 @@ n_plots = len(files)
 # Loop over files
 for i, file_name in enumerate(files):
 	x, y = np.genfromtxt(file_name, unpack=True, dtype="float_")
-	plt.plot(x, y-y[-5], label=file_name, linewidth=2)
+	plt.plot(x, y-np.amin(y), label=file_name, linewidth=2)
 legend = ax.legend(loc='upper center', shadow=True)
 
 save_name=time.strftime("%Y_%m_%d")
