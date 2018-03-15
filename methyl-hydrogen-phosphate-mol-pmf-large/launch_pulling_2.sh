@@ -3,7 +3,7 @@
 #SBATCH -o pmf-2.out
 #SBATCH -N 1
 #SBATCH -n 8 
-#SBATCH -p extended-mem 
+#SBATCH -p regular-cpu 
 
 grompp -f pull_eq_2.mdp -c solution_em.gro -n solution.ndx -p solution.top -o pulling_2_eq -maxwarn 1 
 mdrun -v -deffnm pulling_2_eq
