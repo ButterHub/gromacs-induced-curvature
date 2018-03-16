@@ -20,16 +20,22 @@ fig, ax = plt.subplots(1)
 plt.title("Potential of Mean Force")
 plt.xlabel("z (nm)")
 plt.ylabel("PMF (kcal / mol)")
-plt.ylim(ymin=-10)
 
 # Number of plots
 n_plots = len(files)
+MaxY = 0
 
 # Loop over files
 for i, file_name in enumerate(files):
 	x, y = np.genfromtxt(file_name, unpack=True, dtype="float_")
+	if np.max(y) > MaxY:
+		MaxY = np.max(y)
 	plt.plot(x, y-np.amin(y), label=file_name, linewidth=2)
 legend = ax.legend(loc='upper center', shadow=True)
+
+# Set Max and Min Y
+plt.ylim(ymax=MaxY)
+plt.ylim(ymin=-10)
 
 save_name=time.strftime("%Y_%m_%d")
 plt.savefig("PMF-{0}{1}_{2}.pdf".format(n_plots, name, save_name))
