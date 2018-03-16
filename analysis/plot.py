@@ -36,7 +36,7 @@ legend = ax.legend(loc='upper center', shadow=True)
 
 # Set Max and Min Y
 plt.ylim(ymax=np.around(MaxY, -1))
-plt.ylim(ymin=-10)
+plt.ylim(ymin=-5)
 
 save_name=time.strftime("%Y_%m_%d")
 plt.savefig("PMF-{0}{1}_{2}.pdf".format(n_plots, name, save_name))
