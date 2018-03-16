@@ -28,9 +28,10 @@ MaxY = 0
 # Loop over files
 for i, file_name in enumerate(files):
 	x, y = np.genfromtxt(file_name, unpack=True, dtype="float_")
-	if np.max(y) > MaxY:
-		MaxY = np.max(y)
-	plt.plot(x, y-np.amin(y), label=file_name, linewidth=2)
+	shiftedValue=y-np.amin(y)
+	if np.max(shiftedValue) > MaxY:
+		MaxY = np.max(shiftedValue)
+	plt.plot(x, shiftedValue, label=file_name, linewidth=2)
 legend = ax.legend(loc='upper center', shadow=True)
 
 # Set Max and Min Y
