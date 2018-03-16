@@ -35,7 +35,7 @@ for i, file_name in enumerate(files):
 legend = ax.legend(loc='upper center', shadow=True)
 
 # Set Max and Min Y
-plt.ylim(ymax=MaxY)
+plt.ylim(ymax=np.around(MaxY, -1))
 plt.ylim(ymin=-10)
 
 save_name=time.strftime("%Y_%m_%d")
