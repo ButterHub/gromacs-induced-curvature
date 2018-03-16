@@ -20,6 +20,7 @@ fig, ax = plt.subplots(1)
 plt.title("Potential of Mean Force")
 plt.xlabel("z (nm)")
 plt.ylabel("PMF (kcal / mol)")
+plt.ylim(ymin=-10)
 
 # Number of plots
 n_plots = len(files)
