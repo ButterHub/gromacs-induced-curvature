@@ -1,0 +1,3817 @@
+[ moleculetype ]
+; Name   nrexcl
+AUNP     1
+
+[ atoms ]
+;  nr  type  resnr  resid  atom  cgnr  charge     mass 
+    1   SAU    1     MUS    SAU    1    0.000
+    2    C1    1     MUS     C1    2    0.000
+    3    C1    1     MUS     C1    3    0.000
+    4   Qda    1     MUS    Qda    4   -1.000
+    5   SAU    2     MUS    SAU    5    0.000
+    6    C1    2     MUS     C1    6    0.000
+    7    C1    2     MUS     C1    7    0.000
+    8   Qda    2     MUS    Qda    8   -1.000
+    9   SAU    3     MUS    SAU    9    0.000
+   10    C1    3     MUS     C1   10    0.000
+   11    C1    3     MUS     C1   11    0.000
+   12   Qda    3     MUS    Qda   12   -1.000
+   13   SAU    4     MUS    SAU   13    0.000
+   14    C1    4     MUS     C1   14    0.000
+   15    C1    4     MUS     C1   15    0.000
+   16   Qda    4     MUS    Qda   16   -1.000
+   17   SAU    5     MUS    SAU   17    0.000
+   18    C1    5     MUS     C1   18    0.000
+   19    C1    5     MUS     C1   19    0.000
+   20   Qda    5     MUS    Qda   20   -1.000
+   21   SAU    6     MUS    SAU   21    0.000
+   22    C1    6     MUS     C1   22    0.000
+   23    C1    6     MUS     C1   23    0.000
+   24   Qda    6     MUS    Qda   24   -1.000
+   25   SAU    7     MUS    SAU   25    0.000
+   26    C1    7     MUS     C1   26    0.000
+   27    C1    7     MUS     C1   27    0.000
+   28   Qda    7     MUS    Qda   28   -1.000
+   29   SAU    8     MUS    SAU   29    0.000
+   30    C1    8     MUS     C1   30    0.000
+   31    C1    8     MUS     C1   31    0.000
+   32   Qda    8     MUS    Qda   32   -1.000
+   33   SAU    9     MUS    SAU   33    0.000
+   34    C1    9     MUS     C1   34    0.000
+   35    C1    9     MUS     C1   35    0.000
+   36   Qda    9     MUS    Qda   36   -1.000
+   37   SAU   10     MUS    SAU   37    0.000
+   38    C1   10     MUS     C1   38    0.000
+   39    C1   10     MUS     C1   39    0.000
+   40   Qda   10     MUS    Qda   40   -1.000
+   41   SAU   11     MUS    SAU   41    0.000
+   42    C1   11     MUS     C1   42    0.000
+   43    C1   11     MUS     C1   43    0.000
+   44   Qda   11     MUS    Qda   44   -1.000
+   45   SAU   12     MUS    SAU   45    0.000
+   46    C1   12     MUS     C1   46    0.000
+   47    C1   12     MUS     C1   47    0.000
+   48   Qda   12     MUS    Qda   48   -1.000
+   49   SAU   13     MUS    SAU   49    0.000
+   50    C1   13     MUS     C1   50    0.000
+   51    C1   13     MUS     C1   51    0.000
+   52   Qda   13     MUS    Qda   52   -1.000
+   53   SAU   14     MUS    SAU   53    0.000
+   54    C1   14     MUS     C1   54    0.000
+   55    C1   14     MUS     C1   55    0.000
+   56   Qda   14     MUS    Qda   56   -1.000
+   57   SAU   15     MUS    SAU   57    0.000
+   58    C1   15     MUS     C1   58    0.000
+   59    C1   15     MUS     C1   59    0.000
+   60   Qda   15     MUS    Qda   60   -1.000
+   61   SAU   16     MUS    SAU   61    0.000
+   62    C1   16     MUS     C1   62    0.000
+   63    C1   16     MUS     C1   63    0.000
+   64   Qda   16     MUS    Qda   64   -1.000
+   65   SAU   17     MUS    SAU   65    0.000
+   66    C1   17     MUS     C1   66    0.000
+   67    C1   17     MUS     C1   67    0.000
+   68   Qda   17     MUS    Qda   68   -1.000
+   69   SAU   18     MUS    SAU   69    0.000
+   70    C1   18     MUS     C1   70    0.000
+   71    C1   18     MUS     C1   71    0.000
+   72   Qda   18     MUS    Qda   72   -1.000
+   73   SAU   19     MUS    SAU   73    0.000
+   74    C1   19     MUS     C1   74    0.000
+   75    C1   19     MUS     C1   75    0.000
+   76   Qda   19     MUS    Qda   76   -1.000
+   77   SAU   20     MUS    SAU   77    0.000
+   78    C1   20     MUS     C1   78    0.000
+   79    C1   20     MUS     C1   79    0.000
+   80   Qda   20     MUS    Qda   80   -1.000
+   81   SAU   21     MUS    SAU   81    0.000
+   82    C1   21     MUS     C1   82    0.000
+   83    C1   21     MUS     C1   83    0.000
+   84   Qda   21     MUS    Qda   84   -1.000
+   85   SAU   22     MUS    SAU   85    0.000
+   86    C1   22     MUS     C1   86    0.000
+   87    C1   22     MUS     C1   87    0.000
+   88   Qda   22     MUS    Qda   88   -1.000
+   89   SAU   23     MUS    SAU   89    0.000
+   90    C1   23     MUS     C1   90    0.000
+   91    C1   23     MUS     C1   91    0.000
+   92   Qda   23     MUS    Qda   92   -1.000
+   93   SAU   24     MUS    SAU   93    0.000
+   94    C1   24     MUS     C1   94    0.000
+   95    C1   24     MUS     C1   95    0.000
+   96   Qda   24     MUS    Qda   96   -1.000
+   97   SAU   25     MUS    SAU   97    0.000
+   98    C1   25     MUS     C1   98    0.000
+   99    C1   25     MUS     C1   99    0.000
+  100   Qda   25     MUS    Qda  100   -1.000
+  101   SAU   26     MUS    SAU  101    0.000
+  102    C1   26     MUS     C1  102    0.000
+  103    C1   26     MUS     C1  103    0.000
+  104   Qda   26     MUS    Qda  104   -1.000
+  105   SAU   27     MUS    SAU  105    0.000
+  106    C1   27     MUS     C1  106    0.000
+  107    C1   27     MUS     C1  107    0.000
+  108   Qda   27     MUS    Qda  108   -1.000
+  109   SAU   28     MUS    SAU  109    0.000
+  110    C1   28     MUS     C1  110    0.000
+  111    C1   28     MUS     C1  111    0.000
+  112   Qda   28     MUS    Qda  112   -1.000
+  113   SAU   29     MUS    SAU  113    0.000
+  114    C1   29     MUS     C1  114    0.000
+  115    C1   29     MUS     C1  115    0.000
+  116   Qda   29     MUS    Qda  116   -1.000
+  117   SAU   30     MUS    SAU  117    0.000
+  118    C1   30     MUS     C1  118    0.000
+  119    C1   30     MUS     C1  119    0.000
+  120   Qda   30     MUS    Qda  120   -1.000
+  121   SAU   31     MUS    SAU  121    0.000
+  122    C1   31     MUS     C1  122    0.000
+  123    C1   31     MUS     C1  123    0.000
+  124   Qda   31     MUS    Qda  124   -1.000
+  125   SAU   32     MUS    SAU  125    0.000
+  126    C1   32     MUS     C1  126    0.000
+  127    C1   32     MUS     C1  127    0.000
+  128   Qda   32     MUS    Qda  128   -1.000
+  129   SAU   33     MUS    SAU  129    0.000
+  130    C1   33     MUS     C1  130    0.000
+  131    C1   33     MUS     C1  131    0.000
+  132   Qda   33     MUS    Qda  132   -1.000
+  133   SAU   34     MUS    SAU  133    0.000
+  134    C1   34     MUS     C1  134    0.000
+  135    C1   34     MUS     C1  135    0.000
+  136   Qda   34     MUS    Qda  136   -1.000
+  137   SAU   35     MUS    SAU  137    0.000
+  138    C1   35     MUS     C1  138    0.000
+  139    C1   35     MUS     C1  139    0.000
+  140   Qda   35     MUS    Qda  140   -1.000
+  141   SAU   36     MUS    SAU  141    0.000
+  142    C1   36     MUS     C1  142    0.000
+  143    C1   36     MUS     C1  143    0.000
+  144   Qda   36     MUS    Qda  144   -1.000
+  145   SAU   37     MUS    SAU  145    0.000
+  146    C1   37     MUS     C1  146    0.000
+  147    C1   37     MUS     C1  147    0.000
+  148   Qda   37     MUS    Qda  148   -1.000
+  149   SAU   38     MUS    SAU  149    0.000
+  150    C1   38     MUS     C1  150    0.000
+  151    C1   38     MUS     C1  151    0.000
+  152   Qda   38     MUS    Qda  152   -1.000
+  153   SAU   39     MUS    SAU  153    0.000
+  154    C1   39     MUS     C1  154    0.000
+  155    C1   39     MUS     C1  155    0.000
+  156   Qda   39     MUS    Qda  156   -1.000
+  157   SAU   40     MUS    SAU  157    0.000
+  158    C1   40     MUS     C1  158    0.000
+  159    C1   40     MUS     C1  159    0.000
+  160   Qda   40     MUS    Qda  160   -1.000
+  161   SAU   41     MUS    SAU  161    0.000
+  162    C1   41     MUS     C1  162    0.000
+  163    C1   41     MUS     C1  163    0.000
+  164   Qda   41     MUS    Qda  164   -1.000
+  165   SAU   42     MUS    SAU  165    0.000
+  166    C1   42     MUS     C1  166    0.000
+  167    C1   42     MUS     C1  167    0.000
+  168   Qda   42     MUS    Qda  168   -1.000
+  169   SAU   43     MUS    SAU  169    0.000
+  170    C1   43     MUS     C1  170    0.000
+  171    C1   43     MUS     C1  171    0.000
+  172   Qda   43     MUS    Qda  172   -1.000
+  173   SAU   44     MUS    SAU  173    0.000
+  174    C1   44     MUS     C1  174    0.000
+  175    C1   44     MUS     C1  175    0.000
+  176   Qda   44     MUS    Qda  176   -1.000
+  177   SAU   45     MUS    SAU  177    0.000
+  178    C1   45     MUS     C1  178    0.000
+  179    C1   45     MUS     C1  179    0.000
+  180   Qda   45     MUS    Qda  180   -1.000
+  181   SAU   46     MUS    SAU  181    0.000
+  182    C1   46     MUS     C1  182    0.000
+  183    C1   46     MUS     C1  183    0.000
+  184   Qda   46     MUS    Qda  184   -1.000
+  185   SAU   47     MUS    SAU  185    0.000
+  186    C1   47     MUS     C1  186    0.000
+  187    C1   47     MUS     C1  187    0.000
+  188   Qda   47     MUS    Qda  188   -1.000
+  189   SAU   48     MUS    SAU  189    0.000
+  190    C1   48     MUS     C1  190    0.000
+  191    C1   48     MUS     C1  191    0.000
+  192   Qda   48     MUS    Qda  192   -1.000
+  193   SAU   49     MUS    SAU  193    0.000
+  194    C1   49     MUS     C1  194    0.000
+  195    C1   49     MUS     C1  195    0.000
+  196   Qda   49     MUS    Qda  196   -1.000
+  197   SAU   50     MUS    SAU  197    0.000
+  198    C1   50     MUS     C1  198    0.000
+  199    C1   50     MUS     C1  199    0.000
+  200   Qda   50     MUS    Qda  200   -1.000
+  201   SAU   51     MUS    SAU  201    0.000
+  202    C1   51     MUS     C1  202    0.000
+  203    C1   51     MUS     C1  203    0.000
+  204   Qda   51     MUS    Qda  204   -1.000
+  205   SAU   52     MUS    SAU  205    0.000
+  206    C1   52     MUS     C1  206    0.000
+  207    C1   52     MUS     C1  207    0.000
+  208   Qda   52     MUS    Qda  208   -1.000
+  209   SAU   53     MUS    SAU  209    0.000
+  210    C1   53     MUS     C1  210    0.000
+  211    C1   53     MUS     C1  211    0.000
+  212   Qda   53     MUS    Qda  212   -1.000
+  213   SAU   54     MUS    SAU  213    0.000
+  214    C1   54     MUS     C1  214    0.000
+  215    C1   54     MUS     C1  215    0.000
+  216   Qda   54     MUS    Qda  216   -1.000
+  217   SAU   55     MUS    SAU  217    0.000
+  218    C1   55     MUS     C1  218    0.000
+  219    C1   55     MUS     C1  219    0.000
+  220   Qda   55     MUS    Qda  220   -1.000
+  221   SAU   56     MUS    SAU  221    0.000
+  222    C1   56     MUS     C1  222    0.000
+  223    C1   56     MUS     C1  223    0.000
+  224   Qda   56     MUS    Qda  224   -1.000
+  225   SAU   57     MUS    SAU  225    0.000
+  226    C1   57     MUS     C1  226    0.000
+  227    C1   57     MUS     C1  227    0.000
+  228   Qda   57     MUS    Qda  228   -1.000
+  229   SAU   58     MUS    SAU  229    0.000
+  230    C1   58     MUS     C1  230    0.000
+  231    C1   58     MUS     C1  231    0.000
+  232   Qda   58     MUS    Qda  232   -1.000
+  233   SAU   59     MUS    SAU  233    0.000
+  234    C1   59     MUS     C1  234    0.000
+  235    C1   59     MUS     C1  235    0.000
+  236   Qda   59     MUS    Qda  236   -1.000
+  237   SAU   60     MUS    SAU  237    0.000
+  238    C1   60     MUS     C1  238    0.000
+  239    C1   60     MUS     C1  239    0.000
+  240   Qda   60     MUS    Qda  240   -1.000
+  241   SAU   61     MUS    SAU  241    0.000
+  242    C1   61     MUS     C1  242    0.000
+  243    C1   61     MUS     C1  243    0.000
+  244   Qda   61     MUS    Qda  244   -1.000
+  245   SAU   62     MUS    SAU  245    0.000
+  246    C1   62     MUS     C1  246    0.000
+  247    C1   62     MUS     C1  247    0.000
+  248   Qda   62     MUS    Qda  248   -1.000
+  249   SAU   63     MUS    SAU  249    0.000
+  250    C1   63     MUS     C1  250    0.000
+  251    C1   63     MUS     C1  251    0.000
+  252   Qda   63     MUS    Qda  252   -1.000
+  253   SAU   64     MUS    SAU  253    0.000
+  254    C1   64     MUS     C1  254    0.000
+  255    C1   64     MUS     C1  255    0.000
+  256   Qda   64     MUS    Qda  256   -1.000
+  257   SAU   65     MUS    SAU  257    0.000
+  258    C1   65     MUS     C1  258    0.000
+  259    C1   65     MUS     C1  259    0.000
+  260   Qda   65     MUS    Qda  260   -1.000
+  261   SAU   66     MUS    SAU  261    0.000
+  262    C1   66     MUS     C1  262    0.000
+  263    C1   66     MUS     C1  263    0.000
+  264   Qda   66     MUS    Qda  264   -1.000
+  265   SAU   67     MUS    SAU  265    0.000
+  266    C1   67     MUS     C1  266    0.000
+  267    C1   67     MUS     C1  267    0.000
+  268   Qda   67     MUS    Qda  268   -1.000
+  269   SAU   68     MUS    SAU  269    0.000
+  270    C1   68     MUS     C1  270    0.000
+  271    C1   68     MUS     C1  271    0.000
+  272   Qda   68     MUS    Qda  272   -1.000
+  273   SAU   69     MUS    SAU  273    0.000
+  274    C1   69     MUS     C1  274    0.000
+  275    C1   69     MUS     C1  275    0.000
+  276   Qda   69     MUS    Qda  276   -1.000
+  277   SAU   70     MUS    SAU  277    0.000
+  278    C1   70     MUS     C1  278    0.000
+  279    C1   70     MUS     C1  279    0.000
+  280   Qda   70     MUS    Qda  280   -1.000
+  281   SAU   71     MUS    SAU  281    0.000
+  282    C1   71     MUS     C1  282    0.000
+  283    C1   71     MUS     C1  283    0.000
+  284   Qda   71     MUS    Qda  284   -1.000
+  285   SAU   72     MUS    SAU  285    0.000
+  286    C1   72     MUS     C1  286    0.000
+  287    C1   72     MUS     C1  287    0.000
+  288   Qda   72     MUS    Qda  288   -1.000
+  289   SAU   73     MUS    SAU  289    0.000
+  290    C1   73     MUS     C1  290    0.000
+  291    C1   73     MUS     C1  291    0.000
+  292   Qda   73     MUS    Qda  292   -1.000
+  293   SAU   74     MUS    SAU  293    0.000
+  294    C1   74     MUS     C1  294    0.000
+  295    C1   74     MUS     C1  295    0.000
+  296   Qda   74     MUS    Qda  296   -1.000
+  297   SAU   75     MUS    SAU  297    0.000
+  298    C1   75     MUS     C1  298    0.000
+  299    C1   75     MUS     C1  299    0.000
+  300   Qda   75     MUS    Qda  300   -1.000
+  301   SAU   76     MUS    SAU  301    0.000
+  302    C1   76     MUS     C1  302    0.000
+  303    C1   76     MUS     C1  303    0.000
+  304   Qda   76     MUS    Qda  304   -1.000
+  305   SAU   77     MUS    SAU  305    0.000
+  306    C1   77     MUS     C1  306    0.000
+  307    C1   77     MUS     C1  307    0.000
+  308   Qda   77     MUS    Qda  308   -1.000
+  309   SAU   78     MUS    SAU  309    0.000
+  310    C1   78     MUS     C1  310    0.000
+  311    C1   78     MUS     C1  311    0.000
+  312   Qda   78     MUS    Qda  312   -1.000
+  313   SAU   79     MUS    SAU  313    0.000
+  314    C1   79     MUS     C1  314    0.000
+  315    C1   79     MUS     C1  315    0.000
+  316   Qda   79     MUS    Qda  316   -1.000
+  317   SAU   80     MUS    SAU  317    0.000
+  318    C1   80     MUS     C1  318    0.000
+  319    C1   80     MUS     C1  319    0.000
+  320   Qda   80     MUS    Qda  320   -1.000
+  321   SAU   81     MUS    SAU  321    0.000
+  322    C1   81     MUS     C1  322    0.000
+  323    C1   81     MUS     C1  323    0.000
+  324   Qda   81     MUS    Qda  324   -1.000
+  325   SAU   82     MUS    SAU  325    0.000
+  326    C1   82     MUS     C1  326    0.000
+  327    C1   82     MUS     C1  327    0.000
+  328   Qda   82     MUS    Qda  328   -1.000
+  329   SAU   83     MUS    SAU  329    0.000
+  330    C1   83     MUS     C1  330    0.000
+  331    C1   83     MUS     C1  331    0.000
+  332   Qda   83     MUS    Qda  332   -1.000
+  333   SAU   84     MUS    SAU  333    0.000
+  334    C1   84     MUS     C1  334    0.000
+  335    C1   84     MUS     C1  335    0.000
+  336   Qda   84     MUS    Qda  336   -1.000
+  337   SAU   85     MUS    SAU  337    0.000
+  338    C1   85     MUS     C1  338    0.000
+  339    C1   85     MUS     C1  339    0.000
+  340   Qda   85     MUS    Qda  340   -1.000
+  341   SAU   86     MUS    SAU  341    0.000
+  342    C1   86     MUS     C1  342    0.000
+  343    C1   86     MUS     C1  343    0.000
+  344   Qda   86     MUS    Qda  344   -1.000
+  345   SAU   87     MUS    SAU  345    0.000
+  346    C1   87     MUS     C1  346    0.000
+  347    C1   87     MUS     C1  347    0.000
+  348   Qda   87     MUS    Qda  348   -1.000
+  349   SAU   88     MUS    SAU  349    0.000
+  350    C1   88     MUS     C1  350    0.000
+  351    C1   88     MUS     C1  351    0.000
+  352   Qda   88     MUS    Qda  352   -1.000
+  353   SAU   89     MUS    SAU  353    0.000
+  354    C1   89     MUS     C1  354    0.000
+  355    C1   89     MUS     C1  355    0.000
+  356   Qda   89     MUS    Qda  356   -1.000
+  357   SAU   90     MUS    SAU  357    0.000
+  358    C1   90     MUS     C1  358    0.000
+  359    C1   90     MUS     C1  359    0.000
+  360   Qda   90     MUS    Qda  360   -1.000
+  361   SAU   91     MUS    SAU  361    0.000
+  362    C1   91     MUS     C1  362    0.000
+  363    C1   91     MUS     C1  363    0.000
+  364   Qda   91     MUS    Qda  364   -1.000
+  365   SAU   92     MUS    SAU  365    0.000
+  366    C1   92     MUS     C1  366    0.000
+  367    C1   92     MUS     C1  367    0.000
+  368   Qda   92     MUS    Qda  368   -1.000
+  369   SAU   93     MUS    SAU  369    0.000
+  370    C1   93     MUS     C1  370    0.000
+  371    C1   93     MUS     C1  371    0.000
+  372   Qda   93     MUS    Qda  372   -1.000
+  373   SAU   94     MUS    SAU  373    0.000
+  374    C1   94     MUS     C1  374    0.000
+  375    C1   94     MUS     C1  375    0.000
+  376   Qda   94     MUS    Qda  376   -1.000
+  377   SAU   95     MUS    SAU  377    0.000
+  378    C1   95     MUS     C1  378    0.000
+  379    C1   95     MUS     C1  379    0.000
+  380   Qda   95     MUS    Qda  380   -1.000
+  381   SAU   96     MUS    SAU  381    0.000
+  382    C1   96     MUS     C1  382    0.000
+  383    C1   96     MUS     C1  383    0.000
+  384   Qda   96     MUS    Qda  384   -1.000
+  385   SAU   97     MUS    SAU  385    0.000
+  386    C1   97     MUS     C1  386    0.000
+  387    C1   97     MUS     C1  387    0.000
+  388   Qda   97     MUS    Qda  388   -1.000
+  389   SAU   98     MUS    SAU  389    0.000
+  390    C1   98     MUS     C1  390    0.000
+  391    C1   98     MUS     C1  391    0.000
+  392   Qda   98     MUS    Qda  392   -1.000
+  393   SAU   99     MUS    SAU  393    0.000
+  394    C1   99     MUS     C1  394    0.000
+  395    C1   99     MUS     C1  395    0.000
+  396   Qda   99     MUS    Qda  396   -1.000
+  397   SAU  100     MUS    SAU  397    0.000
+  398    C1  100     MUS     C1  398    0.000
+  399    C1  100     MUS     C1  399    0.000
+  400   Qda  100     MUS    Qda  400   -1.000
+  401   SAU  101     MUS    SAU  401    0.000
+  402    C1  101     MUS     C1  402    0.000
+  403    C1  101     MUS     C1  403    0.000
+  404   Qda  101     MUS    Qda  404   -1.000
+  405   SAU  102     MUS    SAU  405    0.000
+  406    C1  102     MUS     C1  406    0.000
+  407    C1  102     MUS     C1  407    0.000
+  408   Qda  102     MUS    Qda  408   -1.000
+  409   SAU  103     MUS    SAU  409    0.000
+  410    C1  103     MUS     C1  410    0.000
+  411    C1  103     MUS     C1  411    0.000
+  412   Qda  103     MUS    Qda  412   -1.000
+  413   SAU  104     MUS    SAU  413    0.000
+  414    C1  104     MUS     C1  414    0.000
+  415    C1  104     MUS     C1  415    0.000
+  416   Qda  104     MUS    Qda  416   -1.000
+  417   SAU  105     MUS    SAU  417    0.000
+  418    C1  105     MUS     C1  418    0.000
+  419    C1  105     MUS     C1  419    0.000
+  420   Qda  105     MUS    Qda  420   -1.000
+  421   SAU  106     MUS    SAU  421    0.000
+  422    C1  106     MUS     C1  422    0.000
+  423    C1  106     MUS     C1  423    0.000
+  424   Qda  106     MUS    Qda  424   -1.000
+  425   SAU  107     MUS    SAU  425    0.000
+  426    C1  107     MUS     C1  426    0.000
+  427    C1  107     MUS     C1  427    0.000
+  428   Qda  107     MUS    Qda  428   -1.000
+  429   SAU  108     MUS    SAU  429    0.000
+  430    C1  108     MUS     C1  430    0.000
+  431    C1  108     MUS     C1  431    0.000
+  432   Qda  108     MUS    Qda  432   -1.000
+  433   SAU  109     MUS    SAU  433    0.000
+  434    C1  109     MUS     C1  434    0.000
+  435    C1  109     MUS     C1  435    0.000
+  436   Qda  109     MUS    Qda  436   -1.000
+  437   SAU  110     MUS    SAU  437    0.000
+  438    C1  110     MUS     C1  438    0.000
+  439    C1  110     MUS     C1  439    0.000
+  440   Qda  110     MUS    Qda  440   -1.000
+  441   SAU  111     MUS    SAU  441    0.000
+  442    C1  111     MUS     C1  442    0.000
+  443    C1  111     MUS     C1  443    0.000
+  444   Qda  111     MUS    Qda  444   -1.000
+  445   SAU  112     MUS    SAU  445    0.000
+  446    C1  112     MUS     C1  446    0.000
+  447    C1  112     MUS     C1  447    0.000
+  448   Qda  112     MUS    Qda  448   -1.000
+  449   SAU  113     MUS    SAU  449    0.000
+  450    C1  113     MUS     C1  450    0.000
+  451    C1  113     MUS     C1  451    0.000
+  452   Qda  113     MUS    Qda  452   -1.000
+  453   SAU  114     MUS    SAU  453    0.000
+  454    C1  114     MUS     C1  454    0.000
+  455    C1  114     MUS     C1  455    0.000
+  456   Qda  114     MUS    Qda  456   -1.000
+  457   SAU  115     MUS    SAU  457    0.000
+  458    C1  115     MUS     C1  458    0.000
+  459    C1  115     MUS     C1  459    0.000
+  460   Qda  115     MUS    Qda  460   -1.000
+  461   SAU  116     MUS    SAU  461    0.000
+  462    C1  116     MUS     C1  462    0.000
+  463    C1  116     MUS     C1  463    0.000
+  464   Qda  116     MUS    Qda  464   -1.000
+  465   SAU  117     MUS    SAU  465    0.000
+  466    C1  117     MUS     C1  466    0.000
+  467    C1  117     MUS     C1  467    0.000
+  468   Qda  117     MUS    Qda  468   -1.000
+  469   SAU  118     MUS    SAU  469    0.000
+  470    C1  118     MUS     C1  470    0.000
+  471    C1  118     MUS     C1  471    0.000
+  472   Qda  118     MUS    Qda  472   -1.000
+  473   SAU  119     MUS    SAU  473    0.000
+  474    C1  119     MUS     C1  474    0.000
+  475    C1  119     MUS     C1  475    0.000
+  476   Qda  119     MUS    Qda  476   -1.000
+  477   SAU  120     MUS    SAU  477    0.000
+  478    C1  120     MUS     C1  478    0.000
+  479    C1  120     MUS     C1  479    0.000
+  480   Qda  120     MUS    Qda  480   -1.000
+  481   SAU  121     MUS    SAU  481    0.000
+  482    C1  121     MUS     C1  482    0.000
+  483    C1  121     MUS     C1  483    0.000
+  484   Qda  121     MUS    Qda  484   -1.000
+  485   SAU  122     MUS    SAU  485    0.000
+  486    C1  122     MUS     C1  486    0.000
+  487    C1  122     MUS     C1  487    0.000
+  488   Qda  122     MUS    Qda  488   -1.000
+  489   SAU  123     MUS    SAU  489    0.000
+  490    C1  123     MUS     C1  490    0.000
+  491    C1  123     MUS     C1  491    0.000
+  492   Qda  123     MUS    Qda  492   -1.000
+  493   SAU  124     MUS    SAU  493    0.000
+  494    C1  124     MUS     C1  494    0.000
+  495    C1  124     MUS     C1  495    0.000
+  496   Qda  124     MUS    Qda  496   -1.000
+  497   SAU  125     MUS    SAU  497    0.000
+  498    C1  125     MUS     C1  498    0.000
+  499    C1  125     MUS     C1  499    0.000
+  500   Qda  125     MUS    Qda  500   -1.000
+  501   SAU  126     MUS    SAU  501    0.000
+  502    C1  126     MUS     C1  502    0.000
+  503    C1  126     MUS     C1  503    0.000
+  504   Qda  126     MUS    Qda  504   -1.000
+  505   SAU  127     MUS    SAU  505    0.000
+  506    C1  127     MUS     C1  506    0.000
+  507    C1  127     MUS     C1  507    0.000
+  508   Qda  127     MUS    Qda  508   -1.000
+  509   SAU  128     MUS    SAU  509    0.000
+  510    C1  128     MUS     C1  510    0.000
+  511    C1  128     MUS     C1  511    0.000
+  512   Qda  128     MUS    Qda  512   -1.000
+  513   SAU  129     MUS    SAU  513    0.000
+  514    C1  129     MUS     C1  514    0.000
+  515    C1  129     MUS     C1  515    0.000
+  516   Qda  129     MUS    Qda  516   -1.000
+  517   SAU  130     MUS    SAU  517    0.000
+  518    C1  130     MUS     C1  518    0.000
+  519    C1  130     MUS     C1  519    0.000
+  520   Qda  130     MUS    Qda  520   -1.000
+  521    AU  131      AU     AU  521    0.000
+  522    AU  131      AU     AU  522    0.000
+  523    AU  131      AU     AU  523    0.000
+  524    AU  131      AU     AU  524    0.000
+  525    AU  131      AU     AU  525    0.000
+  526    AU  131      AU     AU  526    0.000
+  527    AU  131      AU     AU  527    0.000
+  528    AU  131      AU     AU  528    0.000
+  529    AU  131      AU     AU  529    0.000
+  530    AU  131      AU     AU  530    0.000
+  531    AU  131      AU     AU  531    0.000
+  532    AU  131      AU     AU  532    0.000
+  533    AU  131      AU     AU  533    0.000
+  534    AU  131      AU     AU  534    0.000
+  535    AU  131      AU     AU  535    0.000
+  536    AU  131      AU     AU  536    0.000
+  537    AU  131      AU     AU  537    0.000
+  538    AU  131      AU     AU  538    0.000
+  539    AU  131      AU     AU  539    0.000
+  540    AU  131      AU     AU  540    0.000
+  541    AU  131      AU     AU  541    0.000
+  542    AU  131      AU     AU  542    0.000
+  543    AU  131      AU     AU  543    0.000
+  544    AU  131      AU     AU  544    0.000
+  545    AU  131      AU     AU  545    0.000
+  546    AU  131      AU     AU  546    0.000
+  547    AU  131      AU     AU  547    0.000
+  548    AU  131      AU     AU  548    0.000
+  549    AU  131      AU     AU  549    0.000
+  550    AU  131      AU     AU  550    0.000
+  551    AU  131      AU     AU  551    0.000
+  552    AU  131      AU     AU  552    0.000
+  553    AU  131      AU     AU  553    0.000
+  554    AU  131      AU     AU  554    0.000
+  555    AU  131      AU     AU  555    0.000
+  556    AU  131      AU     AU  556    0.000
+  557    AU  131      AU     AU  557    0.000
+  558    AU  131      AU     AU  558    0.000
+  559    AU  131      AU     AU  559    0.000
+  560    AU  131      AU     AU  560    0.000
+  561    AU  131      AU     AU  561    0.000
+  562    AU  131      AU     AU  562    0.000
+  563    AU  131      AU     AU  563    0.000
+  564    AU  131      AU     AU  564    0.000
+  565    AU  131      AU     AU  565    0.000
+  566    AU  131      AU     AU  566    0.000
+  567    AU  131      AU     AU  567    0.000
+  568    AU  131      AU     AU  568    0.000
+  569    AU  131      AU     AU  569    0.000
+  570    AU  131      AU     AU  570    0.000
+  571    AU  131      AU     AU  571    0.000
+  572    AU  131      AU     AU  572    0.000
+  573    AU  131      AU     AU  573    0.000
+  574    AU  131      AU     AU  574    0.000
+  575    AU  131      AU     AU  575    0.000
+  576    AU  131      AU     AU  576    0.000
+  577    AU  131      AU     AU  577    0.000
+  578    AU  131      AU     AU  578    0.000
+  579    AU  131      AU     AU  579    0.000
+  580    AU  131      AU     AU  580    0.000
+  581    AU  131      AU     AU  581    0.000
+  582    AU  131      AU     AU  582    0.000
+  583    AU  131      AU     AU  583    0.000
+  584    AU  131      AU     AU  584    0.000
+  585    AU  131      AU     AU  585    0.000
+  586    AU  131      AU     AU  586    0.000
+  587    AU  131      AU     AU  587    0.000
+  588    AU  131      AU     AU  588    0.000
+  589    AU  131      AU     AU  589    0.000
+  590    AU  131      AU     AU  590    0.000
+  591    AU  131      AU     AU  591    0.000
+  592    AU  131      AU     AU  592    0.000
+  593    AU  131      AU     AU  593    0.000
+  594    AU  131      AU     AU  594    0.000
+  595    AU  131      AU     AU  595    0.000
+  596    AU  131      AU     AU  596    0.000
+  597    AU  131      AU     AU  597    0.000
+  598    AU  131      AU     AU  598    0.000
+  599    AU  131      AU     AU  599    0.000
+  600    AU  131      AU     AU  600    0.000
+  601    AU  131      AU     AU  601    0.000
+  602    AU  131      AU     AU  602    0.000
+  603    AU  131      AU     AU  603    0.000
+  604    AU  131      AU     AU  604    0.000
+  605    AU  131      AU     AU  605    0.000
+  606    AU  131      AU     AU  606    0.000
+  607    AU  131      AU     AU  607    0.000
+  608    AU  131      AU     AU  608    0.000
+  609    AU  131      AU     AU  609    0.000
+  610    AU  131      AU     AU  610    0.000
+  611    AU  131      AU     AU  611    0.000
+  612    AU  131      AU     AU  612    0.000
+  613    AU  131      AU     AU  613    0.000
+  614    AU  131      AU     AU  614    0.000
+  615    AU  131      AU     AU  615    0.000
+  616    AU  131      AU     AU  616    0.000
+  617    AU  131      AU     AU  617    0.000
+  618    AU  131      AU     AU  618    0.000
+  619    AU  131      AU     AU  619    0.000
+  620    AU  131      AU     AU  620    0.000
+  621    AU  131      AU     AU  621    0.000
+  622    AU  131      AU     AU  622    0.000
+  623    AU  131      AU     AU  623    0.000
+  624    AU  131      AU     AU  624    0.000
+  625    AU  131      AU     AU  625    0.000
+  626    AU  131      AU     AU  626    0.000
+  627    AU  131      AU     AU  627    0.000
+  628    AU  131      AU     AU  628    0.000
+  629    AU  131      AU     AU  629    0.000
+  630    AU  131      AU     AU  630    0.000
+  631    AU  131      AU     AU  631    0.000
+  632    AU  131      AU     AU  632    0.000
+  633    AU  131      AU     AU  633    0.000
+  634    AU  131      AU     AU  634    0.000
+  635    AU  131      AU     AU  635    0.000
+  636    AU  131      AU     AU  636    0.000
+  637    AU  131      AU     AU  637    0.000
+  638    AU  131      AU     AU  638    0.000
+  639    AU  131      AU     AU  639    0.000
+  640    AU  131      AU     AU  640    0.000
+  641    AU  131      AU     AU  641    0.000
+  642    AU  131      AU     AU  642    0.000
+  643    AU  131      AU     AU  643    0.000
+  644    AU  131      AU     AU  644    0.000
+  645    AU  131      AU     AU  645    0.000
+  646    AU  131      AU     AU  646    0.000
+  647    AU  131      AU     AU  647    0.000
+  648    AU  131      AU     AU  648    0.000
+  649    AU  131      AU     AU  649    0.000
+  650    AU  131      AU     AU  650    0.000
+  651    AU  131      AU     AU  651    0.000
+  652    AU  131      AU     AU  652    0.000
+  653    AU  131      AU     AU  653    0.000
+  654    AU  131      AU     AU  654    0.000
+  655    AU  131      AU     AU  655    0.000
+  656    AU  131      AU     AU  656    0.000
+  657    AU  131      AU     AU  657    0.000
+  658    AU  131      AU     AU  658    0.000
+  659    AU  131      AU     AU  659    0.000
+  660    AU  131      AU     AU  660    0.000
+  661    AU  131      AU     AU  661    0.000
+  662    AU  131      AU     AU  662    0.000
+  663    AU  131      AU     AU  663    0.000
+  664    AU  131      AU     AU  664    0.000
+  665    AU  131      AU     AU  665    0.000
+  666    AU  131      AU     AU  666    0.000
+  667    AU  131      AU     AU  667    0.000
+  668    AU  131      AU     AU  668    0.000
+  669    AU  131      AU     AU  669    0.000
+  670    AU  131      AU     AU  670    0.000
+  671    AU  131      AU     AU  671    0.000
+  672    AU  131      AU     AU  672    0.000
+  673    AU  131      AU     AU  673    0.000
+  674    AU  131      AU     AU  674    0.000
+  675    AU  131      AU     AU  675    0.000
+  676    AU  131      AU     AU  676    0.000
+  677    AU  131      AU     AU  677    0.000
+  678    AU  131      AU     AU  678    0.000
+  679    AU  131      AU     AU  679    0.000
+  680    AU  131      AU     AU  680    0.000
+  681    AU  131      AU     AU  681    0.000
+  682    AU  131      AU     AU  682    0.000
+  683    AU  131      AU     AU  683    0.000
+  684    AU  131      AU     AU  684    0.000
+  685    AU  131      AU     AU  685    0.000
+  686    AU  131      AU     AU  686    0.000
+  687    AU  131      AU     AU  687    0.000
+  688    AU  131      AU     AU  688    0.000
+  689    AU  131      AU     AU  689    0.000
+  690    AU  131      AU     AU  690    0.000
+  691    AU  131      AU     AU  691    0.000
+  692    AU  131      AU     AU  692    0.000
+  693    AU  131      AU     AU  693    0.000
+  694    AU  131      AU     AU  694    0.000
+  695    AU  131      AU     AU  695    0.000
+  696    AU  131      AU     AU  696    0.000
+  697    AU  131      AU     AU  697    0.000
+  698    AU  131      AU     AU  698    0.000
+  699    AU  131      AU     AU  699    0.000
+  700    AU  131      AU     AU  700    0.000
+  701    AU  131      AU     AU  701    0.000
+  702    AU  131      AU     AU  702    0.000
+  703    AU  131      AU     AU  703    0.000
+  704    AU  131      AU     AU  704    0.000
+  705    AU  131      AU     AU  705    0.000
+  706    AU  131      AU     AU  706    0.000
+  707    AU  131      AU     AU  707    0.000
+  708    AU  131      AU     AU  708    0.000
+  709    AU  131      AU     AU  709    0.000
+  710    AU  131      AU     AU  710    0.000
+  711    AU  131      AU     AU  711    0.000
+  712    AU  131      AU     AU  712    0.000
+  713    AU  131      AU     AU  713    0.000
+  714    AU  131      AU     AU  714    0.000
+  715    AU  131      AU     AU  715    0.000
+  716    AU  131      AU     AU  716    0.000
+  717    AU  131      AU     AU  717    0.000
+  718    AU  131      AU     AU  718    0.000
+  719    AU  131      AU     AU  719    0.000
+  720    AU  131      AU     AU  720    0.000
+  721    AU  131      AU     AU  721    0.000
+  722    AU  131      AU     AU  722    0.000
+  723    AU  131      AU     AU  723    0.000
+  724    AU  131      AU     AU  724    0.000
+  725    AU  131      AU     AU  725    0.000
+  726    AU  131      AU     AU  726    0.000
+  727    AU  131      AU     AU  727    0.000
+  728    AU  131      AU     AU  728    0.000
+  729    AU  131      AU     AU  729    0.000
+  730    AU  131      AU     AU  730    0.000
+  731    AU  131      AU     AU  731    0.000
+  732    AU  131      AU     AU  732    0.000
+  733    AU  131      AU     AU  733    0.000
+  734    AU  131      AU     AU  734    0.000
+  735    AU  131      AU     AU  735    0.000
+  736    AU  131      AU     AU  736    0.000
+  737    AU  131      AU     AU  737    0.000
+  738    AU  131      AU     AU  738    0.000
+  739    AU  131      AU     AU  739    0.000
+  740    AU  131      AU     AU  740    0.000
+  741    AU  131      AU     AU  741    0.000
+  742    AU  131      AU     AU  742    0.000
+  743    AU  131      AU     AU  743    0.000
+  744    AU  131      AU     AU  744    0.000
+  745    AU  131      AU     AU  745    0.000
+  746    AU  131      AU     AU  746    0.000
+  747    AU  131      AU     AU  747    0.000
+  748    AU  131      AU     AU  748    0.000
+  749    AU  131      AU     AU  749    0.000
+  750    AU  131      AU     AU  750    0.000
+  751    AU  131      AU     AU  751    0.000
+  752    AU  131      AU     AU  752    0.000
+  753    AU  131      AU     AU  753    0.000
+  754    AU  131      AU     AU  754    0.000
+  755    AU  131      AU     AU  755    0.000
+  756    AU  131      AU     AU  756    0.000
+  757    AU  131      AU     AU  757    0.000
+  758    AU  131      AU     AU  758    0.000
+  759    AU  131      AU     AU  759    0.000
+  760    AU  131      AU     AU  760    0.000
+  761    AU  131      AU     AU  761    0.000
+  762    AU  131      AU     AU  762    0.000
+  763    AU  131      AU     AU  763    0.000
+  764    AU  131      AU     AU  764    0.000
+  765    AU  131      AU     AU  765    0.000
+  766    AU  131      AU     AU  766    0.000
+  767    AU  131      AU     AU  767    0.000
+  768    AU  131      AU     AU  768    0.000
+  769    AU  131      AU     AU  769    0.000
+  770    AU  131      AU     AU  770    0.000
+  771    AU  131      AU     AU  771    0.000
+  772    AU  131      AU     AU  772    0.000
+  773    AU  131      AU     AU  773    0.000
+  774    AU  131      AU     AU  774    0.000
+  775    AU  131      AU     AU  775    0.000
+  776    AU  131      AU     AU  776    0.000
+  777    AU  131      AU     AU  777    0.000
+  778    AU  131      AU     AU  778    0.000
+  779    AU  131      AU     AU  779    0.000
+  780    AU  131      AU     AU  780    0.000
+  781    AU  131      AU     AU  781    0.000
+  782    AU  131      AU     AU  782    0.000
+  783    AU  131      AU     AU  783    0.000
+  784    AU  131      AU     AU  784    0.000
+  785    AU  131      AU     AU  785    0.000
+  786    AU  131      AU     AU  786    0.000
+  787    AU  131      AU     AU  787    0.000
+  788    AU  131      AU     AU  788    0.000
+  789    AU  131      AU     AU  789    0.000
+  790    AU  131      AU     AU  790    0.000
+  791    AU  131      AU     AU  791    0.000
+  792    AU  131      AU     AU  792    0.000
+  793    AU  131      AU     AU  793    0.000
+  794    AU  131      AU     AU  794    0.000
+  795    AU  131      AU     AU  795    0.000
+  796    AU  131      AU     AU  796    0.000
+  797    AU  131      AU     AU  797    0.000
+  798    AU  131      AU     AU  798    0.000
+  799    AU  131      AU     AU  799    0.000
+  800    AU  131      AU     AU  800    0.000
+  801    AU  131      AU     AU  801    0.000
+  802    AU  131      AU     AU  802    0.000
+  803    AU  131      AU     AU  803    0.000
+  804    AU  131      AU     AU  804    0.000
+  805    AU  131      AU     AU  805    0.000
+  806    AU  131      AU     AU  806    0.000
+  807    AU  131      AU     AU  807    0.000
+  808    AU  131      AU     AU  808    0.000
+  809    AU  131      AU     AU  809    0.000
+  810    AU  131      AU     AU  810    0.000
+  811    AU  131      AU     AU  811    0.000
+  812    AU  131      AU     AU  812    0.000
+  813    AU  131      AU     AU  813    0.000
+  814    AU  131      AU     AU  814    0.000
+  815    AU  131      AU     AU  815    0.000
+  816    AU  131      AU     AU  816    0.000
+  817    AU  131      AU     AU  817    0.000
+  818    AU  131      AU     AU  818    0.000
+  819    AU  131      AU     AU  819    0.000
+  820    AU  131      AU     AU  820    0.000
+  821    AU  131      AU     AU  821    0.000
+  822    AU  131      AU     AU  822    0.000
+  823    AU  131      AU     AU  823    0.000
+  824    AU  131      AU     AU  824    0.000
+  825    AU  131      AU     AU  825    0.000
+  826    AU  131      AU     AU  826    0.000
+  827    AU  131      AU     AU  827    0.000
+  828    AU  131      AU     AU  828    0.000
+  829    AU  131      AU     AU  829    0.000
+  830    AU  131      AU     AU  830    0.000
+  831    AU  131      AU     AU  831    0.000
+  832    AU  131      AU     AU  832    0.000
+  833    AU  131      AU     AU  833    0.000
+  834    AU  131      AU     AU  834    0.000
+  835    AU  131      AU     AU  835    0.000
+  836    AU  131      AU     AU  836    0.000
+  837    AU  131      AU     AU  837    0.000
+  838    AU  131      AU     AU  838    0.000
+  839    AU  131      AU     AU  839    0.000
+  840    AU  131      AU     AU  840    0.000
+  841    AU  131      AU     AU  841    0.000
+  842    AU  131      AU     AU  842    0.000
+  843    AU  131      AU     AU  843    0.000
+  844    AU  131      AU     AU  844    0.000
+  845    AU  131      AU     AU  845    0.000
+  846    AU  131      AU     AU  846    0.000
+  847    AU  131      AU     AU  847    0.000
+  848    AU  131      AU     AU  848    0.000
+  849    AU  131      AU     AU  849    0.000
+  850    AU  131      AU     AU  850    0.000
+  851    AU  131      AU     AU  851    0.000
+  852    AU  131      AU     AU  852    0.000
+  853    AU  131      AU     AU  853    0.000
+  854    AU  131      AU     AU  854    0.000
+  855    AU  131      AU     AU  855    0.000
+  856    AU  131      AU     AU  856    0.000
+  857    AU  131      AU     AU  857    0.000
+  858    AU  131      AU     AU  858    0.000
+  859    AU  131      AU     AU  859    0.000
+  860    AU  131      AU     AU  860    0.000
+  861    AU  131      AU     AU  861    0.000
+  862    AU  131      AU     AU  862    0.000
+  863    AU  131      AU     AU  863    0.000
+  864    AU  131      AU     AU  864    0.000
+  865    AU  131      AU     AU  865    0.000
+  866    AU  131      AU     AU  866    0.000
+  867    AU  131      AU     AU  867    0.000
+  868    AU  131      AU     AU  868    0.000
+  869    AU  131      AU     AU  869    0.000
+  870    AU  131      AU     AU  870    0.000
+  871    AU  131      AU     AU  871    0.000
+  872    AU  131      AU     AU  872    0.000
+  873    AU  131      AU     AU  873    0.000
+  874    AU  131      AU     AU  874    0.000
+  875    AU  131      AU     AU  875    0.000
+  876    AU  131      AU     AU  876    0.000
+  877    AU  131      AU     AU  877    0.000
+  878    AU  131      AU     AU  878    0.000
+  879    AU  131      AU     AU  879    0.000
+  880    AU  131      AU     AU  880    0.000
+  881    AU  131      AU     AU  881    0.000
+  882    AU  131      AU     AU  882    0.000
+  883    AU  131      AU     AU  883    0.000
+  884    AU  131      AU     AU  884    0.000
+  885    AU  131      AU     AU  885    0.000
+  886    AU  131      AU     AU  886    0.000
+  887    AU  131      AU     AU  887    0.000
+  888    AU  131      AU     AU  888    0.000
+  889    AU  131      AU     AU  889    0.000
+  890    AU  131      AU     AU  890    0.000
+  891    AU  131      AU     AU  891    0.000
+  892    AU  131      AU     AU  892    0.000
+  893    AU  131      AU     AU  893    0.000
+  894    AU  131      AU     AU  894    0.000
+  895    AU  131      AU     AU  895    0.000
+  896    AU  131      AU     AU  896    0.000
+  897    AU  131      AU     AU  897    0.000
+  898    AU  131      AU     AU  898    0.000
+  899    AU  131      AU     AU  899    0.000
+  900    AU  131      AU     AU  900    0.000
+  901    AU  131      AU     AU  901    0.000
+  902    AU  131      AU     AU  902    0.000
+  903    AU  131      AU     AU  903    0.000
+  904    AU  131      AU     AU  904    0.000
+  905    AU  131      AU     AU  905    0.000
+  906    AU  131      AU     AU  906    0.000
+  907    AU  131      AU     AU  907    0.000
+  908    AU  131      AU     AU  908    0.000
+  909    AU  131      AU     AU  909    0.000
+  910    AU  131      AU     AU  910    0.000
+  911    AU  131      AU     AU  911    0.000
+  912    AU  131      AU     AU  912    0.000
+
+[ bonds ]
+;  ai   aj  funct  macro 
+    1    2    1     gb_1
+    2    3    1     gb_1
+    3    4    1     gb_1
+    5    6    1     gb_1
+    6    7    1     gb_1
+    7    8    1     gb_1
+    9   10    1     gb_1
+   10   11    1     gb_1
+   11   12    1     gb_1
+   13   14    1     gb_1
+   14   15    1     gb_1
+   15   16    1     gb_1
+   17   18    1     gb_1
+   18   19    1     gb_1
+   19   20    1     gb_1
+   21   22    1     gb_1
+   22   23    1     gb_1
+   23   24    1     gb_1
+   25   26    1     gb_1
+   26   27    1     gb_1
+   27   28    1     gb_1
+   29   30    1     gb_1
+   30   31    1     gb_1
+   31   32    1     gb_1
+   33   34    1     gb_1
+   34   35    1     gb_1
+   35   36    1     gb_1
+   37   38    1     gb_1
+   38   39    1     gb_1
+   39   40    1     gb_1
+   41   42    1     gb_1
+   42   43    1     gb_1
+   43   44    1     gb_1
+   45   46    1     gb_1
+   46   47    1     gb_1
+   47   48    1     gb_1
+   49   50    1     gb_1
+   50   51    1     gb_1
+   51   52    1     gb_1
+   53   54    1     gb_1
+   54   55    1     gb_1
+   55   56    1     gb_1
+   57   58    1     gb_1
+   58   59    1     gb_1
+   59   60    1     gb_1
+   61   62    1     gb_1
+   62   63    1     gb_1
+   63   64    1     gb_1
+   65   66    1     gb_1
+   66   67    1     gb_1
+   67   68    1     gb_1
+   69   70    1     gb_1
+   70   71    1     gb_1
+   71   72    1     gb_1
+   73   74    1     gb_1
+   74   75    1     gb_1
+   75   76    1     gb_1
+   77   78    1     gb_1
+   78   79    1     gb_1
+   79   80    1     gb_1
+   81   82    1     gb_1
+   82   83    1     gb_1
+   83   84    1     gb_1
+   85   86    1     gb_1
+   86   87    1     gb_1
+   87   88    1     gb_1
+   89   90    1     gb_1
+   90   91    1     gb_1
+   91   92    1     gb_1
+   93   94    1     gb_1
+   94   95    1     gb_1
+   95   96    1     gb_1
+   97   98    1     gb_1
+   98   99    1     gb_1
+   99  100    1     gb_1
+  101  102    1     gb_1
+  102  103    1     gb_1
+  103  104    1     gb_1
+  105  106    1     gb_1
+  106  107    1     gb_1
+  107  108    1     gb_1
+  109  110    1     gb_1
+  110  111    1     gb_1
+  111  112    1     gb_1
+  113  114    1     gb_1
+  114  115    1     gb_1
+  115  116    1     gb_1
+  117  118    1     gb_1
+  118  119    1     gb_1
+  119  120    1     gb_1
+  121  122    1     gb_1
+  122  123    1     gb_1
+  123  124    1     gb_1
+  125  126    1     gb_1
+  126  127    1     gb_1
+  127  128    1     gb_1
+  129  130    1     gb_1
+  130  131    1     gb_1
+  131  132    1     gb_1
+  133  134    1     gb_1
+  134  135    1     gb_1
+  135  136    1     gb_1
+  137  138    1     gb_1
+  138  139    1     gb_1
+  139  140    1     gb_1
+  141  142    1     gb_1
+  142  143    1     gb_1
+  143  144    1     gb_1
+  145  146    1     gb_1
+  146  147    1     gb_1
+  147  148    1     gb_1
+  149  150    1     gb_1
+  150  151    1     gb_1
+  151  152    1     gb_1
+  153  154    1     gb_1
+  154  155    1     gb_1
+  155  156    1     gb_1
+  157  158    1     gb_1
+  158  159    1     gb_1
+  159  160    1     gb_1
+  161  162    1     gb_1
+  162  163    1     gb_1
+  163  164    1     gb_1
+  165  166    1     gb_1
+  166  167    1     gb_1
+  167  168    1     gb_1
+  169  170    1     gb_1
+  170  171    1     gb_1
+  171  172    1     gb_1
+  173  174    1     gb_1
+  174  175    1     gb_1
+  175  176    1     gb_1
+  177  178    1     gb_1
+  178  179    1     gb_1
+  179  180    1     gb_1
+  181  182    1     gb_1
+  182  183    1     gb_1
+  183  184    1     gb_1
+  185  186    1     gb_1
+  186  187    1     gb_1
+  187  188    1     gb_1
+  189  190    1     gb_1
+  190  191    1     gb_1
+  191  192    1     gb_1
+  193  194    1     gb_1
+  194  195    1     gb_1
+  195  196    1     gb_1
+  197  198    1     gb_1
+  198  199    1     gb_1
+  199  200    1     gb_1
+  201  202    1     gb_1
+  202  203    1     gb_1
+  203  204    1     gb_1
+  205  206    1     gb_1
+  206  207    1     gb_1
+  207  208    1     gb_1
+  209  210    1     gb_1
+  210  211    1     gb_1
+  211  212    1     gb_1
+  213  214    1     gb_1
+  214  215    1     gb_1
+  215  216    1     gb_1
+  217  218    1     gb_1
+  218  219    1     gb_1
+  219  220    1     gb_1
+  221  222    1     gb_1
+  222  223    1     gb_1
+  223  224    1     gb_1
+  225  226    1     gb_1
+  226  227    1     gb_1
+  227  228    1     gb_1
+  229  230    1     gb_1
+  230  231    1     gb_1
+  231  232    1     gb_1
+  233  234    1     gb_1
+  234  235    1     gb_1
+  235  236    1     gb_1
+  237  238    1     gb_1
+  238  239    1     gb_1
+  239  240    1     gb_1
+  241  242    1     gb_1
+  242  243    1     gb_1
+  243  244    1     gb_1
+  245  246    1     gb_1
+  246  247    1     gb_1
+  247  248    1     gb_1
+  249  250    1     gb_1
+  250  251    1     gb_1
+  251  252    1     gb_1
+  253  254    1     gb_1
+  254  255    1     gb_1
+  255  256    1     gb_1
+  257  258    1     gb_1
+  258  259    1     gb_1
+  259  260    1     gb_1
+  261  262    1     gb_1
+  262  263    1     gb_1
+  263  264    1     gb_1
+  265  266    1     gb_1
+  266  267    1     gb_1
+  267  268    1     gb_1
+  269  270    1     gb_1
+  270  271    1     gb_1
+  271  272    1     gb_1
+  273  274    1     gb_1
+  274  275    1     gb_1
+  275  276    1     gb_1
+  277  278    1     gb_1
+  278  279    1     gb_1
+  279  280    1     gb_1
+  281  282    1     gb_1
+  282  283    1     gb_1
+  283  284    1     gb_1
+  285  286    1     gb_1
+  286  287    1     gb_1
+  287  288    1     gb_1
+  289  290    1     gb_1
+  290  291    1     gb_1
+  291  292    1     gb_1
+  293  294    1     gb_1
+  294  295    1     gb_1
+  295  296    1     gb_1
+  297  298    1     gb_1
+  298  299    1     gb_1
+  299  300    1     gb_1
+  301  302    1     gb_1
+  302  303    1     gb_1
+  303  304    1     gb_1
+  305  306    1     gb_1
+  306  307    1     gb_1
+  307  308    1     gb_1
+  309  310    1     gb_1
+  310  311    1     gb_1
+  311  312    1     gb_1
+  313  314    1     gb_1
+  314  315    1     gb_1
+  315  316    1     gb_1
+  317  318    1     gb_1
+  318  319    1     gb_1
+  319  320    1     gb_1
+  321  322    1     gb_1
+  322  323    1     gb_1
+  323  324    1     gb_1
+  325  326    1     gb_1
+  326  327    1     gb_1
+  327  328    1     gb_1
+  329  330    1     gb_1
+  330  331    1     gb_1
+  331  332    1     gb_1
+  333  334    1     gb_1
+  334  335    1     gb_1
+  335  336    1     gb_1
+  337  338    1     gb_1
+  338  339    1     gb_1
+  339  340    1     gb_1
+  341  342    1     gb_1
+  342  343    1     gb_1
+  343  344    1     gb_1
+  345  346    1     gb_1
+  346  347    1     gb_1
+  347  348    1     gb_1
+  349  350    1     gb_1
+  350  351    1     gb_1
+  351  352    1     gb_1
+  353  354    1     gb_1
+  354  355    1     gb_1
+  355  356    1     gb_1
+  357  358    1     gb_1
+  358  359    1     gb_1
+  359  360    1     gb_1
+  361  362    1     gb_1
+  362  363    1     gb_1
+  363  364    1     gb_1
+  365  366    1     gb_1
+  366  367    1     gb_1
+  367  368    1     gb_1
+  369  370    1     gb_1
+  370  371    1     gb_1
+  371  372    1     gb_1
+  373  374    1     gb_1
+  374  375    1     gb_1
+  375  376    1     gb_1
+  377  378    1     gb_1
+  378  379    1     gb_1
+  379  380    1     gb_1
+  381  382    1     gb_1
+  382  383    1     gb_1
+  383  384    1     gb_1
+  385  386    1     gb_1
+  386  387    1     gb_1
+  387  388    1     gb_1
+  389  390    1     gb_1
+  390  391    1     gb_1
+  391  392    1     gb_1
+  393  394    1     gb_1
+  394  395    1     gb_1
+  395  396    1     gb_1
+  397  398    1     gb_1
+  398  399    1     gb_1
+  399  400    1     gb_1
+  401  402    1     gb_1
+  402  403    1     gb_1
+  403  404    1     gb_1
+  405  406    1     gb_1
+  406  407    1     gb_1
+  407  408    1     gb_1
+  409  410    1     gb_1
+  410  411    1     gb_1
+  411  412    1     gb_1
+  413  414    1     gb_1
+  414  415    1     gb_1
+  415  416    1     gb_1
+  417  418    1     gb_1
+  418  419    1     gb_1
+  419  420    1     gb_1
+  421  422    1     gb_1
+  422  423    1     gb_1
+  423  424    1     gb_1
+  425  426    1     gb_1
+  426  427    1     gb_1
+  427  428    1     gb_1
+  429  430    1     gb_1
+  430  431    1     gb_1
+  431  432    1     gb_1
+  433  434    1     gb_1
+  434  435    1     gb_1
+  435  436    1     gb_1
+  437  438    1     gb_1
+  438  439    1     gb_1
+  439  440    1     gb_1
+  441  442    1     gb_1
+  442  443    1     gb_1
+  443  444    1     gb_1
+  445  446    1     gb_1
+  446  447    1     gb_1
+  447  448    1     gb_1
+  449  450    1     gb_1
+  450  451    1     gb_1
+  451  452    1     gb_1
+  453  454    1     gb_1
+  454  455    1     gb_1
+  455  456    1     gb_1
+  457  458    1     gb_1
+  458  459    1     gb_1
+  459  460    1     gb_1
+  461  462    1     gb_1
+  462  463    1     gb_1
+  463  464    1     gb_1
+  465  466    1     gb_1
+  466  467    1     gb_1
+  467  468    1     gb_1
+  469  470    1     gb_1
+  470  471    1     gb_1
+  471  472    1     gb_1
+  473  474    1     gb_1
+  474  475    1     gb_1
+  475  476    1     gb_1
+  477  478    1     gb_1
+  478  479    1     gb_1
+  479  480    1     gb_1
+  481  482    1     gb_1
+  482  483    1     gb_1
+  483  484    1     gb_1
+  485  486    1     gb_1
+  486  487    1     gb_1
+  487  488    1     gb_1
+  489  490    1     gb_1
+  490  491    1     gb_1
+  491  492    1     gb_1
+  493  494    1     gb_1
+  494  495    1     gb_1
+  495  496    1     gb_1
+  497  498    1     gb_1
+  498  499    1     gb_1
+  499  500    1     gb_1
+  501  502    1     gb_1
+  502  503    1     gb_1
+  503  504    1     gb_1
+  505  506    1     gb_1
+  506  507    1     gb_1
+  507  508    1     gb_1
+  509  510    1     gb_1
+  510  511    1     gb_1
+  511  512    1     gb_1
+  513  514    1     gb_1
+  514  515    1     gb_1
+  515  516    1     gb_1
+  517  518    1     gb_1
+  518  519    1     gb_1
+  519  520    1     gb_1
+    1  573    6  0.321296  1.5e+04
+    1  670    6  0.292474  1.5e+04
+    1  712    6  0.291301  1.5e+04
+    1  812    6  0.379650  1.5e+04
+    5  522    6  0.291613  1.5e+04
+    5  534    6  0.360025  1.5e+04
+    5  579    6  0.278706  1.5e+04
+    5  822    6  0.357782  1.5e+04
+    9  548    6  0.261379  1.5e+04
+    9  771    6  0.329797  1.5e+04
+    9  796    6  0.302791  1.5e+04
+   13  555    6  0.310232  1.5e+04
+   13  604    6  0.263211  1.5e+04
+   13  741    6  0.337147  1.5e+04
+   13  791    6  0.380675  1.5e+04
+   17  728    6  0.274310  1.5e+04
+   17  733    6  0.348245  1.5e+04
+   17  792    6  0.281832  1.5e+04
+   21  527    6  0.286381  1.5e+04
+   21  778    6  0.295565  1.5e+04
+   21  898    6  0.318072  1.5e+04
+   25  546    6  0.354363  1.5e+04
+   25  602    6  0.255090  1.5e+04
+   25  665    6  0.337687  1.5e+04
+   25  871    6  0.331927  1.5e+04
+   29  583    6  0.262007  1.5e+04
+   29  639    6  0.326759  1.5e+04
+   29  644    6  0.345587  1.5e+04
+   29  709    6  0.354672  1.5e+04
+   29  888    6  0.399397  1.5e+04
+   33  715    6  0.287437  1.5e+04
+   33  726    6  0.296708  1.5e+04
+   33  827    6  0.294909  1.5e+04
+   37  673    6  0.372521  1.5e+04
+   37  689    6  0.294375  1.5e+04
+   37  795    6  0.317670  1.5e+04
+   37  823    6  0.289997  1.5e+04
+   41  577    6  0.276894  1.5e+04
+   41  601    6  0.303822  1.5e+04
+   41  660    6  0.321067  1.5e+04
+   41  713    6  0.389886  1.5e+04
+   45  584    6  0.309700  1.5e+04
+   45  772    6  0.251171  1.5e+04
+   45  841    6  0.359769  1.5e+04
+   45  869    6  0.367032  1.5e+04
+   49  603    6  0.349359  1.5e+04
+   49  739    6  0.300853  1.5e+04
+   49  906    6  0.261870  1.5e+04
+   53  743    6  0.325391  1.5e+04
+   53  771    6  0.361961  1.5e+04
+   53  798    6  0.357593  1.5e+04
+   53  894    6  0.248893  1.5e+04
+   57  593    6  0.357233  1.5e+04
+   57  664    6  0.351974  1.5e+04
+   57  692    6  0.337150  1.5e+04
+   57  773    6  0.363209  1.5e+04
+   57  877    6  0.282297  1.5e+04
+   61  693    6  0.336461  1.5e+04
+   61  840    6  0.239847  1.5e+04
+   61  899    6  0.390127  1.5e+04
+   61  907    6  0.364705  1.5e+04
+   65  596    6  0.275922  1.5e+04
+   65  679    6  0.280370  1.5e+04
+   65  893    6  0.365434  1.5e+04
+   69  629    6  0.379469  1.5e+04
+   69  706    6  0.364855  1.5e+04
+   69  756    6  0.344128  1.5e+04
+   69  858    6  0.241596  1.5e+04
+   73  722    6  0.293164  1.5e+04
+   73  808    6  0.294321  1.5e+04
+   73  826    6  0.298626  1.5e+04
+   77  653    6  0.388767  1.5e+04
+   77  700    6  0.346766  1.5e+04
+   77  735    6  0.331598  1.5e+04
+   77  748    6  0.387644  1.5e+04
+   77  910    6  0.260025  1.5e+04
+   81  544    6  0.279623  1.5e+04
+   81  634    6  0.321556  1.5e+04
+   81  770    6  0.316266  1.5e+04
+   81  875    6  0.355161  1.5e+04
+   85  572    6  0.284539  1.5e+04
+   85  643    6  0.333734  1.5e+04
+   85  868    6  0.273239  1.5e+04
+   89  576    6  0.331781  1.5e+04
+   89  667    6  0.251046  1.5e+04
+   89  804    6  0.328757  1.5e+04
+   93  553    6  0.313900  1.5e+04
+   93  609    6  0.383450  1.5e+04
+   93  696    6  0.310925  1.5e+04
+   93  832    6  0.358773  1.5e+04
+   93  843    6  0.313974  1.5e+04
+   97  674    6  0.319161  1.5e+04
+   97  721    6  0.320092  1.5e+04
+   97  765    6  0.394186  1.5e+04
+   97  903    6  0.261185  1.5e+04
+  101  651    6  0.343831  1.5e+04
+  101  675    6  0.261511  1.5e+04
+  101  720    6  0.326201  1.5e+04
+  101  854    6  0.354790  1.5e+04
+  105  541    6  0.288981  1.5e+04
+  105  819    6  0.290210  1.5e+04
+  105  886    6  0.298982  1.5e+04
+  109  571    6  0.303407  1.5e+04
+  109  671    6  0.283302  1.5e+04
+  109  888    6  0.303886  1.5e+04
+  113  565    6  0.284210  1.5e+04
+  113  825    6  0.314696  1.5e+04
+  113  872    6  0.394442  1.5e+04
+  113  873    6  0.289493  1.5e+04
+  117  524    6  0.385617  1.5e+04
+  117  828    6  0.281450  1.5e+04
+  117  863    6  0.286247  1.5e+04
+  117  899    6  0.331618  1.5e+04
+  121  787    6  0.366149  1.5e+04
+  121  816    6  0.323171  1.5e+04
+  121  851    6  0.379919  1.5e+04
+  121  890    6  0.247391  1.5e+04
+  125  524    6  0.298516  1.5e+04
+  125  540    6  0.326864  1.5e+04
+  125  901    6  0.269132  1.5e+04
+  129  611    6  0.251757  1.5e+04
+  129  613    6  0.306293  1.5e+04
+  129  622    6  0.393873  1.5e+04
+  129  758    6  0.349149  1.5e+04
+  133  648    6  0.290208  1.5e+04
+  133  673    6  0.360614  1.5e+04
+  133  780    6  0.372842  1.5e+04
+  133  806    6  0.268776  1.5e+04
+  137  603    6  0.343695  1.5e+04
+  137  695    6  0.291038  1.5e+04
+  137  811    6  0.270280  1.5e+04
+  137  898    6  0.393671  1.5e+04
+  141  597    6  0.331227  1.5e+04
+  141  641    6  0.266588  1.5e+04
+  141  838    6  0.353802  1.5e+04
+  141  897    6  0.318531  1.5e+04
+  145  526    6  0.318435  1.5e+04
+  145  690    6  0.284162  1.5e+04
+  145  736    6  0.303286  1.5e+04
+  145  870    6  0.350793  1.5e+04
+  149  651    6  0.339734  1.5e+04
+  149  654    6  0.339684  1.5e+04
+  149  767    6  0.241188  1.5e+04
+  153  649    6  0.260327  1.5e+04
+  153  716    6  0.353957  1.5e+04
+  153  815    6  0.363234  1.5e+04
+  153  857    6  0.305182  1.5e+04
+  157  680    6  0.274971  1.5e+04
+  157  791    6  0.303317  1.5e+04
+  157  820    6  0.305988  1.5e+04
+  161  521    6  0.314294  1.5e+04
+  161  537    6  0.261021  1.5e+04
+  161  588    6  0.395431  1.5e+04
+  161  839    6  0.339774  1.5e+04
+  165  618    6  0.285646  1.5e+04
+  165  830    6  0.380666  1.5e+04
+  165  856    6  0.280106  1.5e+04
+  165  869    6  0.339874  1.5e+04
+  169  549    6  0.312706  1.5e+04
+  169  580    6  0.279628  1.5e+04
+  169  710    6  0.298876  1.5e+04
+  173  559    6  0.370692  1.5e+04
+  173  568    6  0.323145  1.5e+04
+  173  589    6  0.337727  1.5e+04
+  173  876    6  0.260344  1.5e+04
+  177  543    6  0.344675  1.5e+04
+  177  597    6  0.355539  1.5e+04
+  177  672    6  0.244716  1.5e+04
+  177  731    6  0.372123  1.5e+04
+  181  591    6  0.288549  1.5e+04
+  181  757    6  0.276357  1.5e+04
+  181  805    6  0.360765  1.5e+04
+  181  842    6  0.370416  1.5e+04
+  185  585    6  0.290640  1.5e+04
+  185  620    6  0.332720  1.5e+04
+  185  682    6  0.284380  1.5e+04
+  185  759    6  0.361641  1.5e+04
+  189  557    6  0.329699  1.5e+04
+  189  678    6  0.264947  1.5e+04
+  189  893    6  0.375701  1.5e+04
+  189  900    6  0.313027  1.5e+04
+  193  558    6  0.395616  1.5e+04
+  193  751    6  0.274386  1.5e+04
+  193  760    6  0.276781  1.5e+04
+  193  825    6  0.374462  1.5e+04
+  193  836    6  0.393292  1.5e+04
+  197  624    6  0.321617  1.5e+04
+  197  650    6  0.364228  1.5e+04
+  197  862    6  0.241539  1.5e+04
+  201  614    6  0.246083  1.5e+04
+  201  668    6  0.335094  1.5e+04
+  201  711    6  0.333888  1.5e+04
+  201  866    6  0.380274  1.5e+04
+  205  601    6  0.392491  1.5e+04
+  205  745    6  0.274332  1.5e+04
+  205  785    6  0.284662  1.5e+04
+  205  885    6  0.353177  1.5e+04
+  209  609    6  0.291837  1.5e+04
+  209  635    6  0.331899  1.5e+04
+  209  746    6  0.287515  1.5e+04
+  213  541    6  0.395322  1.5e+04
+  213  578    6  0.243309  1.5e+04
+  213  666    6  0.363637  1.5e+04
+  213  687    6  0.398944  1.5e+04
+  213  911    6  0.324092  1.5e+04
+  217  558    6  0.321184  1.5e+04
+  217  627    6  0.349086  1.5e+04
+  217  775    6  0.246579  1.5e+04
+  221  709    6  0.366367  1.5e+04
+  221  711    6  0.376989  1.5e+04
+  221  782    6  0.369942  1.5e+04
+  221  790    6  0.260693  1.5e+04
+  221  837    6  0.310299  1.5e+04
+  225  755    6  0.397777  1.5e+04
+  225  777    6  0.369331  1.5e+04
+  225  801    6  0.370304  1.5e+04
+  225  879    6  0.307645  1.5e+04
+  225  880    6  0.266857  1.5e+04
+  229  730    6  0.353782  1.5e+04
+  229  734    6  0.362119  1.5e+04
+  229  835    6  0.360261  1.5e+04
+  229  895    6  0.243513  1.5e+04
+  233  644    6  0.372010  1.5e+04
+  233  752    6  0.392365  1.5e+04
+  233  860    6  0.246260  1.5e+04
+  233  896    6  0.314724  1.5e+04
+  237  574    6  0.334122  1.5e+04
+  237  632    6  0.271553  1.5e+04
+  237  799    6  0.369922  1.5e+04
+  237  845    6  0.307718  1.5e+04
+  241  615    6  0.370676  1.5e+04
+  241  628    6  0.336672  1.5e+04
+  241  688    6  0.246558  1.5e+04
+  241  878    6  0.366748  1.5e+04
+  241  907    6  0.395730  1.5e+04
+  245  536    6  0.330228  1.5e+04
+  245  684    6  0.262210  1.5e+04
+  245  721    6  0.341940  1.5e+04
+  245  748    6  0.362815  1.5e+04
+  249  642    6  0.274944  1.5e+04
+  249  653    6  0.362304  1.5e+04
+  249  799    6  0.344327  1.5e+04
+  249  852    6  0.297770  1.5e+04
+  253  532    6  0.248107  1.5e+04
+  253  629    6  0.330256  1.5e+04
+  253  875    6  0.326419  1.5e+04
+  257  606    6  0.265553  1.5e+04
+  257  628    6  0.394073  1.5e+04
+  257  631    6  0.299699  1.5e+04
+  257  657    6  0.341813  1.5e+04
+  261  694    6  0.314398  1.5e+04
+  261  794    6  0.246579  1.5e+04
+  261  867    6  0.371767  1.5e+04
+  265  599    6  0.314422  1.5e+04
+  265  605    6  0.353314  1.5e+04
+  265  655    6  0.258853  1.5e+04
+  265  798    6  0.365065  1.5e+04
+  269  582    6  0.242352  1.5e+04
+  269  777    6  0.345922  1.5e+04
+  269  861    6  0.356659  1.5e+04
+  273  562    6  0.249633  1.5e+04
+  273  718    6  0.376485  1.5e+04
+  273  766    6  0.334031  1.5e+04
+  273  834    6  0.343615  1.5e+04
+  277  569    6  0.365915  1.5e+04
+  277  669    6  0.357392  1.5e+04
+  277  728    6  0.385750  1.5e+04
+  277  786    6  0.240980  1.5e+04
+  281  683    6  0.291317  1.5e+04
+  281  700    6  0.341267  1.5e+04
+  281  701    6  0.269937  1.5e+04
+  285  646    6  0.332286  1.5e+04
+  285  708    6  0.285940  1.5e+04
+  285  732    6  0.365412  1.5e+04
+  285  850    6  0.291637  1.5e+04
+  289  545    6  0.275929  1.5e+04
+  289  576    6  0.399592  1.5e+04
+  289  630    6  0.293511  1.5e+04
+  289  697    6  0.385743  1.5e+04
+  289  847    6  0.337603  1.5e+04
+  293  561    6  0.291439  1.5e+04
+  293  637    6  0.279159  1.5e+04
+  293  780    6  0.390517  1.5e+04
+  293  802    6  0.351121  1.5e+04
+  293  866    6  0.381145  1.5e+04
+  297  586    6  0.308235  1.5e+04
+  297  837    6  0.351204  1.5e+04
+  297  844    6  0.293455  1.5e+04
+  297  912    6  0.305222  1.5e+04
+  301  595    6  0.345524  1.5e+04
+  301  809    6  0.352091  1.5e+04
+  301  902    6  0.239850  1.5e+04
+  305  535    6  0.382799  1.5e+04
+  305  581    6  0.348147  1.5e+04
+  305  732    6  0.314424  1.5e+04
+  305  810    6  0.255044  1.5e+04
+  309  702    6  0.292108  1.5e+04
+  309  803    6  0.362043  1.5e+04
+  309  824    6  0.280131  1.5e+04
+  309  870    6  0.347507  1.5e+04
+  313  627    6  0.369877  1.5e+04
+  313  687    6  0.286039  1.5e+04
+  313  750    6  0.257193  1.5e+04
+  317  571    6  0.348487  1.5e+04
+  317  747    6  0.327066  1.5e+04
+  317  793    6  0.242924  1.5e+04
+  321  530    6  0.243893  1.5e+04
+  321  552    6  0.385973  1.5e+04
+  321  676    6  0.321183  1.5e+04
+  321  774    6  0.389048  1.5e+04
+  325  528    6  0.237154  1.5e+04
+  325  547    6  0.381759  1.5e+04
+  325  556    6  0.381347  1.5e+04
+  325  666    6  0.382354  1.5e+04
+  325  762    6  0.364152  1.5e+04
+  329  623    6  0.317614  1.5e+04
+  329  638    6  0.247296  1.5e+04
+  329  788    6  0.363953  1.5e+04
+  333  553    6  0.370166  1.5e+04
+  333  719    6  0.335545  1.5e+04
+  333  885    6  0.328032  1.5e+04
+  333  889    6  0.254559  1.5e+04
+  337  523    6  0.235594  1.5e+04
+  337  573    6  0.371782  1.5e+04
+  337  769    6  0.395273  1.5e+04
+  341  586    6  0.396130  1.5e+04
+  341  605    6  0.337704  1.5e+04
+  341  608    6  0.240585  1.5e+04
+  341  749    6  0.375987  1.5e+04
+  341  896    6  0.362895  1.5e+04
+  345  534    6  0.360550  1.5e+04
+  345  587    6  0.272198  1.5e+04
+  345  645    6  0.308097  1.5e+04
+  345  813    6  0.338716  1.5e+04
+  349  552    6  0.327089  1.5e+04
+  349  575    6  0.299105  1.5e+04
+  349  626    6  0.270947  1.5e+04
+  353  686    6  0.383887  1.5e+04
+  353  782    6  0.368060  1.5e+04
+  353  821    6  0.356331  1.5e+04
+  353  861    6  0.371331  1.5e+04
+  353  864    6  0.239563  1.5e+04
+  357  546    6  0.399229  1.5e+04
+  357  697    6  0.367062  1.5e+04
+  357  741    6  0.395314  1.5e+04
+  357  831    6  0.236141  1.5e+04
+  357  867    6  0.374792  1.5e+04
+  361  598    6  0.328475  1.5e+04
+  361  662    6  0.262039  1.5e+04
+  361  665    6  0.390050  1.5e+04
+  361  859    6  0.309253  1.5e+04
+  365  529    6  0.274487  1.5e+04
+  365  704    6  0.287327  1.5e+04
+  365  776    6  0.333702  1.5e+04
+  369  525    6  0.330614  1.5e+04
+  369  865    6  0.331602  1.5e+04
+  369  882    6  0.251871  1.5e+04
+  369  891    6  0.388355  1.5e+04
+  373  773    6  0.377024  1.5e+04
+  373  846    6  0.268238  1.5e+04
+  373  892    6  0.280061  1.5e+04
+  377  607    6  0.264691  1.5e+04
+  377  625    6  0.345597  1.5e+04
+  377  677    6  0.371264  1.5e+04
+  377  717    6  0.307763  1.5e+04
+  381  550    6  0.354446  1.5e+04
+  381  594    6  0.310072  1.5e+04
+  381  736    6  0.375396  1.5e+04
+  381  849    6  0.252497  1.5e+04
+  385  661    6  0.351303  1.5e+04
+  385  763    6  0.283039  1.5e+04
+  385  821    6  0.357325  1.5e+04
+  385  848    6  0.283469  1.5e+04
+  389  569    6  0.311631  1.5e+04
+  389  753    6  0.364949  1.5e+04
+  389  842    6  0.393494  1.5e+04
+  389  855    6  0.249550  1.5e+04
+  393  564    6  0.388772  1.5e+04
+  393  570    6  0.287853  1.5e+04
+  393  622    6  0.357169  1.5e+04
+  393  716    6  0.363784  1.5e+04
+  393  829    6  0.282765  1.5e+04
+  397  521    6  0.379943  1.5e+04
+  397  764    6  0.280689  1.5e+04
+  397  776    6  0.386882  1.5e+04
+  397  807    6  0.266089  1.5e+04
+  401  664    6  0.363410  1.5e+04
+  401  677    6  0.365049  1.5e+04
+  401  699    6  0.254037  1.5e+04
+  401  754    6  0.332485  1.5e+04
+  401  773    6  0.397505  1.5e+04
+  405  564    6  0.332739  1.5e+04
+  405  595    6  0.335281  1.5e+04
+  405  707    6  0.311062  1.5e+04
+  405  904    6  0.285862  1.5e+04
+  409  588    6  0.355316  1.5e+04
+  409  610    6  0.314078  1.5e+04
+  409  612    6  0.261607  1.5e+04
+  409  618    6  0.397570  1.5e+04
+  409  839    6  0.361818  1.5e+04
+  413  668    6  0.383897  1.5e+04
+  413  714    6  0.302674  1.5e+04
+  413  740    6  0.357752  1.5e+04
+  413  884    6  0.261500  1.5e+04
+  417  526    6  0.369681  1.5e+04
+  417  551    6  0.235304  1.5e+04
+  417  685    6  0.373337  1.5e+04
+  417  845    6  0.396790  1.5e+04
+  417  883    6  0.371504  1.5e+04
+  421  589    6  0.359327  1.5e+04
+  421  703    6  0.346630  1.5e+04
+  421  797    6  0.284126  1.5e+04
+  421  872    6  0.289095  1.5e+04
+  425  616    6  0.396800  1.5e+04
+  425  640    6  0.282644  1.5e+04
+  425  816    6  0.369296  1.5e+04
+  425  836    6  0.382538  1.5e+04
+  425  908    6  0.272011  1.5e+04
+  429  538    6  0.291491  1.5e+04
+  429  761    6  0.282352  1.5e+04
+  429  874    6  0.321090  1.5e+04
+  433  658    6  0.248853  1.5e+04
+  433  705    6  0.326444  1.5e+04
+  433  784    6  0.334623  1.5e+04
+  433  809    6  0.380749  1.5e+04
+  437  590    6  0.297162  1.5e+04
+  437  659    6  0.264047  1.5e+04
+  437  713    6  0.341229  1.5e+04
+  441  654    6  0.375372  1.5e+04
+  441  737    6  0.301557  1.5e+04
+  441  781    6  0.265752  1.5e+04
+  441  851    6  0.356720  1.5e+04
+  445  633    6  0.282616  1.5e+04
+  445  731    6  0.352023  1.5e+04
+  445  768    6  0.274285  1.5e+04
+  445  826    6  0.382079  1.5e+04
+  449  661    6  0.372437  1.5e+04
+  449  780    6  0.383735  1.5e+04
+  449  818    6  0.270748  1.5e+04
+  449  853    6  0.286546  1.5e+04
+  453  621    6  0.245301  1.5e+04
+  453  698    6  0.323889  1.5e+04
+  453  753    6  0.373686  1.5e+04
+  453  814    6  0.366659  1.5e+04
+  457  692    6  0.387422  1.5e+04
+  457  755    6  0.277495  1.5e+04
+  457  812    6  0.285053  1.5e+04
+  457  822    6  0.338087  1.5e+04
+  461  560    6  0.307693  1.5e+04
+  461  634    6  0.382661  1.5e+04
+  461  734    6  0.356390  1.5e+04
+  461  744    6  0.255525  1.5e+04
+  465  729    6  0.325710  1.5e+04
+  465  800    6  0.292424  1.5e+04
+  465  833    6  0.293180  1.5e+04
+  465  911    6  0.368344  1.5e+04
+  469  533    6  0.289486  1.5e+04
+  469  742    6  0.288258  1.5e+04
+  469  841    6  0.303158  1.5e+04
+  473  550    6  0.387080  1.5e+04
+  473  725    6  0.313737  1.5e+04
+  473  779    6  0.293047  1.5e+04
+  473  909    6  0.289370  1.5e+04
+  477  547    6  0.311351  1.5e+04
+  477  556    6  0.395334  1.5e+04
+  477  581    6  0.396290  1.5e+04
+  477  592    6  0.248624  1.5e+04
+  477  624    6  0.376432  1.5e+04
+  481  539    6  0.371528  1.5e+04
+  481  567    6  0.333405  1.5e+04
+  481  691    6  0.253086  1.5e+04
+  481  891    6  0.331116  1.5e+04
+  485  566    6  0.239451  1.5e+04
+  485  685    6  0.360711  1.5e+04
+  485  762    6  0.381771  1.5e+04
+  485  881    6  0.354656  1.5e+04
+  489  615    6  0.311867  1.5e+04
+  489  727    6  0.261139  1.5e+04
+  489  838    6  0.335732  1.5e+04
+  489  878    6  0.386912  1.5e+04
+  493  531    6  0.263285  1.5e+04
+  493  539    6  0.396370  1.5e+04
+  493  636    6  0.334928  1.5e+04
+  493  783    6  0.336804  1.5e+04
+  493  854    6  0.350967  1.5e+04
+  497  574    6  0.349628  1.5e+04
+  497  600    6  0.262259  1.5e+04
+  497  650    6  0.327958  1.5e+04
+  497  817    6  0.344925  1.5e+04
+  501  619    6  0.273377  1.5e+04
+  501  724    6  0.284646  1.5e+04
+  501  740    6  0.346101  1.5e+04
+  501  815    6  0.397259  1.5e+04
+  505  635    6  0.352274  1.5e+04
+  505  643    6  0.360889  1.5e+04
+  505  652    6  0.258689  1.5e+04
+  505  769    6  0.330574  1.5e+04
+  509  617    6  0.330678  1.5e+04
+  509  647    6  0.387413  1.5e+04
+  509  669    6  0.367278  1.5e+04
+  509  738    6  0.242954  1.5e+04
+  513  656    6  0.249692  1.5e+04
+  513  749    6  0.385368  1.5e+04
+  513  788    6  0.399956  1.5e+04
+  513  887    6  0.312267  1.5e+04
+  517  536    6  0.346397  1.5e+04
+  517  559    6  0.328808  1.5e+04
+  517  563    6  0.269879  1.5e+04
+  517  733    6  0.324978  1.5e+04
+  521  537    6  0.263199  1.5e+04
+  521  588    6  0.276622  1.5e+04
+  521  628    6  0.461038  1.5e+04
+  521  631    6  0.308068  1.5e+04
+  521  764    6  0.389665  1.5e+04
+  521  776    6  0.280797  1.5e+04
+  521  807    6  0.278007  1.5e+04
+  521  839    6  0.371936  1.5e+04
+  522  534    6  0.257507  1.5e+04
+  522  579    6  0.298449  1.5e+04
+  522  591    6  0.477407  1.5e+04
+  522  638    6  0.268846  1.5e+04
+  522  645    6  0.415742  1.5e+04
+  522  755    6  0.483954  1.5e+04
+  522  774    6  0.457503  1.5e+04
+  522  801    6  0.283844  1.5e+04
+  522  822    6  0.260817  1.5e+04
+  523  573    6  0.278032  1.5e+04
+  523  575    6  0.318588  1.5e+04
+  523  677    6  0.300187  1.5e+04
+  523  717    6  0.312650  1.5e+04
+  523  723    6  0.323948  1.5e+04
+  523  754    6  0.340885  1.5e+04
+  523  769    6  0.290826  1.5e+04
+  524  540    6  0.262078  1.5e+04
+  524  544    6  0.318000  1.5e+04
+  524  585    6  0.473311  1.5e+04
+  524  803    6  0.307273  1.5e+04
+  524  828    6  0.287830  1.5e+04
+  524  863    6  0.275931  1.5e+04
+  524  901    6  0.275063  1.5e+04
+  525  541    6  0.273631  1.5e+04
+  525  578    6  0.353667  1.5e+04
+  525  800    6  0.291035  1.5e+04
+  525  819    6  0.452480  1.5e+04
+  525  833    6  0.471220  1.5e+04
+  525  865    6  0.267941  1.5e+04
+  525  882    6  0.274717  1.5e+04
+  525  891    6  0.498407  1.5e+04
+  525  911    6  0.262805  1.5e+04
+  526  551    6  0.265019  1.5e+04
+  526  585    6  0.489488  1.5e+04
+  526  594    6  0.472274  1.5e+04
+  526  620    6  0.273047  1.5e+04
+  526  681    6  0.269866  1.5e+04
+  526  685    6  0.452141  1.5e+04
+  526  690    6  0.271658  1.5e+04
+  526  736    6  0.266949  1.5e+04
+  526  845    6  0.443783  1.5e+04
+  526  870    6  0.440231  1.5e+04
+  527  580    6  0.309039  1.5e+04
+  527  587    6  0.441952  1.5e+04
+  527  647    6  0.452299  1.5e+04
+  527  743    6  0.271381  1.5e+04
+  527  771    6  0.334164  1.5e+04
+  527  778    6  0.271790  1.5e+04
+  527  813    6  0.273256  1.5e+04
+  527  898    6  0.297997  1.5e+04
+  528  547    6  0.309211  1.5e+04
+  528  556    6  0.294741  1.5e+04
+  528  666    6  0.265699  1.5e+04
+  528  725    6  0.290729  1.5e+04
+  528  762    6  0.274921  1.5e+04
+  528  833    6  0.301901  1.5e+04
+  528  909    6  0.479007  1.5e+04
+  528  911    6  0.441661  1.5e+04
+  529  588    6  0.307337  1.5e+04
+  529  612    6  0.284360  1.5e+04
+  529  618    6  0.482707  1.5e+04
+  529  658    6  0.371718  1.5e+04
+  529  704    6  0.259688  1.5e+04
+  529  707    6  0.487348  1.5e+04
+  529  776    6  0.317529  1.5e+04
+  529  809    6  0.336541  1.5e+04
+  529  830    6  0.276399  1.5e+04
+  530  552    6  0.337533  1.5e+04
+  530  579    6  0.287029  1.5e+04
+  530  591    6  0.460723  1.5e+04
+  530  676    6  0.257862  1.5e+04
+  530  712    6  0.366108  1.5e+04
+  530  774    6  0.254516  1.5e+04
+  530  805    6  0.285221  1.5e+04
+  530  822    6  0.471338  1.5e+04
+  530  855    6  0.425982  1.5e+04
+  531  539    6  0.261675  1.5e+04
+  531  570    6  0.276566  1.5e+04
+  531  636    6  0.250798  1.5e+04
+  531  649    6  0.496366  1.5e+04
+  531  691    6  0.333536  1.5e+04
+  531  716    6  0.378278  1.5e+04
+  531  783    6  0.333795  1.5e+04
+  531  793    6  0.488658  1.5e+04
+  531  854    6  0.313206  1.5e+04
+  532  540    6  0.259911  1.5e+04
+  532  544    6  0.403865  1.5e+04
+  532  585    6  0.448091  1.5e+04
+  532  629    6  0.274886  1.5e+04
+  532  683    6  0.302000  1.5e+04
+  532  706    6  0.452882  1.5e+04
+  532  759    6  0.263787  1.5e+04
+  532  875    6  0.262160  1.5e+04
+  533  584    6  0.492249  1.5e+04
+  533  673    6  0.437418  1.5e+04
+  533  680    6  0.372635  1.5e+04
+  533  689    6  0.260842  1.5e+04
+  533  742    6  0.292560  1.5e+04
+  533  802    6  0.463264  1.5e+04
+  533  806    6  0.273324  1.5e+04
+  533  820    6  0.280537  1.5e+04
+  533  841    6  0.288655  1.5e+04
+  534  579    6  0.303725  1.5e+04
+  534  587    6  0.271703  1.5e+04
+  534  591    6  0.282192  1.5e+04
+  534  638    6  0.353360  1.5e+04
+  534  645    6  0.277765  1.5e+04
+  534  757    6  0.498367  1.5e+04
+  534  805    6  0.497468  1.5e+04
+  534  813    6  0.478340  1.5e+04
+  534  822    6  0.483824  1.5e+04
+  535  558    6  0.467564  1.5e+04
+  535  565    6  0.266512  1.5e+04
+  535  581    6  0.493988  1.5e+04
+  535  708    6  0.277459  1.5e+04
+  535  732    6  0.267051  1.5e+04
+  535  751    6  0.494590  1.5e+04
+  535  760    6  0.253523  1.5e+04
+  535  810    6  0.326342  1.5e+04
+  535  825    6  0.372326  1.5e+04
+  535  850    6  0.459543  1.5e+04
+  535  872    6  0.472205  1.5e+04
+  536  559    6  0.439813  1.5e+04
+  536  563    6  0.289624  1.5e+04
+  536  653    6  0.486052  1.5e+04
+  536  684    6  0.315886  1.5e+04
+  536  721    6  0.269229  1.5e+04
+  536  733    6  0.279637  1.5e+04
+  536  748    6  0.283372  1.5e+04
+  536  765    6  0.481177  1.5e+04
+  536  905    6  0.318197  1.5e+04
+  537  588    6  0.400304  1.5e+04
+  537  598    6  0.284976  1.5e+04
+  537  628    6  0.278069  1.5e+04
+  537  631    6  0.313344  1.5e+04
+  537  688    6  0.331063  1.5e+04
+  537  807    6  0.464018  1.5e+04
+  537  839    6  0.290085  1.5e+04
+  538  561    6  0.245321  1.5e+04
+  538  724    6  0.273048  1.5e+04
+  538  740    6  0.460903  1.5e+04
+  538  742    6  0.482103  1.5e+04
+  538  761    6  0.300012  1.5e+04
+  538  802    6  0.441660  1.5e+04
+  538  866    6  0.363582  1.5e+04
+  538  874    6  0.286040  1.5e+04
+  538  884    6  0.294711  1.5e+04
+  539  567    6  0.295705  1.5e+04
+  539  570    6  0.431441  1.5e+04
+  539  651    6  0.368894  1.5e+04
+  539  691    6  0.273353  1.5e+04
+  539  767    6  0.273494  1.5e+04
+  539  783    6  0.462573  1.5e+04
+  539  854    6  0.271880  1.5e+04
+  539  891    6  0.465690  1.5e+04
+  540  544    6  0.315306  1.5e+04
+  540  585    6  0.331338  1.5e+04
+  540  759    6  0.329081  1.5e+04
+  540  863    6  0.458748  1.5e+04
+  540  875    6  0.369598  1.5e+04
+  540  901    6  0.308917  1.5e+04
+  541  562    6  0.489174  1.5e+04
+  541  578    6  0.268362  1.5e+04
+  541  718    6  0.329477  1.5e+04
+  541  819    6  0.291415  1.5e+04
+  541  865    6  0.312260  1.5e+04
+  541  886    6  0.266848  1.5e+04
+  541  911    6  0.400288  1.5e+04
+  542  607    6  0.259068  1.5e+04
+  542  667    6  0.280262  1.5e+04
+  542  677    6  0.398502  1.5e+04
+  542  699    6  0.283102  1.5e+04
+  542  773    6  0.467698  1.5e+04
+  542  795    6  0.300570  1.5e+04
+  542  804    6  0.424876  1.5e+04
+  542  823    6  0.479778  1.5e+04
+  542  846    6  0.273210  1.5e+04
+  543  550    6  0.293266  1.5e+04
+  543  594    6  0.476020  1.5e+04
+  543  597    6  0.278464  1.5e+04
+  543  641    6  0.474359  1.5e+04
+  543  672    6  0.281751  1.5e+04
+  543  702    6  0.329817  1.5e+04
+  543  731    6  0.458867  1.5e+04
+  543  779    6  0.489376  1.5e+04
+  543  849    6  0.270181  1.5e+04
+  543  897    6  0.273930  1.5e+04
+  544  634    6  0.303293  1.5e+04
+  544  693    6  0.440011  1.5e+04
+  544  770    6  0.328801  1.5e+04
+  544  863    6  0.263635  1.5e+04
+  544  875    6  0.258635  1.5e+04
+  545  557    6  0.459438  1.5e+04
+  545  576    6  0.275038  1.5e+04
+  545  630    6  0.288668  1.5e+04
+  545  678    6  0.268201  1.5e+04
+  545  679    6  0.311281  1.5e+04
+  545  697    6  0.280319  1.5e+04
+  545  741    6  0.485435  1.5e+04
+  545  847    6  0.321517  1.5e+04
+  545  893    6  0.480373  1.5e+04
+  546  602    6  0.273836  1.5e+04
+  546  665    6  0.273573  1.5e+04
+  546  730    6  0.307913  1.5e+04
+  546  794    6  0.315719  1.5e+04
+  546  831    6  0.290265  1.5e+04
+  546  867    6  0.269942  1.5e+04
+  546  871    6  0.447691  1.5e+04
+  547  556    6  0.267946  1.5e+04
+  547  566    6  0.473029  1.5e+04
+  547  581    6  0.446028  1.5e+04
+  547  592    6  0.265160  1.5e+04
+  547  624    6  0.360489  1.5e+04
+  547  666    6  0.481182  1.5e+04
+  547  762    6  0.279057  1.5e+04
+  547  881    6  0.275857  1.5e+04
+  548  587    6  0.485158  1.5e+04
+  548  638    6  0.474858  1.5e+04
+  548  645    6  0.278211  1.5e+04
+  548  656    6  0.384614  1.5e+04
+  548  771    6  0.297246  1.5e+04
+  548  788    6  0.271988  1.5e+04
+  548  796    6  0.255858  1.5e+04
+  548  798    6  0.471318  1.5e+04
+  548  813    6  0.275244  1.5e+04
+  549  580    6  0.301855  1.5e+04
+  549  640    6  0.483274  1.5e+04
+  549  710    6  0.313820  1.5e+04
+  549  743    6  0.302283  1.5e+04
+  549  751    6  0.294496  1.5e+04
+  549  836    6  0.321506  1.5e+04
+  549  894    6  0.331721  1.5e+04
+  549  908    6  0.282024  1.5e+04
+  550  566    6  0.496209  1.5e+04
+  550  594    6  0.280426  1.5e+04
+  550  672    6  0.284615  1.5e+04
+  550  725    6  0.476996  1.5e+04
+  550  779    6  0.272187  1.5e+04
+  550  827    6  0.494917  1.5e+04
+  550  849    6  0.289574  1.5e+04
+  550  909    6  0.289482  1.5e+04
+  551  574    6  0.489194  1.5e+04
+  551  620    6  0.329087  1.5e+04
+  551  681    6  0.310892  1.5e+04
+  551  685    6  0.279945  1.5e+04
+  551  845    6  0.286743  1.5e+04
+  551  862    6  0.428376  1.5e+04
+  551  883    6  0.265388  1.5e+04
+  552  573    6  0.400130  1.5e+04
+  552  575    6  0.273506  1.5e+04
+  552  626    6  0.286246  1.5e+04
+  552  676    6  0.258200  1.5e+04
+  552  712    6  0.268952  1.5e+04
+  552  753    6  0.407934  1.5e+04
+  552  774    6  0.428438  1.5e+04
+  553  609    6  0.458001  1.5e+04
+  553  696    6  0.263131  1.5e+04
+  553  719    6  0.479422  1.5e+04
+  553  745    6  0.363924  1.5e+04
+  553  765    6  0.348861  1.5e+04
+  553  832    6  0.432478  1.5e+04
+  553  843    6  0.261600  1.5e+04
+  553  885    6  0.272193  1.5e+04
+  553  889    6  0.278120  1.5e+04
+  554  571    6  0.274669  1.5e+04
+  554  583    6  0.299472  1.5e+04
+  554  671    6  0.460195  1.5e+04
+  554  675    6  0.281421  1.5e+04
+  554  783    6  0.280559  1.5e+04
+  554  793    6  0.317774  1.5e+04
+  554  854    6  0.449489  1.5e+04
+  554  888    6  0.286970  1.5e+04
+  555  584    6  0.254709  1.5e+04
+  555  604    6  0.253115  1.5e+04
+  555  630    6  0.484668  1.5e+04
+  555  680    6  0.485930  1.5e+04
+  555  694    6  0.456599  1.5e+04
+  555  741    6  0.389221  1.5e+04
+  555  791    6  0.253178  1.5e+04
+  555  820    6  0.346876  1.5e+04
+  555  856    6  0.276560  1.5e+04
+  555  869    6  0.474529  1.5e+04
+  556  581    6  0.336590  1.5e+04
+  556  592    6  0.337394  1.5e+04
+  556  666    6  0.285733  1.5e+04
+  556  687    6  0.359921  1.5e+04
+  556  750    6  0.266187  1.5e+04
+  556  762    6  0.464385  1.5e+04
+  557  577    6  0.483085  1.5e+04
+  557  678    6  0.289189  1.5e+04
+  557  697    6  0.282303  1.5e+04
+  557  730    6  0.287756  1.5e+04
+  557  831    6  0.301057  1.5e+04
+  557  893    6  0.481252  1.5e+04
+  557  895    6  0.319354  1.5e+04
+  557  900    6  0.270097  1.5e+04
+  558  627    6  0.303152  1.5e+04
+  558  640    6  0.414136  1.5e+04
+  558  751    6  0.373637  1.5e+04
+  558  760    6  0.271152  1.5e+04
+  558  775    6  0.265720  1.5e+04
+  558  810    6  0.272127  1.5e+04
+  558  834    6  0.483458  1.5e+04
+  558  836    6  0.278422  1.5e+04
+  559  563    6  0.265690  1.5e+04
+  559  568    6  0.275724  1.5e+04
+  559  589    6  0.489351  1.5e+04
+  559  642    6  0.328954  1.5e+04
+  559  733    6  0.267387  1.5e+04
+  559  792    6  0.342407  1.5e+04
+  559  876    6  0.267560  1.5e+04
+  560  602    6  0.377981  1.5e+04
+  560  634    6  0.327644  1.5e+04
+  560  693    6  0.301321  1.5e+04
+  560  734    6  0.291775  1.5e+04
+  560  744    6  0.276407  1.5e+04
+  560  835    6  0.486362  1.5e+04
+  560  840    6  0.300354  1.5e+04
+  560  871    6  0.280825  1.5e+04
+  561  637    6  0.289621  1.5e+04
+  561  742    6  0.403373  1.5e+04
+  561  761    6  0.373280  1.5e+04
+  561  780    6  0.408074  1.5e+04
+  561  802    6  0.247629  1.5e+04
+  561  866    6  0.277009  1.5e+04
+  561  874    6  0.498396  1.5e+04
+  561  884    6  0.401151  1.5e+04
+  562  718    6  0.286922  1.5e+04
+  562  766    6  0.264357  1.5e+04
+  562  775    6  0.464164  1.5e+04
+  562  781    6  0.308484  1.5e+04
+  562  787    6  0.290114  1.5e+04
+  562  834    6  0.305236  1.5e+04
+  562  886    6  0.267645  1.5e+04
+  563  642    6  0.287054  1.5e+04
+  563  653    6  0.286535  1.5e+04
+  563  684    6  0.497694  1.5e+04
+  563  733    6  0.331623  1.5e+04
+  563  748    6  0.283995  1.5e+04
+  563  852    6  0.485366  1.5e+04
+  563  876    6  0.440638  1.5e+04
+  564  570    6  0.408153  1.5e+04
+  564  595    6  0.282984  1.5e+04
+  564  649    6  0.488025  1.5e+04
+  564  707    6  0.396959  1.5e+04
+  564  716    6  0.270758  1.5e+04
+  564  722    6  0.464673  1.5e+04
+  564  829    6  0.262017  1.5e+04
+  564  857    6  0.290601  1.5e+04
+  564  902    6  0.497956  1.5e+04
+  564  904    6  0.271096  1.5e+04
+  565  708    6  0.312475  1.5e+04
+  565  732    6  0.499635  1.5e+04
+  565  739    6  0.444250  1.5e+04
+  565  760    6  0.397629  1.5e+04
+  565  797    6  0.427340  1.5e+04
+  565  825    6  0.264810  1.5e+04
+  565  872    6  0.250995  1.5e+04
+  565  873    6  0.296747  1.5e+04
+  566  594    6  0.289043  1.5e+04
+  566  681    6  0.294325  1.5e+04
+  566  685    6  0.286209  1.5e+04
+  566  725    6  0.479185  1.5e+04
+  566  762    6  0.279215  1.5e+04
+  566  862    6  0.498123  1.5e+04
+  566  881    6  0.285861  1.5e+04
+  566  909    6  0.288314  1.5e+04
+  567  654    6  0.486966  1.5e+04
+  567  691    6  0.302702  1.5e+04
+  567  767    6  0.258053  1.5e+04
+  567  819    6  0.372858  1.5e+04
+  567  865    6  0.257314  1.5e+04
+  567  882    6  0.407201  1.5e+04
+  567  891    6  0.264900  1.5e+04
+  568  589    6  0.334990  1.5e+04
+  568  703    6  0.247755  1.5e+04
+  568  733    6  0.423739  1.5e+04
+  568  739    6  0.424192  1.5e+04
+  568  792    6  0.258985  1.5e+04
+  568  876    6  0.300451  1.5e+04
+  568  906    6  0.367311  1.5e+04
+  569  621    6  0.484075  1.5e+04
+  569  669    6  0.272431  1.5e+04
+  569  674    6  0.451759  1.5e+04
+  569  676    6  0.473754  1.5e+04
+  569  698    6  0.278510  1.5e+04
+  569  753    6  0.320372  1.5e+04
+  569  786    6  0.281416  1.5e+04
+  569  842    6  0.365379  1.5e+04
+  569  855    6  0.263453  1.5e+04
+  570  622    6  0.281539  1.5e+04
+  570  636    6  0.381463  1.5e+04
+  570  691    6  0.279616  1.5e+04
+  570  716    6  0.260018  1.5e+04
+  570  829    6  0.296731  1.5e+04
+  571  668    6  0.458056  1.5e+04
+  571  671    6  0.285970  1.5e+04
+  571  714    6  0.272898  1.5e+04
+  571  740    6  0.483416  1.5e+04
+  571  747    6  0.319035  1.5e+04
+  571  783    6  0.449402  1.5e+04
+  571  793    6  0.281325  1.5e+04
+  571  888    6  0.317050  1.5e+04
+  572  596    6  0.263593  1.5e+04
+  572  601    6  0.463848  1.5e+04
+  572  625    6  0.490968  1.5e+04
+  572  643    6  0.271041  1.5e+04
+  572  652    6  0.379222  1.5e+04
+  572  660    6  0.292154  1.5e+04
+  572  679    6  0.479449  1.5e+04
+  572  868    6  0.268865  1.5e+04
+  572  893    6  0.290399  1.5e+04
+  573  575    6  0.268577  1.5e+04
+  573  670    6  0.283779  1.5e+04
+  573  677    6  0.446814  1.5e+04
+  573  712    6  0.274756  1.5e+04
+  573  723    6  0.463829  1.5e+04
+  573  754    6  0.284724  1.5e+04
+  573  812    6  0.476326  1.5e+04
+  574  600    6  0.345918  1.5e+04
+  574  632    6  0.336262  1.5e+04
+  574  650    6  0.311348  1.5e+04
+  574  799    6  0.292564  1.5e+04
+  574  817    6  0.286868  1.5e+04
+  574  845    6  0.302821  1.5e+04
+  574  862    6  0.496257  1.5e+04
+  574  883    6  0.279328  1.5e+04
+  575  626    6  0.290377  1.5e+04
+  575  712    6  0.366935  1.5e+04
+  575  723    6  0.259692  1.5e+04
+  575  746    6  0.425870  1.5e+04
+  575  769    6  0.467394  1.5e+04
+  576  630    6  0.439878  1.5e+04
+  576  667    6  0.288581  1.5e+04
+  576  678    6  0.474808  1.5e+04
+  576  679    6  0.287059  1.5e+04
+  576  804    6  0.273292  1.5e+04
+  576  823    6  0.373102  1.5e+04
+  576  847    6  0.265650  1.5e+04
+  577  601    6  0.301731  1.5e+04
+  577  659    6  0.498423  1.5e+04
+  577  660    6  0.304473  1.5e+04
+  577  713    6  0.272781  1.5e+04
+  577  785    6  0.482337  1.5e+04
+  577  835    6  0.305387  1.5e+04
+  577  895    6  0.285274  1.5e+04
+  577  900    6  0.274757  1.5e+04
+  578  666    6  0.293797  1.5e+04
+  578  687    6  0.275453  1.5e+04
+  578  718    6  0.270387  1.5e+04
+  578  833    6  0.484470  1.5e+04
+  578  834    6  0.490279  1.5e+04
+  578  886    6  0.439854  1.5e+04
+  578  911    6  0.263640  1.5e+04
+  579  591    6  0.297817  1.5e+04
+  579  774    6  0.311612  1.5e+04
+  579  805    6  0.324781  1.5e+04
+  579  822    6  0.332699  1.5e+04
+  580  695    6  0.352685  1.5e+04
+  580  710    6  0.256945  1.5e+04
+  580  743    6  0.267213  1.5e+04
+  580  751    6  0.459922  1.5e+04
+  580  811    6  0.489009  1.5e+04
+  580  894    6  0.484075  1.5e+04
+  580  898    6  0.260459  1.5e+04
+  581  592    6  0.253056  1.5e+04
+  581  627    6  0.367607  1.5e+04
+  581  687    6  0.494205  1.5e+04
+  581  732    6  0.277731  1.5e+04
+  581  750    6  0.252437  1.5e+04
+  581  810    6  0.274618  1.5e+04
+  581  850    6  0.427530  1.5e+04
+  582  623    6  0.316260  1.5e+04
+  582  777    6  0.281623  1.5e+04
+  582  821    6  0.475786  1.5e+04
+  582  844    6  0.313029  1.5e+04
+  582  861    6  0.293293  1.5e+04
+  582  879    6  0.322981  1.5e+04
+  582  887    6  0.270494  1.5e+04
+  582  912    6  0.361102  1.5e+04
+  583  639    6  0.316896  1.5e+04
+  583  644    6  0.265051  1.5e+04
+  583  675    6  0.286394  1.5e+04
+  583  709    6  0.322244  1.5e+04
+  583  720    6  0.416237  1.5e+04
+  583  790    6  0.492281  1.5e+04
+  583  888    6  0.264069  1.5e+04
+  584  604    6  0.484903  1.5e+04
+  584  705    6  0.487653  1.5e+04
+  584  772    6  0.268090  1.5e+04
+  584  791    6  0.421321  1.5e+04
+  584  820    6  0.284649  1.5e+04
+  584  841    6  0.295452  1.5e+04
+  584  856    6  0.308924  1.5e+04
+  584  869    6  0.332287  1.5e+04
+  585  620    6  0.320351  1.5e+04
+  585  682    6  0.301510  1.5e+04
+  585  690    6  0.280346  1.5e+04
+  585  759    6  0.259712  1.5e+04
+  585  870    6  0.485734  1.5e+04
+  585  901    6  0.263674  1.5e+04
+  586  608    6  0.254507  1.5e+04
+  586  639    6  0.336827  1.5e+04
+  586  709    6  0.334508  1.5e+04
+  586  749    6  0.344907  1.5e+04
+  586  782    6  0.492247  1.5e+04
+  586  790    6  0.492679  1.5e+04
+  586  837    6  0.254512  1.5e+04
+  586  844    6  0.343017  1.5e+04
+  586  896    6  0.492935  1.5e+04
+  586  912    6  0.290628  1.5e+04
+  587  591    6  0.291494  1.5e+04
+  587  645    6  0.308303  1.5e+04
+  587  647    6  0.484967  1.5e+04
+  587  757    6  0.338984  1.5e+04
+  587  778    6  0.262504  1.5e+04
+  587  813    6  0.285838  1.5e+04
+  588  610    6  0.416612  1.5e+04
+  588  612    6  0.260861  1.5e+04
+  588  704    6  0.469597  1.5e+04
+  588  776    6  0.272933  1.5e+04
+  588  830    6  0.485635  1.5e+04
+  588  839    6  0.262356  1.5e+04
+  589  600    6  0.286448  1.5e+04
+  589  646    6  0.482247  1.5e+04
+  589  703    6  0.269324  1.5e+04
+  589  797    6  0.275061  1.5e+04
+  589  817    6  0.318481  1.5e+04
+  589  872    6  0.397053  1.5e+04
+  589  876    6  0.276193  1.5e+04
+  590  601    6  0.499488  1.5e+04
+  590  659    6  0.274884  1.5e+04
+  590  706    6  0.256403  1.5e+04
+  590  713    6  0.303636  1.5e+04
+  590  756    6  0.284189  1.5e+04
+  590  770    6  0.418198  1.5e+04
+  590  785    6  0.277388  1.5e+04
+  590  858    6  0.369946  1.5e+04
+  591  757    6  0.265652  1.5e+04
+  591  778    6  0.448855  1.5e+04
+  591  805    6  0.258836  1.5e+04
+  591  842    6  0.405292  1.5e+04
+  592  624    6  0.268148  1.5e+04
+  592  732    6  0.341040  1.5e+04
+  592  750    6  0.436343  1.5e+04
+  592  810    6  0.498314  1.5e+04
+  592  850    6  0.302835  1.5e+04
+  592  881    6  0.408717  1.5e+04
+  593  648    6  0.480683  1.5e+04
+  593  664    6  0.427634  1.5e+04
+  593  692    6  0.471866  1.5e+04
+  593  763    6  0.461401  1.5e+04
+  593  773    6  0.251711  1.5e+04
+  593  846    6  0.420224  1.5e+04
+  593  848    6  0.265868  1.5e+04
+  593  853    6  0.304920  1.5e+04
+  593  877    6  0.283729  1.5e+04
+  593  892    6  0.284862  1.5e+04
+  594  681    6  0.259411  1.5e+04
+  594  685    6  0.474144  1.5e+04
+  594  736    6  0.346304  1.5e+04
+  594  762    6  0.497110  1.5e+04
+  594  779    6  0.491112  1.5e+04
+  594  849    6  0.272606  1.5e+04
+  594  909    6  0.286418  1.5e+04
+  595  704    6  0.325747  1.5e+04
+  595  707    6  0.247824  1.5e+04
+  595  716    6  0.479493  1.5e+04
+  595  764    6  0.489119  1.5e+04
+  595  809    6  0.399342  1.5e+04
+  595  815    6  0.496867  1.5e+04
+  595  857    6  0.270654  1.5e+04
+  595  902    6  0.267311  1.5e+04
+  595  904    6  0.372226  1.5e+04
+  596  625    6  0.261919  1.5e+04
+  596  643    6  0.404277  1.5e+04
+  596  652    6  0.314619  1.5e+04
+  596  660    6  0.483830  1.5e+04
+  596  678    6  0.489210  1.5e+04
+  596  679    6  0.276128  1.5e+04
+  596  804    6  0.383733  1.5e+04
+  596  893    6  0.296293  1.5e+04
+  597  606    6  0.488749  1.5e+04
+  597  633    6  0.491065  1.5e+04
+  597  641    6  0.251579  1.5e+04
+  597  672    6  0.306804  1.5e+04
+  597  731    6  0.265062  1.5e+04
+  597  768    6  0.339630  1.5e+04
+  597  827    6  0.488188  1.5e+04
+  597  838    6  0.456896  1.5e+04
+  597  897    6  0.295009  1.5e+04
+  598  610    6  0.452626  1.5e+04
+  598  628    6  0.429946  1.5e+04
+  598  662    6  0.287324  1.5e+04
+  598  665    6  0.498012  1.5e+04
+  598  688    6  0.267848  1.5e+04
+  598  839    6  0.275427  1.5e+04
+  598  859    6  0.280093  1.5e+04
+  598  907    6  0.360593  1.5e+04
+  599  605    6  0.275559  1.5e+04
+  599  608    6  0.466610  1.5e+04
+  599  655    6  0.294576  1.5e+04
+  599  656    6  0.288958  1.5e+04
+  599  749    6  0.276734  1.5e+04
+  599  796    6  0.265285  1.5e+04
+  599  798    6  0.330390  1.5e+04
+  600  646    6  0.284275  1.5e+04
+  600  650    6  0.266719  1.5e+04
+  600  797    6  0.299316  1.5e+04
+  600  799    6  0.489413  1.5e+04
+  600  817    6  0.259204  1.5e+04
+  600  876    6  0.439633  1.5e+04
+  600  883    6  0.488837  1.5e+04
+  601  660    6  0.262825  1.5e+04
+  601  713    6  0.303537  1.5e+04
+  601  745    6  0.299926  1.5e+04
+  601  785    6  0.275729  1.5e+04
+  601  868    6  0.307089  1.5e+04
+  601  900    6  0.477452  1.5e+04
+  602  665    6  0.316000  1.5e+04
+  602  730    6  0.275664  1.5e+04
+  602  734    6  0.258500  1.5e+04
+  602  831    6  0.468288  1.5e+04
+  602  871    6  0.266937  1.5e+04
+  602  895    6  0.436665  1.5e+04
+  603  617    6  0.277646  1.5e+04
+  603  663    6  0.449852  1.5e+04
+  603  695    6  0.328375  1.5e+04
+  603  739    6  0.259646  1.5e+04
+  603  811    6  0.269105  1.5e+04
+  603  873    6  0.302595  1.5e+04
+  603  906    6  0.300164  1.5e+04
+  604  618    6  0.452938  1.5e+04
+  604  694    6  0.268752  1.5e+04
+  604  741    6  0.274433  1.5e+04
+  604  791    6  0.387834  1.5e+04
+  604  794    6  0.439517  1.5e+04
+  604  831    6  0.484443  1.5e+04
+  604  856    6  0.323535  1.5e+04
+  604  867    6  0.267212  1.5e+04
+  605  608    6  0.273083  1.5e+04
+  605  655    6  0.277777  1.5e+04
+  605  749    6  0.300627  1.5e+04
+  605  752    6  0.274487  1.5e+04
+  605  890    6  0.451689  1.5e+04
+  605  896    6  0.324991  1.5e+04
+  606  628    6  0.399808  1.5e+04
+  606  631    6  0.273133  1.5e+04
+  606  641    6  0.302857  1.5e+04
+  606  657    6  0.264641  1.5e+04
+  606  768    6  0.262872  1.5e+04
+  606  789    6  0.265867  1.5e+04
+  606  807    6  0.401019  1.5e+04
+  606  826    6  0.490355  1.5e+04
+  607  625    6  0.312773  1.5e+04
+  607  667    6  0.351294  1.5e+04
+  607  677    6  0.282216  1.5e+04
+  607  699    6  0.381810  1.5e+04
+  607  717    6  0.292080  1.5e+04
+  607  804    6  0.284751  1.5e+04
+  608  639    6  0.283133  1.5e+04
+  608  644    6  0.482734  1.5e+04
+  608  709    6  0.449632  1.5e+04
+  608  749    6  0.285745  1.5e+04
+  608  752    6  0.436311  1.5e+04
+  608  837    6  0.496490  1.5e+04
+  608  896    6  0.269969  1.5e+04
+  608  912    6  0.421189  1.5e+04
+  609  621    6  0.474600  1.5e+04
+  609  635    6  0.309060  1.5e+04
+  609  643    6  0.497879  1.5e+04
+  609  696    6  0.415375  1.5e+04
+  609  723    6  0.471309  1.5e+04
+  609  746    6  0.281532  1.5e+04
+  609  814    6  0.271965  1.5e+04
+  609  832    6  0.255097  1.5e+04
+  609  843    6  0.263815  1.5e+04
+  609  903    6  0.462267  1.5e+04
+  610  612    6  0.277688  1.5e+04
+  610  618    6  0.295574  1.5e+04
+  610  694    6  0.307867  1.5e+04
+  610  794    6  0.328634  1.5e+04
+  610  839    6  0.288797  1.5e+04
+  610  859    6  0.263363  1.5e+04
+  611  613    6  0.259740  1.5e+04
+  611  622    6  0.244475  1.5e+04
+  611  691    6  0.398186  1.5e+04
+  611  722    6  0.397786  1.5e+04
+  611  726    6  0.402507  1.5e+04
+  611  758    6  0.256556  1.5e+04
+  611  829    6  0.466122  1.5e+04
+  611  882    6  0.400893  1.5e+04
+  611  891    6  0.269760  1.5e+04
+  612  618    6  0.266460  1.5e+04
+  612  694    6  0.473729  1.5e+04
+  612  776    6  0.473908  1.5e+04
+  612  830    6  0.283007  1.5e+04
+  612  839    6  0.350516  1.5e+04
+  613  622    6  0.383900  1.5e+04
+  613  633    6  0.320370  1.5e+04
+  613  722    6  0.267293  1.5e+04
+  613  726    6  0.279767  1.5e+04
+  613  758    6  0.358861  1.5e+04
+  613  808    6  0.472755  1.5e+04
+  613  826    6  0.287120  1.5e+04
+  613  829    6  0.476179  1.5e+04
+  614  637    6  0.309546  1.5e+04
+  614  668    6  0.285534  1.5e+04
+  614  671    6  0.478839  1.5e+04
+  614  686    6  0.254219  1.5e+04
+  614  711    6  0.254988  1.5e+04
+  614  782    6  0.455199  1.5e+04
+  614  818    6  0.471620  1.5e+04
+  614  864    6  0.378135  1.5e+04
+  614  866    6  0.285778  1.5e+04
+  615  628    6  0.304200  1.5e+04
+  615  641    6  0.459548  1.5e+04
+  615  657    6  0.264393  1.5e+04
+  615  688    6  0.335249  1.5e+04
+  615  727    6  0.288925  1.5e+04
+  615  824    6  0.493602  1.5e+04
+  615  838    6  0.284297  1.5e+04
+  615  878    6  0.256176  1.5e+04
+  615  899    6  0.462278  1.5e+04
+  615  907    6  0.472194  1.5e+04
+  616  640    6  0.409687  1.5e+04
+  616  655    6  0.274335  1.5e+04
+  616  752    6  0.490104  1.5e+04
+  616  798    6  0.305640  1.5e+04
+  616  816    6  0.281211  1.5e+04
+  616  890    6  0.308041  1.5e+04
+  616  894    6  0.294426  1.5e+04
+  616  908    6  0.287672  1.5e+04
+  617  647    6  0.408008  1.5e+04
+  617  663    6  0.255063  1.5e+04
+  617  669    6  0.350053  1.5e+04
+  617  738    6  0.272641  1.5e+04
+  617  739    6  0.488867  1.5e+04
+  617  811    6  0.281764  1.5e+04
+  617  906    6  0.338494  1.5e+04
+  618  694    6  0.268509  1.5e+04
+  618  794    6  0.482363  1.5e+04
+  618  830    6  0.292991  1.5e+04
+  618  856    6  0.258950  1.5e+04
+  618  869    6  0.361693  1.5e+04
+  619  724    6  0.271316  1.5e+04
+  619  740    6  0.328308  1.5e+04
+  619  747    6  0.480843  1.5e+04
+  619  784    6  0.252798  1.5e+04
+  619  809    6  0.426104  1.5e+04
+  619  815    6  0.249144  1.5e+04
+  619  857    6  0.443570  1.5e+04
+  619  874    6  0.405406  1.5e+04
+  619  902    6  0.279494  1.5e+04
+  620  632    6  0.421511  1.5e+04
+  620  682    6  0.258732  1.5e+04
+  620  690    6  0.294305  1.5e+04
+  620  759    6  0.471686  1.5e+04
+  620  845    6  0.280693  1.5e+04
+  621  626    6  0.280674  1.5e+04
+  621  674    6  0.448017  1.5e+04
+  621  698    6  0.269347  1.5e+04
+  621  746    6  0.314982  1.5e+04
+  621  753    6  0.270852  1.5e+04
+  621  814    6  0.255226  1.5e+04
+  621  903    6  0.398445  1.5e+04
+  622  691    6  0.285114  1.5e+04
+  622  716    6  0.497474  1.5e+04
+  622  722    6  0.336531  1.5e+04
+  622  758    6  0.498042  1.5e+04
+  622  829    6  0.259650  1.5e+04
+  622  891    6  0.361885  1.5e+04
+  623  638    6  0.269344  1.5e+04
+  623  645    6  0.490326  1.5e+04
+  623  656    6  0.429416  1.5e+04
+  623  777    6  0.457015  1.5e+04
+  623  788    6  0.281539  1.5e+04
+  623  801    6  0.383292  1.5e+04
+  623  879    6  0.260837  1.5e+04
+  623  887    6  0.271451  1.5e+04
+  624  646    6  0.379056  1.5e+04
+  624  650    6  0.403499  1.5e+04
+  624  685    6  0.445662  1.5e+04
+  624  732    6  0.471601  1.5e+04
+  624  850    6  0.261115  1.5e+04
+  624  862    6  0.248607  1.5e+04
+  624  881    6  0.281101  1.5e+04
+  625  652    6  0.279850  1.5e+04
+  625  677    6  0.484434  1.5e+04
+  625  679    6  0.393266  1.5e+04
+  625  717    6  0.269850  1.5e+04
+  625  769    6  0.432690  1.5e+04
+  625  804    6  0.261008  1.5e+04
+  626  676    6  0.379321  1.5e+04
+  626  723    6  0.351038  1.5e+04
+  626  746    6  0.292019  1.5e+04
+  626  753    6  0.309666  1.5e+04
+  626  814    6  0.463245  1.5e+04
+  627  687    6  0.373260  1.5e+04
+  627  718    6  0.489747  1.5e+04
+  627  750    6  0.257767  1.5e+04
+  627  775    6  0.284522  1.5e+04
+  627  810    6  0.294166  1.5e+04
+  627  834    6  0.274860  1.5e+04
+  628  631    6  0.265965  1.5e+04
+  628  657    6  0.266442  1.5e+04
+  628  688    6  0.255968  1.5e+04
+  628  878    6  0.447132  1.5e+04
+  629  683    6  0.282016  1.5e+04
+  629  700    6  0.472870  1.5e+04
+  629  706    6  0.288578  1.5e+04
+  629  735    6  0.299412  1.5e+04
+  629  759    6  0.463979  1.5e+04
+  629  858    6  0.271298  1.5e+04
+  629  875    6  0.312694  1.5e+04
+  630  680    6  0.387547  1.5e+04
+  630  697    6  0.293895  1.5e+04
+  630  741    6  0.271082  1.5e+04
+  630  791    6  0.266323  1.5e+04
+  630  831    6  0.495435  1.5e+04
+  630  847    6  0.261799  1.5e+04
+  631  657    6  0.355581  1.5e+04
+  631  688    6  0.499171  1.5e+04
+  631  789    6  0.356333  1.5e+04
+  631  807    6  0.259329  1.5e+04
+  632  682    6  0.284898  1.5e+04
+  632  701    6  0.294337  1.5e+04
+  632  799    6  0.266839  1.5e+04
+  632  817    6  0.485809  1.5e+04
+  632  845    6  0.261198  1.5e+04
+  632  852    6  0.315094  1.5e+04
+  632  883    6  0.491717  1.5e+04
+  633  722    6  0.491855  1.5e+04
+  633  726    6  0.256713  1.5e+04
+  633  731    6  0.262467  1.5e+04
+  633  768    6  0.276740  1.5e+04
+  633  789    6  0.412388  1.5e+04
+  633  826    6  0.253047  1.5e+04
+  633  827    6  0.396565  1.5e+04
+  634  659    6  0.444807  1.5e+04
+  634  693    6  0.258337  1.5e+04
+  634  744    6  0.281534  1.5e+04
+  634  770    6  0.266711  1.5e+04
+  634  840    6  0.475434  1.5e+04
+  634  863    6  0.327090  1.5e+04
+  634  875    6  0.443138  1.5e+04
+  635  643    6  0.337491  1.5e+04
+  635  652    6  0.342261  1.5e+04
+  635  723    6  0.299700  1.5e+04
+  635  746    6  0.329508  1.5e+04
+  635  769    6  0.268191  1.5e+04
+  635  832    6  0.270905  1.5e+04
+  636  649    6  0.257313  1.5e+04
+  636  716    6  0.285983  1.5e+04
+  636  747    6  0.450298  1.5e+04
+  636  783    6  0.291002  1.5e+04
+  636  793    6  0.288980  1.5e+04
+  636  854    6  0.444175  1.5e+04
+  636  857    6  0.471157  1.5e+04
+  637  686    6  0.305928  1.5e+04
+  637  780    6  0.303622  1.5e+04
+  637  802    6  0.357926  1.5e+04
+  637  818    6  0.289216  1.5e+04
+  637  866    6  0.282070  1.5e+04
+  638  645    6  0.288057  1.5e+04
+  638  788    6  0.295082  1.5e+04
+  638  801    6  0.318198  1.5e+04
+  638  822    6  0.489532  1.5e+04
+  638  879    6  0.395967  1.5e+04
+  639  644    6  0.270022  1.5e+04
+  639  709    6  0.249205  1.5e+04
+  639  837    6  0.457282  1.5e+04
+  639  860    6  0.467748  1.5e+04
+  639  888    6  0.466102  1.5e+04
+  639  896    6  0.290100  1.5e+04
+  640  766    6  0.288780  1.5e+04
+  640  775    6  0.273272  1.5e+04
+  640  787    6  0.487262  1.5e+04
+  640  816    6  0.261402  1.5e+04
+  640  836    6  0.267009  1.5e+04
+  640  908    6  0.266079  1.5e+04
+  641  657    6  0.264541  1.5e+04
+  641  731    6  0.437177  1.5e+04
+  641  768    6  0.312642  1.5e+04
+  641  838    6  0.295428  1.5e+04
+  641  897    6  0.316444  1.5e+04
+  642  653    6  0.308954  1.5e+04
+  642  748    6  0.496960  1.5e+04
+  642  799    6  0.286496  1.5e+04
+  642  817    6  0.365422  1.5e+04
+  642  852    6  0.302338  1.5e+04
+  642  876    6  0.280808  1.5e+04
+  643  652    6  0.259291  1.5e+04
+  643  696    6  0.375256  1.5e+04
+  643  769    6  0.459845  1.5e+04
+  643  832    6  0.260611  1.5e+04
+  643  868    6  0.302773  1.5e+04
+  644  651    6  0.499240  1.5e+04
+  644  675    6  0.351335  1.5e+04
+  644  709    6  0.452005  1.5e+04
+  644  720    6  0.257093  1.5e+04
+  644  737    6  0.459263  1.5e+04
+  644  860    6  0.292697  1.5e+04
+  644  896    6  0.304007  1.5e+04
+  645  788    6  0.308341  1.5e+04
+  645  813    6  0.304648  1.5e+04
+  646  650    6  0.266059  1.5e+04
+  646  708    6  0.310199  1.5e+04
+  646  732    6  0.463690  1.5e+04
+  646  797    6  0.290331  1.5e+04
+  646  850    6  0.249535  1.5e+04
+  646  862    6  0.414119  1.5e+04
+  647  695    6  0.499566  1.5e+04
+  647  738    6  0.263327  1.5e+04
+  647  757    6  0.285020  1.5e+04
+  647  778    6  0.268048  1.5e+04
+  647  811    6  0.275993  1.5e+04
+  647  842    6  0.441803  1.5e+04
+  647  898    6  0.280966  1.5e+04
+  648  673    6  0.276616  1.5e+04
+  648  689    6  0.497453  1.5e+04
+  648  780    6  0.264816  1.5e+04
+  648  802    6  0.444608  1.5e+04
+  648  806    6  0.279286  1.5e+04
+  648  818    6  0.393658  1.5e+04
+  648  846    6  0.499984  1.5e+04
+  648  853    6  0.276755  1.5e+04
+  648  892    6  0.274024  1.5e+04
+  649  716    6  0.301385  1.5e+04
+  649  740    6  0.476308  1.5e+04
+  649  747    6  0.302068  1.5e+04
+  649  783    6  0.488268  1.5e+04
+  649  793    6  0.321313  1.5e+04
+  649  815    6  0.260174  1.5e+04
+  649  857    6  0.280980  1.5e+04
+  650  685    6  0.499517  1.5e+04
+  650  797    6  0.482873  1.5e+04
+  650  817    6  0.440306  1.5e+04
+  650  850    6  0.442895  1.5e+04
+  650  862    6  0.266376  1.5e+04
+  650  883    6  0.274207  1.5e+04
+  651  654    6  0.304244  1.5e+04
+  651  675    6  0.338009  1.5e+04
+  651  720    6  0.251525  1.5e+04
+  651  737    6  0.357481  1.5e+04
+  651  767    6  0.265178  1.5e+04
+  651  783    6  0.494272  1.5e+04
+  651  819    6  0.499921  1.5e+04
+  651  854    6  0.263696  1.5e+04
+  652  717    6  0.333140  1.5e+04
+  652  769    6  0.282086  1.5e+04
+  652  832    6  0.451101  1.5e+04
+  653  700    6  0.265997  1.5e+04
+  653  701    6  0.480892  1.5e+04
+  653  735    6  0.460013  1.5e+04
+  653  748    6  0.268337  1.5e+04
+  653  799    6  0.481537  1.5e+04
+  653  852    6  0.276239  1.5e+04
+  653  910    6  0.350505  1.5e+04
+  654  720    6  0.416426  1.5e+04
+  654  737    6  0.253273  1.5e+04
+  654  767    6  0.269793  1.5e+04
+  654  781    6  0.289887  1.5e+04
+  654  819    6  0.258448  1.5e+04
+  654  865    6  0.498579  1.5e+04
+  654  886    6  0.384469  1.5e+04
+  655  752    6  0.322321  1.5e+04
+  655  796    6  0.445093  1.5e+04
+  655  798    6  0.282344  1.5e+04
+  655  816    6  0.465543  1.5e+04
+  655  890    6  0.308569  1.5e+04
+  655  894    6  0.467033  1.5e+04
+  656  749    6  0.309859  1.5e+04
+  656  788    6  0.278972  1.5e+04
+  656  796    6  0.287701  1.5e+04
+  656  887    6  0.262115  1.5e+04
+  656  912    6  0.385134  1.5e+04
+  657  688    6  0.468378  1.5e+04
+  657  727    6  0.498204  1.5e+04
+  657  768    6  0.460325  1.5e+04
+  657  838    6  0.307010  1.5e+04
+  657  897    6  0.498205  1.5e+04
+  658  704    6  0.454516  1.5e+04
+  658  705    6  0.269864  1.5e+04
+  658  772    6  0.456919  1.5e+04
+  658  784    6  0.283717  1.5e+04
+  658  809    6  0.260003  1.5e+04
+  658  830    6  0.254702  1.5e+04
+  658  869    6  0.317946  1.5e+04
+  658  874    6  0.469007  1.5e+04
+  658  902    6  0.486839  1.5e+04
+  659  706    6  0.355467  1.5e+04
+  659  713    6  0.281616  1.5e+04
+  659  734    6  0.497361  1.5e+04
+  659  744    6  0.282330  1.5e+04
+  659  770    6  0.266085  1.5e+04
+  659  785    6  0.472077  1.5e+04
+  659  835    6  0.298203  1.5e+04
+  659  875    6  0.498737  1.5e+04
+  660  678    6  0.477576  1.5e+04
+  660  713    6  0.486362  1.5e+04
+  660  745    6  0.496351  1.5e+04
+  660  868    6  0.324280  1.5e+04
+  660  893    6  0.277052  1.5e+04
+  660  900    6  0.293162  1.5e+04
+  661  686    6  0.287782  1.5e+04
+  661  763    6  0.378166  1.5e+04
+  661  818    6  0.271568  1.5e+04
+  661  821    6  0.261579  1.5e+04
+  661  848    6  0.269415  1.5e+04
+  661  853    6  0.337452  1.5e+04
+  661  864    6  0.347551  1.5e+04
+  662  665    6  0.270302  1.5e+04
+  662  688    6  0.400997  1.5e+04
+  662  794    6  0.458285  1.5e+04
+  662  840    6  0.366355  1.5e+04
+  662  859    6  0.283416  1.5e+04
+  662  871    6  0.301742  1.5e+04
+  662  907    6  0.256580  1.5e+04
+  663  669    6  0.281950  1.5e+04
+  663  728    6  0.257222  1.5e+04
+  663  738    6  0.414099  1.5e+04
+  663  786    6  0.337441  1.5e+04
+  663  792    6  0.368307  1.5e+04
+  663  906    6  0.296759  1.5e+04
+  664  670    6  0.296472  1.5e+04
+  664  677    6  0.483737  1.5e+04
+  664  692    6  0.264231  1.5e+04
+  664  699    6  0.319633  1.5e+04
+  664  754    6  0.286706  1.5e+04
+  664  773    6  0.253759  1.5e+04
+  664  812    6  0.460454  1.5e+04
+  664  877    6  0.377267  1.5e+04
+  665  794    6  0.275368  1.5e+04
+  665  859    6  0.310217  1.5e+04
+  665  867    6  0.457986  1.5e+04
+  665  871    6  0.282238  1.5e+04
+  666  687    6  0.290817  1.5e+04
+  666  718    6  0.496477  1.5e+04
+  666  725    6  0.492707  1.5e+04
+  666  750    6  0.406760  1.5e+04
+  666  833    6  0.334122  1.5e+04
+  666  911    6  0.286796  1.5e+04
+  667  795    6  0.299570  1.5e+04
+  667  804    6  0.278671  1.5e+04
+  667  823    6  0.277126  1.5e+04
+  667  846    6  0.478207  1.5e+04
+  667  847    6  0.404544  1.5e+04
+  668  671    6  0.260958  1.5e+04
+  668  711    6  0.311842  1.5e+04
+  668  714    6  0.283016  1.5e+04
+  668  790    6  0.442432  1.5e+04
+  668  866    6  0.279017  1.5e+04
+  668  884    6  0.325256  1.5e+04
+  669  728    6  0.441559  1.5e+04
+  669  738    6  0.275268  1.5e+04
+  669  786    6  0.299582  1.5e+04
+  669  842    6  0.311642  1.5e+04
+  669  855    6  0.417482  1.5e+04
+  670  692    6  0.318017  1.5e+04
+  670  712    6  0.317045  1.5e+04
+  670  754    6  0.276783  1.5e+04
+  670  755    6  0.476054  1.5e+04
+  670  774    6  0.450102  1.5e+04
+  670  812    6  0.255506  1.5e+04
+  671  709    6  0.471791  1.5e+04
+  671  711    6  0.340154  1.5e+04
+  671  714    6  0.306773  1.5e+04
+  671  790    6  0.281456  1.5e+04
+  671  888    6  0.270360  1.5e+04
+  672  729    6  0.475930  1.5e+04
+  672  731    6  0.279706  1.5e+04
+  672  779    6  0.286059  1.5e+04
+  672  827    6  0.274096  1.5e+04
+  672  849    6  0.479763  1.5e+04
+  673  689    6  0.273627  1.5e+04
+  673  795    6  0.265672  1.5e+04
+  673  806    6  0.301557  1.5e+04
+  673  823    6  0.423504  1.5e+04
+  673  846    6  0.369296  1.5e+04
+  673  892    6  0.302245  1.5e+04
+  674  698    6  0.254334  1.5e+04
+  674  721    6  0.310416  1.5e+04
+  674  728    6  0.436575  1.5e+04
+  674  765    6  0.490240  1.5e+04
+  674  786    6  0.298322  1.5e+04
+  674  814    6  0.447144  1.5e+04
+  674  903    6  0.265712  1.5e+04
+  674  905    6  0.264921  1.5e+04
+  675  720    6  0.282428  1.5e+04
+  675  783    6  0.317588  1.5e+04
+  675  854    6  0.287542  1.5e+04
+  675  888    6  0.471953  1.5e+04
+  676  712    6  0.461634  1.5e+04
+  676  753    6  0.263069  1.5e+04
+  676  774    6  0.482142  1.5e+04
+  676  805    6  0.343119  1.5e+04
+  676  855    6  0.275612  1.5e+04
+  677  699    6  0.279460  1.5e+04
+  677  717    6  0.270964  1.5e+04
+  677  754    6  0.261288  1.5e+04
+  677  769    6  0.464068  1.5e+04
+  678  679    6  0.308575  1.5e+04
+  678  697    6  0.319689  1.5e+04
+  678  893    6  0.268204  1.5e+04
+  678  900    6  0.299755  1.5e+04
+  679  804    6  0.301126  1.5e+04
+  679  893    6  0.301422  1.5e+04
+  680  689    6  0.290654  1.5e+04
+  680  791    6  0.282987  1.5e+04
+  680  820    6  0.265676  1.5e+04
+  680  823    6  0.295076  1.5e+04
+  680  847    6  0.278590  1.5e+04
+  681  685    6  0.283432  1.5e+04
+  681  736    6  0.316720  1.5e+04
+  681  849    6  0.432727  1.5e+04
+  681  881    6  0.499581  1.5e+04
+  681  909    6  0.483164  1.5e+04
+  682  683    6  0.455583  1.5e+04
+  682  690    6  0.468310  1.5e+04
+  682  701    6  0.273700  1.5e+04
+  682  759    6  0.280772  1.5e+04
+  682  845    6  0.342531  1.5e+04
+  682  852    6  0.491795  1.5e+04
+  683  700    6  0.286019  1.5e+04
+  683  701    6  0.273680  1.5e+04
+  683  735    6  0.310575  1.5e+04
+  683  759    6  0.288258  1.5e+04
+  683  852    6  0.472192  1.5e+04
+  683  858    6  0.478713  1.5e+04
+  684  719    6  0.401598  1.5e+04
+  684  721    6  0.313445  1.5e+04
+  684  748    6  0.261292  1.5e+04
+  684  765    6  0.287945  1.5e+04
+  684  889    6  0.265645  1.5e+04
+  684  910    6  0.334763  1.5e+04
+  685  762    6  0.499836  1.5e+04
+  685  862    6  0.271362  1.5e+04
+  685  881    6  0.289266  1.5e+04
+  685  883    6  0.340951  1.5e+04
+  686  711    6  0.412612  1.5e+04
+  686  780    6  0.488788  1.5e+04
+  686  782    6  0.463056  1.5e+04
+  686  818    6  0.276396  1.5e+04
+  686  821    6  0.422805  1.5e+04
+  686  864    6  0.255478  1.5e+04
+  686  866    6  0.470351  1.5e+04
+  687  718    6  0.282141  1.5e+04
+  687  750    6  0.244979  1.5e+04
+  687  834    6  0.329093  1.5e+04
+  687  911    6  0.473200  1.5e+04
+  688  878    6  0.298148  1.5e+04
+  688  907    6  0.267051  1.5e+04
+  689  795    6  0.343024  1.5e+04
+  689  806    6  0.339546  1.5e+04
+  689  820    6  0.403479  1.5e+04
+  689  823    6  0.276438  1.5e+04
+  689  847    6  0.472229  1.5e+04
+  690  736    6  0.324678  1.5e+04
+  690  803    6  0.454816  1.5e+04
+  690  870    6  0.270116  1.5e+04
+  690  901    6  0.287380  1.5e+04
+  691  767    6  0.467921  1.5e+04
+  691  829    6  0.483712  1.5e+04
+  691  891    6  0.277380  1.5e+04
+  692  754    6  0.489155  1.5e+04
+  692  755    6  0.277178  1.5e+04
+  692  763    6  0.499771  1.5e+04
+  692  773    6  0.435532  1.5e+04
+  692  812    6  0.301080  1.5e+04
+  692  877    6  0.251741  1.5e+04
+  692  880    6  0.391992  1.5e+04
+  693  744    6  0.452243  1.5e+04
+  693  828    6  0.464340  1.5e+04
+  693  840    6  0.255326  1.5e+04
+  693  863    6  0.271330  1.5e+04
+  693  871    6  0.462498  1.5e+04
+  693  878    6  0.477968  1.5e+04
+  693  899    6  0.272763  1.5e+04
+  693  907    6  0.469175  1.5e+04
+  694  794    6  0.261899  1.5e+04
+  694  856    6  0.327931  1.5e+04
+  694  859    6  0.448481  1.5e+04
+  694  867    6  0.323786  1.5e+04
+  695  710    6  0.266172  1.5e+04
+  695  739    6  0.484895  1.5e+04
+  695  811    6  0.276746  1.5e+04
+  695  825    6  0.364068  1.5e+04
+  695  873    6  0.276435  1.5e+04
+  695  898    6  0.316044  1.5e+04
+  696  745    6  0.268451  1.5e+04
+  696  832    6  0.245924  1.5e+04
+  696  843    6  0.381265  1.5e+04
+  696  868    6  0.294420  1.5e+04
+  696  885    6  0.399778  1.5e+04
+  697  730    6  0.473878  1.5e+04
+  697  741    6  0.295827  1.5e+04
+  697  831    6  0.271998  1.5e+04
+  697  867    6  0.476832  1.5e+04
+  698  753    6  0.297092  1.5e+04
+  698  786    6  0.323134  1.5e+04
+  698  814    6  0.411856  1.5e+04
+  698  855    6  0.468580  1.5e+04
+  698  903    6  0.380203  1.5e+04
+  698  905    6  0.494239  1.5e+04
+  699  754    6  0.303877  1.5e+04
+  699  773    6  0.285195  1.5e+04
+  699  846    6  0.310454  1.5e+04
+  700  701    6  0.306689  1.5e+04
+  700  735    6  0.264369  1.5e+04
+  700  748    6  0.443629  1.5e+04
+  700  852    6  0.291329  1.5e+04
+  700  910    6  0.340121  1.5e+04
+  701  759    6  0.321715  1.5e+04
+  701  799    6  0.454635  1.5e+04
+  701  852    6  0.276690  1.5e+04
+  702  736    6  0.337324  1.5e+04
+  702  803    6  0.400700  1.5e+04
+  702  824    6  0.279381  1.5e+04
+  702  838    6  0.467450  1.5e+04
+  702  849    6  0.270074  1.5e+04
+  702  870    6  0.264929  1.5e+04
+  702  897    6  0.278068  1.5e+04
+  703  739    6  0.254326  1.5e+04
+  703  792    6  0.438239  1.5e+04
+  703  797    6  0.371619  1.5e+04
+  703  872    6  0.272356  1.5e+04
+  703  873    6  0.487339  1.5e+04
+  703  876    6  0.432059  1.5e+04
+  703  906    6  0.380567  1.5e+04
+  704  707    6  0.258755  1.5e+04
+  704  764    6  0.433328  1.5e+04
+  704  776    6  0.292657  1.5e+04
+  704  809    6  0.250936  1.5e+04
+  704  830    6  0.492236  1.5e+04
+  704  902    6  0.384231  1.5e+04
+  705  724    6  0.495981  1.5e+04
+  705  761    6  0.373020  1.5e+04
+  705  772    6  0.243485  1.5e+04
+  705  784    6  0.291116  1.5e+04
+  705  809    6  0.477697  1.5e+04
+  705  830    6  0.453384  1.5e+04
+  705  841    6  0.475484  1.5e+04
+  705  869    6  0.314441  1.5e+04
+  705  874    6  0.258192  1.5e+04
+  706  756    6  0.405818  1.5e+04
+  706  770    6  0.299765  1.5e+04
+  706  858    6  0.302843  1.5e+04
+  706  875    6  0.276420  1.5e+04
+  707  764    6  0.249182  1.5e+04
+  707  776    6  0.320385  1.5e+04
+  707  807    6  0.492278  1.5e+04
+  707  808    6  0.434990  1.5e+04
+  707  809    6  0.470680  1.5e+04
+  707  902    6  0.469431  1.5e+04
+  707  904    6  0.285850  1.5e+04
+  708  732    6  0.310101  1.5e+04
+  708  797    6  0.268615  1.5e+04
+  708  850    6  0.309299  1.5e+04
+  708  872    6  0.347870  1.5e+04
+  709  790    6  0.265972  1.5e+04
+  709  837    6  0.289245  1.5e+04
+  709  888    6  0.299990  1.5e+04
+  710  743    6  0.477522  1.5e+04
+  710  751    6  0.266104  1.5e+04
+  710  760    6  0.471415  1.5e+04
+  710  825    6  0.274078  1.5e+04
+  710  836    6  0.487138  1.5e+04
+  710  873    6  0.412024  1.5e+04
+  710  898    6  0.419956  1.5e+04
+  711  782    6  0.276987  1.5e+04
+  711  790    6  0.260884  1.5e+04
+  711  837    6  0.417240  1.5e+04
+  711  864    6  0.360070  1.5e+04
+  711  866    6  0.486888  1.5e+04
+  712  774    6  0.267471  1.5e+04
+  712  812    6  0.332798  1.5e+04
+  713  744    6  0.486715  1.5e+04
+  713  785    6  0.289973  1.5e+04
+  713  835    6  0.290318  1.5e+04
+  713  895    6  0.473117  1.5e+04
+  714  724    6  0.495654  1.5e+04
+  714  740    6  0.293222  1.5e+04
+  714  747    6  0.305010  1.5e+04
+  714  793    6  0.457632  1.5e+04
+  714  866    6  0.449413  1.5e+04
+  714  884    6  0.283604  1.5e+04
+  715  726    6  0.279223  1.5e+04
+  715  729    6  0.261686  1.5e+04
+  715  758    6  0.264274  1.5e+04
+  715  779    6  0.447308  1.5e+04
+  715  800    6  0.266296  1.5e+04
+  715  827    6  0.273644  1.5e+04
+  715  833    6  0.462707  1.5e+04
+  715  882    6  0.406060  1.5e+04
+  716  815    6  0.498895  1.5e+04
+  716  829    6  0.360962  1.5e+04
+  716  857    6  0.297640  1.5e+04
+  717  723    6  0.499763  1.5e+04
+  717  769    6  0.261367  1.5e+04
+  717  804    6  0.455422  1.5e+04
+  718  750    6  0.493628  1.5e+04
+  718  766    6  0.478093  1.5e+04
+  718  834    6  0.263299  1.5e+04
+  718  886    6  0.294461  1.5e+04
+  719  735    6  0.342453  1.5e+04
+  719  748    6  0.479629  1.5e+04
+  719  756    6  0.298641  1.5e+04
+  719  858    6  0.305346  1.5e+04
+  719  885    6  0.310268  1.5e+04
+  719  889    6  0.270211  1.5e+04
+  719  910    6  0.264269  1.5e+04
+  720  737    6  0.285711  1.5e+04
+  720  854    6  0.422871  1.5e+04
+  720  860    6  0.306004  1.5e+04
+  720  896    6  0.484567  1.5e+04
+  721  733    6  0.454526  1.5e+04
+  721  748    6  0.467126  1.5e+04
+  721  765    6  0.279020  1.5e+04
+  721  889    6  0.494629  1.5e+04
+  721  903    6  0.292676  1.5e+04
+  721  905    6  0.285603  1.5e+04
+  722  808    6  0.293237  1.5e+04
+  722  826    6  0.297319  1.5e+04
+  722  829    6  0.264192  1.5e+04
+  722  904    6  0.312533  1.5e+04
+  723  746    6  0.264201  1.5e+04
+  723  769    6  0.273610  1.5e+04
+  724  740    6  0.259959  1.5e+04
+  724  761    6  0.471354  1.5e+04
+  724  784    6  0.361731  1.5e+04
+  724  815    6  0.433476  1.5e+04
+  724  874    6  0.265975  1.5e+04
+  724  884    6  0.310094  1.5e+04
+  725  729    6  0.298620  1.5e+04
+  725  762    6  0.295592  1.5e+04
+  725  779    6  0.305228  1.5e+04
+  725  833    6  0.264887  1.5e+04
+  725  909    6  0.264319  1.5e+04
+  726  731    6  0.374328  1.5e+04
+  726  758    6  0.283285  1.5e+04
+  726  826    6  0.430686  1.5e+04
+  726  827    6  0.291317  1.5e+04
+  727  803    6  0.393903  1.5e+04
+  727  824    6  0.285297  1.5e+04
+  727  828    6  0.262991  1.5e+04
+  727  838    6  0.290179  1.5e+04
+  727  878    6  0.307847  1.5e+04
+  727  897    6  0.493912  1.5e+04
+  727  899    6  0.323575  1.5e+04
+  728  733    6  0.319355  1.5e+04
+  728  786    6  0.274642  1.5e+04
+  728  792    6  0.266374  1.5e+04
+  728  905    6  0.269338  1.5e+04
+  728  906    6  0.398579  1.5e+04
+  729  779    6  0.258214  1.5e+04
+  729  800    6  0.311742  1.5e+04
+  729  827    6  0.322792  1.5e+04
+  729  833    6  0.276677  1.5e+04
+  729  909    6  0.473683  1.5e+04
+  729  911    6  0.466839  1.5e+04
+  730  734    6  0.343110  1.5e+04
+  730  831    6  0.282012  1.5e+04
+  730  835    6  0.484349  1.5e+04
+  730  867    6  0.491018  1.5e+04
+  730  895    6  0.260891  1.5e+04
+  730  900    6  0.464241  1.5e+04
+  731  768    6  0.282067  1.5e+04
+  731  826    6  0.497597  1.5e+04
+  731  827    6  0.281240  1.5e+04
+  732  760    6  0.448322  1.5e+04
+  732  810    6  0.286044  1.5e+04
+  732  850    6  0.258775  1.5e+04
+  733  792    6  0.287199  1.5e+04
+  733  905    6  0.275728  1.5e+04
+  734  744    6  0.292003  1.5e+04
+  734  835    6  0.278588  1.5e+04
+  734  871    6  0.397515  1.5e+04
+  734  895    6  0.315090  1.5e+04
+  735  756    6  0.482773  1.5e+04
+  735  858    6  0.267057  1.5e+04
+  735  910    6  0.269117  1.5e+04
+  736  849    6  0.259699  1.5e+04
+  736  870    6  0.285683  1.5e+04
+  737  767    6  0.480561  1.5e+04
+  737  781    6  0.282541  1.5e+04
+  737  787    6  0.459397  1.5e+04
+  737  819    6  0.497053  1.5e+04
+  737  851    6  0.296330  1.5e+04
+  737  860    6  0.267989  1.5e+04
+  738  757    6  0.327213  1.5e+04
+  738  778    6  0.498007  1.5e+04
+  738  811    6  0.363817  1.5e+04
+  738  842    6  0.274510  1.5e+04
+  739  792    6  0.484864  1.5e+04
+  739  872    6  0.294760  1.5e+04
+  739  873    6  0.279356  1.5e+04
+  739  906    6  0.280834  1.5e+04
+  740  747    6  0.256404  1.5e+04
+  740  815    6  0.307182  1.5e+04
+  740  884    6  0.286404  1.5e+04
+  741  791    6  0.321892  1.5e+04
+  741  831    6  0.317025  1.5e+04
+  741  867    6  0.297773  1.5e+04
+  742  761    6  0.264322  1.5e+04
+  742  772    6  0.448228  1.5e+04
+  742  780    6  0.460605  1.5e+04
+  742  802    6  0.243835  1.5e+04
+  742  806    6  0.316053  1.5e+04
+  742  820    6  0.483173  1.5e+04
+  742  841    6  0.258343  1.5e+04
+  743  771    6  0.275888  1.5e+04
+  743  798    6  0.440111  1.5e+04
+  743  813    6  0.448008  1.5e+04
+  743  894    6  0.255396  1.5e+04
+  743  898    6  0.452027  1.5e+04
+  743  908    6  0.439489  1.5e+04
+  744  770    6  0.319501  1.5e+04
+  744  835    6  0.288693  1.5e+04
+  745  756    6  0.422486  1.5e+04
+  745  785    6  0.270811  1.5e+04
+  745  868    6  0.280701  1.5e+04
+  745  885    6  0.277684  1.5e+04
+  746  769    6  0.480199  1.5e+04
+  746  814    6  0.295465  1.5e+04
+  746  832    6  0.473611  1.5e+04
+  747  793    6  0.255995  1.5e+04
+  747  815    6  0.302624  1.5e+04
+  747  884    6  0.482327  1.5e+04
+  748  889    6  0.481183  1.5e+04
+  748  910    6  0.258098  1.5e+04
+  749  796    6  0.488025  1.5e+04
+  749  844    6  0.497200  1.5e+04
+  749  887    6  0.385829  1.5e+04
+  749  912    6  0.256111  1.5e+04
+  750  810    6  0.393740  1.5e+04
+  750  834    6  0.406564  1.5e+04
+  751  760    6  0.267301  1.5e+04
+  751  825    6  0.292155  1.5e+04
+  751  836    6  0.254561  1.5e+04
+  751  908    6  0.462767  1.5e+04
+  752  787    6  0.488829  1.5e+04
+  752  851    6  0.304581  1.5e+04
+  752  860    6  0.322367  1.5e+04
+  752  890    6  0.251482  1.5e+04
+  752  896    6  0.270966  1.5e+04
+  753  855    6  0.299661  1.5e+04
+  754  773    6  0.463593  1.5e+04
+  755  763    6  0.482260  1.5e+04
+  755  774    6  0.477429  1.5e+04
+  755  801    6  0.295331  1.5e+04
+  755  812    6  0.279163  1.5e+04
+  755  822    6  0.294929  1.5e+04
+  755  877    6  0.398385  1.5e+04
+  755  879    6  0.438296  1.5e+04
+  755  880    6  0.251105  1.5e+04
+  756  785    6  0.278354  1.5e+04
+  756  858    6  0.252394  1.5e+04
+  756  885    6  0.264414  1.5e+04
+  756  889    6  0.473586  1.5e+04
+  757  778    6  0.303885  1.5e+04
+  757  805    6  0.379878  1.5e+04
+  757  842    6  0.277456  1.5e+04
+  758  800    6  0.360066  1.5e+04
+  758  827    6  0.479347  1.5e+04
+  758  882    6  0.265049  1.5e+04
+  758  891    6  0.344748  1.5e+04
+  759  901    6  0.469374  1.5e+04
+  760  810    6  0.306909  1.5e+04
+  760  825    6  0.304945  1.5e+04
+  760  836    6  0.383768  1.5e+04
+  761  772    6  0.333052  1.5e+04
+  761  802    6  0.387253  1.5e+04
+  761  841    6  0.324866  1.5e+04
+  761  874    6  0.266553  1.5e+04
+  762  833    6  0.488676  1.5e+04
+  762  881    6  0.298888  1.5e+04
+  762  909    6  0.296086  1.5e+04
+  763  777    6  0.288031  1.5e+04
+  763  821    6  0.285304  1.5e+04
+  763  848    6  0.259245  1.5e+04
+  763  861    6  0.496037  1.5e+04
+  763  877    6  0.300219  1.5e+04
+  763  879    6  0.458461  1.5e+04
+  763  880    6  0.257578  1.5e+04
+  764  776    6  0.281484  1.5e+04
+  764  789    6  0.426679  1.5e+04
+  764  807    6  0.248446  1.5e+04
+  764  808    6  0.271900  1.5e+04
+  764  904    6  0.319443  1.5e+04
+  765  814    6  0.447677  1.5e+04
+  765  843    6  0.268456  1.5e+04
+  765  889    6  0.286955  1.5e+04
+  765  903    6  0.288273  1.5e+04
+  766  775    6  0.278896  1.5e+04
+  766  781    6  0.490664  1.5e+04
+  766  787    6  0.278606  1.5e+04
+  766  816    6  0.290431  1.5e+04
+  766  834    6  0.319344  1.5e+04
+  766  890    6  0.484905  1.5e+04
+  767  819    6  0.306624  1.5e+04
+  767  854    6  0.390300  1.5e+04
+  767  865    6  0.396170  1.5e+04
+  768  789    6  0.307069  1.5e+04
+  768  826    6  0.367002  1.5e+04
+  770  875    6  0.274774  1.5e+04
+  771  796    6  0.302044  1.5e+04
+  771  798    6  0.307578  1.5e+04
+  771  813    6  0.298356  1.5e+04
+  771  894    6  0.330633  1.5e+04
+  772  820    6  0.465754  1.5e+04
+  772  841    6  0.256672  1.5e+04
+  772  856    6  0.459691  1.5e+04
+  772  869    6  0.287581  1.5e+04
+  772  874    6  0.402843  1.5e+04
+  773  846    6  0.282137  1.5e+04
+  773  877    6  0.387164  1.5e+04
+  773  892    6  0.339878  1.5e+04
+  774  812    6  0.279701  1.5e+04
+  774  822    6  0.266837  1.5e+04
+  775  810    6  0.467204  1.5e+04
+  775  816    6  0.469162  1.5e+04
+  775  834    6  0.279973  1.5e+04
+  775  836    6  0.349985  1.5e+04
+  776  807    6  0.379721  1.5e+04
+  777  801    6  0.491081  1.5e+04
+  777  821    6  0.285621  1.5e+04
+  777  844    6  0.498140  1.5e+04
+  777  861    6  0.304424  1.5e+04
+  777  879    6  0.265300  1.5e+04
+  777  880    6  0.316063  1.5e+04
+  778  811    6  0.499400  1.5e+04
+  778  813    6  0.321149  1.5e+04
+  778  898    6  0.327623  1.5e+04
+  779  827    6  0.313637  1.5e+04
+  779  833    6  0.464418  1.5e+04
+  779  909    6  0.303909  1.5e+04
+  780  802    6  0.250384  1.5e+04
+  780  806    6  0.325051  1.5e+04
+  780  818    6  0.258330  1.5e+04
+  780  853    6  0.367111  1.5e+04
+  781  787    6  0.289807  1.5e+04
+  781  819    6  0.392493  1.5e+04
+  781  851    6  0.324156  1.5e+04
+  781  860    6  0.487549  1.5e+04
+  781  886    6  0.271899  1.5e+04
+  782  790    6  0.346155  1.5e+04
+  782  821    6  0.475503  1.5e+04
+  782  837    6  0.256910  1.5e+04
+  782  844    6  0.317778  1.5e+04
+  782  861    6  0.318615  1.5e+04
+  782  864    6  0.250970  1.5e+04
+  783  793    6  0.264647  1.5e+04
+  783  854    6  0.252500  1.5e+04
+  784  809    6  0.295426  1.5e+04
+  784  815    6  0.491802  1.5e+04
+  784  874    6  0.296139  1.5e+04
+  784  902    6  0.343078  1.5e+04
+  785  868    6  0.480081  1.5e+04
+  785  885    6  0.345259  1.5e+04
+  786  905    6  0.339475  1.5e+04
+  787  816    6  0.305751  1.5e+04
+  787  851    6  0.255976  1.5e+04
+  787  886    6  0.466407  1.5e+04
+  787  890    6  0.328039  1.5e+04
+  788  796    6  0.388997  1.5e+04
+  788  887    6  0.338245  1.5e+04
+  789  807    6  0.274465  1.5e+04
+  789  808    6  0.291029  1.5e+04
+  789  826    6  0.270133  1.5e+04
+  790  837    6  0.288773  1.5e+04
+  790  888    6  0.299041  1.5e+04
+  791  820    6  0.303442  1.5e+04
+  791  847    6  0.382589  1.5e+04
+  792  905    6  0.446290  1.5e+04
+  792  906    6  0.265141  1.5e+04
+  793  815    6  0.485448  1.5e+04
+  794  859    6  0.278611  1.5e+04
+  794  867    6  0.294752  1.5e+04
+  795  823    6  0.274546  1.5e+04
+  795  846    6  0.278281  1.5e+04
+  795  892    6  0.412980  1.5e+04
+  796  798    6  0.267306  1.5e+04
+  796  813    6  0.477587  1.5e+04
+  796  894    6  0.488111  1.5e+04
+  797  817    6  0.499741  1.5e+04
+  797  850    6  0.465349  1.5e+04
+  797  872    6  0.270926  1.5e+04
+  798  894    6  0.265842  1.5e+04
+  798  908    6  0.475431  1.5e+04
+  799  817    6  0.257494  1.5e+04
+  799  845    6  0.447488  1.5e+04
+  799  852    6  0.269323  1.5e+04
+  799  876    6  0.403814  1.5e+04
+  800  833    6  0.313941  1.5e+04
+  800  882    6  0.290273  1.5e+04
+  800  911    6  0.292101  1.5e+04
+  801  812    6  0.499477  1.5e+04
+  801  822    6  0.294533  1.5e+04
+  801  879    6  0.255553  1.5e+04
+  801  880    6  0.337913  1.5e+04
+  802  806    6  0.311521  1.5e+04
+  802  818    6  0.479109  1.5e+04
+  802  866    6  0.496459  1.5e+04
+  803  824    6  0.264954  1.5e+04
+  803  828    6  0.267259  1.5e+04
+  803  863    6  0.488191  1.5e+04
+  803  870    6  0.271039  1.5e+04
+  803  901    6  0.279638  1.5e+04
+  805  842    6  0.310280  1.5e+04
+  805  855    6  0.275697  1.5e+04
+  806  841    6  0.487503  1.5e+04
+  807  808    6  0.334083  1.5e+04
+  807  826    6  0.492023  1.5e+04
+  808  826    6  0.269405  1.5e+04
+  808  829    6  0.471207  1.5e+04
+  808  904    6  0.273575  1.5e+04
+  809  830    6  0.420087  1.5e+04
+  809  902    6  0.265372  1.5e+04
+  811  873    6  0.456292  1.5e+04
+  811  898    6  0.280524  1.5e+04
+  812  822    6  0.292526  1.5e+04
+  814  843    6  0.317170  1.5e+04
+  814  903    6  0.249098  1.5e+04
+  815  857    6  0.288109  1.5e+04
+  815  902    6  0.334094  1.5e+04
+  816  851    6  0.450973  1.5e+04
+  816  890    6  0.251781  1.5e+04
+  816  908    6  0.363660  1.5e+04
+  817  876    6  0.265490  1.5e+04
+  818  848    6  0.432597  1.5e+04
+  818  853    6  0.277164  1.5e+04
+  818  864    6  0.493783  1.5e+04
+  819  865    6  0.267886  1.5e+04
+  819  886    6  0.278244  1.5e+04
+  820  841    6  0.294898  1.5e+04
+  821  848    6  0.382554  1.5e+04
+  821  861    6  0.269793  1.5e+04
+  821  864    6  0.288405  1.5e+04
+  821  880    6  0.492004  1.5e+04
+  823  847    6  0.269610  1.5e+04
+  824  828    6  0.369706  1.5e+04
+  824  838    6  0.287877  1.5e+04
+  824  870    6  0.362283  1.5e+04
+  824  897    6  0.301389  1.5e+04
+  825  872    6  0.479700  1.5e+04
+  825  873    6  0.283301  1.5e+04
+  826  904    6  0.492274  1.5e+04
+  828  863    6  0.284468  1.5e+04
+  828  878    6  0.449984  1.5e+04
+  828  899    6  0.283185  1.5e+04
+  828  901    6  0.461632  1.5e+04
+  829  904    6  0.299548  1.5e+04
+  830  856    6  0.410435  1.5e+04
+  830  869    6  0.273148  1.5e+04
+  831  867    6  0.281976  1.5e+04
+  832  843    6  0.388938  1.5e+04
+  832  868    6  0.402215  1.5e+04
+  833  911    6  0.251483  1.5e+04
+  834  886    6  0.487433  1.5e+04
+  835  895    6  0.278583  1.5e+04
+  836  908    6  0.296026  1.5e+04
+  837  844    6  0.287809  1.5e+04
+  837  861    6  0.462627  1.5e+04
+  837  912    6  0.422592  1.5e+04
+  838  878    6  0.487829  1.5e+04
+  838  897    6  0.268208  1.5e+04
+  839  859    6  0.318703  1.5e+04
+  840  871    6  0.269344  1.5e+04
+  840  878    6  0.389550  1.5e+04
+  840  899    6  0.332770  1.5e+04
+  840  907    6  0.251565  1.5e+04
+  842  855    6  0.263479  1.5e+04
+  843  889    6  0.421590  1.5e+04
+  843  903    6  0.339926  1.5e+04
+  844  861    6  0.257117  1.5e+04
+  844  864    6  0.468635  1.5e+04
+  844  887    6  0.413546  1.5e+04
+  844  912    6  0.253544  1.5e+04
+  845  883    6  0.282863  1.5e+04
+  846  892    6  0.261186  1.5e+04
+  848  853    6  0.279601  1.5e+04
+  848  877    6  0.303785  1.5e+04
+  848  880    6  0.483022  1.5e+04
+  848  892    6  0.477519  1.5e+04
+  849  870    6  0.421942  1.5e+04
+  849  897    6  0.435052  1.5e+04
+  849  909    6  0.494075  1.5e+04
+  850  862    6  0.442519  1.5e+04
+  851  860    6  0.269837  1.5e+04
+  851  890    6  0.298242  1.5e+04
+  851  896    6  0.449249  1.5e+04
+  853  892    6  0.305329  1.5e+04
+  856  869    6  0.269260  1.5e+04
+  857  902    6  0.295963  1.5e+04
+  858  885    6  0.473789  1.5e+04
+  858  910    6  0.433652  1.5e+04
+  860  890    6  0.484696  1.5e+04
+  860  896    6  0.262697  1.5e+04
+  861  864    6  0.302780  1.5e+04
+  861  912    6  0.478295  1.5e+04
+  862  881    6  0.311316  1.5e+04
+  862  883    6  0.278368  1.5e+04
+  863  899    6  0.304797  1.5e+04
+  865  882    6  0.296568  1.5e+04
+  865  886    6  0.480549  1.5e+04
+  865  891    6  0.358277  1.5e+04
+  866  884    6  0.264553  1.5e+04
+  870  901    6  0.315421  1.5e+04
+  871  907    6  0.394820  1.5e+04
+  872  873    6  0.342848  1.5e+04
+  877  880    6  0.335420  1.5e+04
+  878  899    6  0.253535  1.5e+04
+  878  907    6  0.264946  1.5e+04
+  879  880    6  0.301538  1.5e+04
+  879  887    6  0.463869  1.5e+04
+  882  891    6  0.266284  1.5e+04
+  882  911    6  0.476374  1.5e+04
+  885  889    6  0.298230  1.5e+04
+  887  912    6  0.262913  1.5e+04
+  889  910    6  0.400046  1.5e+04
+  893  900    6  0.306471  1.5e+04
+  894  908    6  0.264860  1.5e+04
+  895  900    6  0.307308  1.5e+04
+  899  907    6  0.390056  1.5e+04
+  903  905    6  0.457657  1.5e+04
+
+[ angles ]
+;  ai   aj   ak  funct  macro 
+    1    2    3    2     ga_1
+    2    3    4    2     ga_1
+    5    6    7    2     ga_1
+    6    7    8    2     ga_1
+    9   10   11    2     ga_1
+   10   11   12    2     ga_1
+   13   14   15    2     ga_1
+   14   15   16    2     ga_1
+   17   18   19    2     ga_1
+   18   19   20    2     ga_1
+   21   22   23    2     ga_1
+   22   23   24    2     ga_1
+   25   26   27    2     ga_1
+   26   27   28    2     ga_1
+   29   30   31    2     ga_1
+   30   31   32    2     ga_1
+   33   34   35    2     ga_1
+   34   35   36    2     ga_1
+   37   38   39    2     ga_1
+   38   39   40    2     ga_1
+   41   42   43    2     ga_1
+   42   43   44    2     ga_1
+   45   46   47    2     ga_1
+   46   47   48    2     ga_1
+   49   50   51    2     ga_1
+   50   51   52    2     ga_1
+   53   54   55    2     ga_1
+   54   55   56    2     ga_1
+   57   58   59    2     ga_1
+   58   59   60    2     ga_1
+   61   62   63    2     ga_1
+   62   63   64    2     ga_1
+   65   66   67    2     ga_1
+   66   67   68    2     ga_1
+   69   70   71    2     ga_1
+   70   71   72    2     ga_1
+   73   74   75    2     ga_1
+   74   75   76    2     ga_1
+   77   78   79    2     ga_1
+   78   79   80    2     ga_1
+   81   82   83    2     ga_1
+   82   83   84    2     ga_1
+   85   86   87    2     ga_1
+   86   87   88    2     ga_1
+   89   90   91    2     ga_1
+   90   91   92    2     ga_1
+   93   94   95    2     ga_1
+   94   95   96    2     ga_1
+   97   98   99    2     ga_1
+   98   99  100    2     ga_1
+  101  102  103    2     ga_1
+  102  103  104    2     ga_1
+  105  106  107    2     ga_1
+  106  107  108    2     ga_1
+  109  110  111    2     ga_1
+  110  111  112    2     ga_1
+  113  114  115    2     ga_1
+  114  115  116    2     ga_1
+  117  118  119    2     ga_1
+  118  119  120    2     ga_1
+  121  122  123    2     ga_1
+  122  123  124    2     ga_1
+  125  126  127    2     ga_1
+  126  127  128    2     ga_1
+  129  130  131    2     ga_1
+  130  131  132    2     ga_1
+  133  134  135    2     ga_1
+  134  135  136    2     ga_1
+  137  138  139    2     ga_1
+  138  139  140    2     ga_1
+  141  142  143    2     ga_1
+  142  143  144    2     ga_1
+  145  146  147    2     ga_1
+  146  147  148    2     ga_1
+  149  150  151    2     ga_1
+  150  151  152    2     ga_1
+  153  154  155    2     ga_1
+  154  155  156    2     ga_1
+  157  158  159    2     ga_1
+  158  159  160    2     ga_1
+  161  162  163    2     ga_1
+  162  163  164    2     ga_1
+  165  166  167    2     ga_1
+  166  167  168    2     ga_1
+  169  170  171    2     ga_1
+  170  171  172    2     ga_1
+  173  174  175    2     ga_1
+  174  175  176    2     ga_1
+  177  178  179    2     ga_1
+  178  179  180    2     ga_1
+  181  182  183    2     ga_1
+  182  183  184    2     ga_1
+  185  186  187    2     ga_1
+  186  187  188    2     ga_1
+  189  190  191    2     ga_1
+  190  191  192    2     ga_1
+  193  194  195    2     ga_1
+  194  195  196    2     ga_1
+  197  198  199    2     ga_1
+  198  199  200    2     ga_1
+  201  202  203    2     ga_1
+  202  203  204    2     ga_1
+  205  206  207    2     ga_1
+  206  207  208    2     ga_1
+  209  210  211    2     ga_1
+  210  211  212    2     ga_1
+  213  214  215    2     ga_1
+  214  215  216    2     ga_1
+  217  218  219    2     ga_1
+  218  219  220    2     ga_1
+  221  222  223    2     ga_1
+  222  223  224    2     ga_1
+  225  226  227    2     ga_1
+  226  227  228    2     ga_1
+  229  230  231    2     ga_1
+  230  231  232    2     ga_1
+  233  234  235    2     ga_1
+  234  235  236    2     ga_1
+  237  238  239    2     ga_1
+  238  239  240    2     ga_1
+  241  242  243    2     ga_1
+  242  243  244    2     ga_1
+  245  246  247    2     ga_1
+  246  247  248    2     ga_1
+  249  250  251    2     ga_1
+  250  251  252    2     ga_1
+  253  254  255    2     ga_1
+  254  255  256    2     ga_1
+  257  258  259    2     ga_1
+  258  259  260    2     ga_1
+  261  262  263    2     ga_1
+  262  263  264    2     ga_1
+  265  266  267    2     ga_1
+  266  267  268    2     ga_1
+  269  270  271    2     ga_1
+  270  271  272    2     ga_1
+  273  274  275    2     ga_1
+  274  275  276    2     ga_1
+  277  278  279    2     ga_1
+  278  279  280    2     ga_1
+  281  282  283    2     ga_1
+  282  283  284    2     ga_1
+  285  286  287    2     ga_1
+  286  287  288    2     ga_1
+  289  290  291    2     ga_1
+  290  291  292    2     ga_1
+  293  294  295    2     ga_1
+  294  295  296    2     ga_1
+  297  298  299    2     ga_1
+  298  299  300    2     ga_1
+  301  302  303    2     ga_1
+  302  303  304    2     ga_1
+  305  306  307    2     ga_1
+  306  307  308    2     ga_1
+  309  310  311    2     ga_1
+  310  311  312    2     ga_1
+  313  314  315    2     ga_1
+  314  315  316    2     ga_1
+  317  318  319    2     ga_1
+  318  319  320    2     ga_1
+  321  322  323    2     ga_1
+  322  323  324    2     ga_1
+  325  326  327    2     ga_1
+  326  327  328    2     ga_1
+  329  330  331    2     ga_1
+  330  331  332    2     ga_1
+  333  334  335    2     ga_1
+  334  335  336    2     ga_1
+  337  338  339    2     ga_1
+  338  339  340    2     ga_1
+  341  342  343    2     ga_1
+  342  343  344    2     ga_1
+  345  346  347    2     ga_1
+  346  347  348    2     ga_1
+  349  350  351    2     ga_1
+  350  351  352    2     ga_1
+  353  354  355    2     ga_1
+  354  355  356    2     ga_1
+  357  358  359    2     ga_1
+  358  359  360    2     ga_1
+  361  362  363    2     ga_1
+  362  363  364    2     ga_1
+  365  366  367    2     ga_1
+  366  367  368    2     ga_1
+  369  370  371    2     ga_1
+  370  371  372    2     ga_1
+  373  374  375    2     ga_1
+  374  375  376    2     ga_1
+  377  378  379    2     ga_1
+  378  379  380    2     ga_1
+  381  382  383    2     ga_1
+  382  383  384    2     ga_1
+  385  386  387    2     ga_1
+  386  387  388    2     ga_1
+  389  390  391    2     ga_1
+  390  391  392    2     ga_1
+  393  394  395    2     ga_1
+  394  395  396    2     ga_1
+  397  398  399    2     ga_1
+  398  399  400    2     ga_1
+  401  402  403    2     ga_1
+  402  403  404    2     ga_1
+  405  406  407    2     ga_1
+  406  407  408    2     ga_1
+  409  410  411    2     ga_1
+  410  411  412    2     ga_1
+  413  414  415    2     ga_1
+  414  415  416    2     ga_1
+  417  418  419    2     ga_1
+  418  419  420    2     ga_1
+  421  422  423    2     ga_1
+  422  423  424    2     ga_1
+  425  426  427    2     ga_1
+  426  427  428    2     ga_1
+  429  430  431    2     ga_1
+  430  431  432    2     ga_1
+  433  434  435    2     ga_1
+  434  435  436    2     ga_1
+  437  438  439    2     ga_1
+  438  439  440    2     ga_1
+  441  442  443    2     ga_1
+  442  443  444    2     ga_1
+  445  446  447    2     ga_1
+  446  447  448    2     ga_1
+  449  450  451    2     ga_1
+  450  451  452    2     ga_1
+  453  454  455    2     ga_1
+  454  455  456    2     ga_1
+  457  458  459    2     ga_1
+  458  459  460    2     ga_1
+  461  462  463    2     ga_1
+  462  463  464    2     ga_1
+  465  466  467    2     ga_1
+  466  467  468    2     ga_1
+  469  470  471    2     ga_1
+  470  471  472    2     ga_1
+  473  474  475    2     ga_1
+  474  475  476    2     ga_1
+  477  478  479    2     ga_1
+  478  479  480    2     ga_1
+  481  482  483    2     ga_1
+  482  483  484    2     ga_1
+  485  486  487    2     ga_1
+  486  487  488    2     ga_1
+  489  490  491    2     ga_1
+  490  491  492    2     ga_1
+  493  494  495    2     ga_1
+  494  495  496    2     ga_1
+  497  498  499    2     ga_1
+  498  499  500    2     ga_1
+  501  502  503    2     ga_1
+  502  503  504    2     ga_1
+  505  506  507    2     ga_1
+  506  507  508    2     ga_1
+  509  510  511    2     ga_1
+  510  511  512    2     ga_1
+  513  514  515    2     ga_1
+  514  515  516    2     ga_1
+  517  518  519    2     ga_1
+  518  519  520    2     ga_1
