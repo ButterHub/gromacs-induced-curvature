@@ -2,8 +2,8 @@
 #SBATCH -J UEYB-31
 #SBATCH -o pmf-31.out
 #SBATCH -N 1
-#SBATCH -n 8 
-#SBATCH -p regular-cpu 
+#SBATCH -n 64 
+#SBATCH -p extended-cpu 
 
 grompp -f pull_eq_31.mdp -c solution_em.gro -n solution.ndx -p solution.top -o pulling_31_eq -maxwarn 1 
 mdrun -v -deffnm pulling_31_eq

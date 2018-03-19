@@ -2,8 +2,8 @@
 #SBATCH -J UEYB-10
 #SBATCH -o pmf-10.out
 #SBATCH -N 1
-#SBATCH -n 8 
-#SBATCH -p regular-cpu 
+#SBATCH -n 16 
+#SBATCH -p extended-mem 
 
 grompp -f pull_eq_10.mdp -c solution_em.gro -n solution.ndx -p solution.top -o pulling_10_eq -maxwarn 1 
 mdrun -v -deffnm pulling_10_eq

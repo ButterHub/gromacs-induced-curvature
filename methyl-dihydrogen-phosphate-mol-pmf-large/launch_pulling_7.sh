@@ -2,8 +2,8 @@
 #SBATCH -J UEYB-7
 #SBATCH -o pmf-7.out
 #SBATCH -N 1
-#SBATCH -n 8 
-#SBATCH -p regular-cpu 
+#SBATCH -n 16 
+#SBATCH -p extended-mem 
 
 grompp -f pull_eq_7.mdp -c solution_em.gro -n solution.ndx -p solution.top -o pulling_7_eq -maxwarn 1 
 mdrun -v -deffnm pulling_7_eq

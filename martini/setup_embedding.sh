@@ -20,15 +20,17 @@ cp ../includes/minim.mdp .
 cp ../includes/${NP}.* .
 cp ../includes/dry_martini_bilayer_*.mdp .
 cp ../includes/dry_martini_np*.mdp .
-cp ../includes/${LIPID,,}-bilayer.gro bilayer.gro
+cp ../includes/${LIPID,,}-bilayer-${NNP}.gro bilayer.gro
 cp ../includes/counterion.gro .
 
 # Get box size on bilayer
 BOX=$(cat bilayer.gro | tail -n1)
 BOX_X=$(echo $BOX | awk '{print $1}')
 BOX_Y=$(echo $BOX | awk '{print $2}')
+UNIT_CELL_X=$(echo "$BOX_Y/$NGRID" | bc -l)
+UNIT_CELL_Y=$(echo "$BOX_Y/$NGRID" | bc -l)
 # Unit cell of NP
-editconf -box $BOX_X $BOX_Y 10 -f ${NP}.gro -o ${NP}.gro
+editconf -box $UNIT_CELL_X $UNIT_CELL_Y 10 -f ${NP}.gro -o ${NP}.gro
 # Grid of NP
 genconf -nbox ${NGRID} ${NGRID} 1 -f ${NP}.gro -o ${NP}.gro
 
@@ -37,7 +39,15 @@ genconf -nbox ${NGRID} ${NGRID} 1 -f ${NP}.gro -o ${NP}.gro
 echo "${NP} in ${LIPID,,} system" > merged.gro
 tail -n+3 ${NP}.gro | head -n-1 >> merged.gro
 tail -n+3 bilayer.gro >> merged.gro
+
+# Reorder and renumber
+#sed -i -e '/MUS/{H;d}' -e '${x;s/^\n//p;x}' merged.gro
+#sed -i -e '/AU/{H;d}' -e '${x;s/^\n//p;x}' merged.gro
+sed -i -e '/DOPC/{H;d}' -e '${x;s/^\n//p;x}' merged.gro
 sed -i "2i $(printf "%5d" "$(echo "$(cat merged.gro | wc -l) - 2" | bc)")" merged.gro
+editconf -f merged.gro -o merged.gro -resnr 1 
+# TODO Combined gro files needs manual fixing. Recount atoms. 
+# REMOVAL of TRJCONV NOTES
 
 make_ndx -f merged.gro -o index.ndx <<EOF
 keep 0
@@ -59,13 +69,13 @@ genrestr -fc 1000 1000 0 -f merged.gro -n index.ndx -o ${NP}-posres.itp<<EOF
 AU
 EOF
 
+#include "${NP}-posres.itp"
 cat > topol.top <<EOF
 #include "dry_martini_v2.1.itp"
 #include "dry_martini_v2.1_ions.itp"
 #include "dry_martini_v2.1_solvents.itp"
 #include "dry_martini_v2.1_lipids.itp"
 #include "${NP}.itp"
-#include "${NP}-posres.itp"
 
 [ system ]
 $NNP ${NP} in ${LIPID,,} bilayer
@@ -78,16 +88,30 @@ echo "$LIPID    $NLIPIDS" >> topol.top
 
 # Translate NP (prevent initial bilayer-np overlap)
 grompp -f minim.mdp -c merged.gro -p topol.top -n index.ndx -o dummy.tpr
-editconf -f merged.gro -n index.ndx -o merged-trans.gro -translate 0 0 ${DTRANS}<<EOF
+editconf -f merged.gro -n index.ndx -o merged.gro -translate 0 0 ${DTRANS}<<EOF
 NP
 System
 EOF
 
 # Neutralise ligand charges by adding NA beads.
 grompp -f minim.mdp -c merged.gro -p topol.top -o ions.tpr
-genbox -p topol.top -cp merged.gro -ci counterion.gro -o merged-neutral.gro -nmol $NIONS
+genbox -p topol.top -cp merged.gro -ci counterion.gro -o merged.gro -nmol $NIONS
+echo "NA+    $NIONS" >> topol.top
 
-# Energy minimisation
+# TODO Issues with nan in EM
+# TODO Issues with POSRES ITP file.
+
+# ATTEMPT AT FIXING -nan. Also manually deleted one overlap
+trjconv -f merged.gro -pbc mol -o merged.gro<<EOF
+0
+EOF
+BOX=$(cat merged.gro | tail -n1)
+BOX_X=$(echo "$(echo $BOX | awk '{print $1}')+1" | bc -l)
+BOX_Y=$(echo "$(echo $BOX | awk '{print $2}')+1" | bc -l)
+BOX_Z=$(echo "$(echo $BOX | awk '{print $3}')+1" | bc -l)
+editconf -f merged.gro -o merged.gro -box $BOX_X $BOX_Y $BOX_Z 
+
+# EM
 grompp -f minim.mdp -c merged.gro -p topol.top -n index.ndx -o system_em.tpr
 mdrun -v -deffnm system_em
 
@@ -106,4 +130,3 @@ mdrun -v -deffnm eq
 #MD
 
 EOF
-# TODO Fix this script. Segmentation fault
