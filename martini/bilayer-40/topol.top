@@ -1,0 +1,10 @@
+#include "dry_martini_v2.1.itp"
+#include "dry_martini_v2.1_ions.itp"
+#include "dry_martini_v2.1_solvents.itp"
+#include "dry_martini_v2.1_lipids.itp"
+
+[ system ]
+bilayer-40
+
+[ molecules ]
+DOPC    5408

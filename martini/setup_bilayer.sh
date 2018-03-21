@@ -6,7 +6,7 @@ mkdir $CASENAME
 cd $CASENAME
 cp ../includes/dry_martini*.itp .
 cp ../includes/minim.mdp .
-cp ../includes/dry_martini_bilayer_eq.mdp .
+cp ../includes/dry_martini_bilayer_*eq.mdp .
 cp ../includes/template_sd.mdp .
 
 python ../includes/insane.py -l DOPC -x $SIZE -y $SIZE -z $SIZE -d 0 -pbc cubic -sol W -o lipids.gro
@@ -48,7 +48,7 @@ cat >launch.sh<<EOF
 #SBATCH -n 64
 #SBATCH -p extended-cpu
 
-grompp -f dry_martini_bilayer_eq.mdp -c em.gro -p topol.top -n index.ndx -o eq.tpr
+grompp -f dry_martini_bilayer_preq.mdp -c em.gro -p topol.top -n index.ndx -o eq.tpr
 mdrun -v -deffnm eq
 EOF
 # TODO Fix mdp file
