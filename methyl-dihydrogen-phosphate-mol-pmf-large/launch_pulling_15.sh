@@ -1,13 +1,8 @@
 #!/bin/bash
-#SBATCH -J UEYB-15
+#SBATCH -J 15-UEYB
 #SBATCH -o pmf-15.out
 #SBATCH -N 1
-#SBATCH -n 16 
-#SBATCH -p extended-mem 
-
-grompp -f pull_eq_15.mdp -c solution_em.gro -n solution.ndx -p solution.top -o pulling_15_eq -maxwarn 1 
-mdrun -v -deffnm pulling_15_eq
-
-grompp -f pull_md_15.mdp -c pulling_15_eq.gro -n solution.ndx -p solution.top -o pulling_15_md -maxwarn 1 
+#SBATCH -n 64
+#SBATCH -p extended-cpu
 mdrun -v -pf pullf_15.xvg -px pullx_15.xvg -deffnm pulling_15_md -cpi pulling_15_md.cpt
 

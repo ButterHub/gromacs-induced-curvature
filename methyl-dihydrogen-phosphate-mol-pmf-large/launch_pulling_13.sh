@@ -1,13 +1,8 @@
 #!/bin/bash
-#SBATCH -J UEYB-13
+#SBATCH -J 13-UEYB
 #SBATCH -o pmf-13.out
 #SBATCH -N 1
-#SBATCH -n 16 
-#SBATCH -p extended-mem 
-
-grompp -f pull_eq_13.mdp -c solution_em.gro -n solution.ndx -p solution.top -o pulling_13_eq -maxwarn 1 
-mdrun -v -deffnm pulling_13_eq
-
-grompp -f pull_md_13.mdp -c pulling_13_eq.gro -n solution.ndx -p solution.top -o pulling_13_md -maxwarn 1 
+#SBATCH -n 64
+#SBATCH -p extended-cpu
 mdrun -v -pf pullf_13.xvg -px pullx_13.xvg -deffnm pulling_13_md -cpi pulling_13_md.cpt
 
