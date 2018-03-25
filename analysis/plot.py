@@ -7,7 +7,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 mols = ['methyl-phosphate-mol-pmf.xvg', 'methyl-hydrogen-phosphate-mol-pmf.xvg', 'methyl-dihydrogen-phosphate-mol-pmf.xvg', 'methyl-sulfonate-mol-pmf.xvg']
-molsL = ['methyl-phosphate-mol-pmf-large.xvg']
+molsL = ['methyl-phosphate-mol-pmf-large.xvg', 'methyl-hydrogen-phosphate-mol-pmf-large.xvg', 'methyl-dihydrogen-phosphate-mol-pmf-large.xvg', 'methyl-sulfonate-mol-pmf-large.xvg']
 ions = ['na-mol-pmf.xvg', 'ca-mol-pmf.xvg']
 nps = ['mus-2nm-sym-pmf.xvg', 'dopc494-mus-ot-2nm-sym-pmf.xvg', 'dopc398-ribbon-mus-ot-2nm-asym-pmf.xvg']
 water = ['water-pmf.xvg']
