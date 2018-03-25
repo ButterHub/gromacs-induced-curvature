@@ -13,3 +13,6 @@ Some PMFs are shown below:
 Cases:
 dopc494 (from rvan) is a bilayer.
 dopc398 (from rvan) is a ribbon.
+VQJG is MHP
+UEYB is MDP
+_K04 is MP
