@@ -2,8 +2,8 @@
 #SBATCH -J 27-VQJG
 #SBATCH -o pmf-27.out
 #SBATCH -N 1
-#SBATCH -n 32
-#SBATCH -p extended-mem
+#SBATCH -n 64
+#SBATCH -p extended-cpu
 
 mdrun -v -deffnm pulling_27_eq
 

@@ -1,10 +1,10 @@
-# This file was created Sun Mar 25 09:59:15 2018
+# This file was created Sun Mar 25 10:14:42 2018
 # by the following command:
 # g_wham -it tpr-files.dat -if pullf-files.dat -b 2000 -o -hist -unit kCal 
 #
 # g_wham is part of G R O M A C S:
 #
-# Getting the Right Output Means no Artefacts in Calculating Stuff
+# Great Red Owns Many ACres of Sand 
 #
 #    title "Umbrella potential"
 #    xaxis  label "z"
