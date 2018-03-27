@@ -1,12 +1,12 @@
 # Prepares Dry Martini Bilayer of DOPC
 CASENAME=bilayer
-SIZE=10
+SIZE=40
 CASENAME=$CASENAME-$SIZE
 mkdir $CASENAME
 cd $CASENAME
 cp ../includes/dry_martini*.itp .
 cp ../includes/minim.mdp .
-cp ../includes/dry_martini_bilayer_*eq.mdp .
+cp ../includes/dry_martini_bilayer_*eq*.mdp .
 cp ../includes/template_sd.mdp .
 
 python ../includes/insane.py -l DOPC -x $SIZE -y $SIZE -z $SIZE -d 0 -pbc cubic -sol W -o lipids.gro

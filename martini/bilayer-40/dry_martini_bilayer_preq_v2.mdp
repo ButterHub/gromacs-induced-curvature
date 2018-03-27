@@ -1,0 +1,68 @@
+; EQUILIBRATION FOR SINGLE LIPID SYSTEM
+; MARTINI 2.x & GROMACS 4.6.5
+; Adrian Butterworth's MD parameters
+; Based off martini_eq.mdp from cgmartini.nl tutorial
+; and Dry Martini paper
+
+; Timestep details
+integrator		= md
+dt			= 0.03
+nsteps			= 50000
+nstcomm			= 100
+
+; Output
+nstxout			= 0
+nstvout			= 0
+nstfout			= 0
+nstlog			= 1000
+nstenergy		= 1000
+nstxtcout		= 300
+xtc-precision		= 100
+energygrps		= Lipids
+
+; Neighbourlist and Martini
+nstlist			= 10
+ns-type			= grid
+pbc			= xyz
+rlist			= 1.4
+
+; Interaction Cutoff Scheme
+; Coulomb/ electrostatics
+coulombtype		= Shift
+rcoulomb-switch		= 0
+rcoulomb		= 1.2
+epsilon-r		= 15
+
+; vdW
+vdwtype			= Shift
+rvdw-switch		= 0.9 ; begin shift
+rvdw			= 1.2 ; cutfoff
+
+; Temperature coupling
+tcoupl			= v-rescale
+tc-grps			= Lipids
+tau-t			= 1.0
+ref-t			= 310
+
+; Pressure coupling
+pcoupl			= berendsen
+pcoupltype		= semiisotropic
+compressibility		= 3e-4 0
+tau-p			= 4.0 4.0
+ref-p			= 1.0 1.0
+
+; Velocity generation
+gen-vel			= yes
+gen-temp		= 310
+gen-seed		=  -1
+
+; Constraints
+constraints		= none
+constraint_algorithm	= Lincs
+continuation		= no
+lincs-order		= 4
+lincs-warnangle		= 30
+
+comm-mode		= Linear
+comm-grps		= System
+refcoord-scaling	= com
