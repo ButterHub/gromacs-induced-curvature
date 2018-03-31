@@ -14,18 +14,21 @@ nstxtcout                = 300
 xtc_precision            = 100
 energygrps               = Lipids 
 
-nstlist                  = 10
+cutoff-scheme		 = Verlet
+nstlist                  = 20
 ns_type                  = grid
 pbc                      = xyz
-rlist                    = 1.4
+;rlist                    = 1.4
+verlet-buffer-tolerance  = 0.005
 
-coulombtype              = Shift 
-rcoulomb_switch          = 0.0
-rcoulomb                 = 1.2
+coulombtype              = reaction-field
+;rcoulomb_switch          = 0.0
+rcoulomb                 = 1.1
 epsilon_r                = 15
+epsilon_rf		 = 0
 vdw_type                 = Shift 
-rvdw_switch              = 0.9
-rvdw                     = 1.2
+;rvdw_switch              = 0.9
+rvdw                     = 1.1
 
 tcoupl                   = v-rescale
 tc-grps                  = Lipids

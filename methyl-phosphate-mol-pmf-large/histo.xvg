@@ -1,10 +1,10 @@
-# This file was created Sun Mar 25 09:59:44 2018
+# This file was created Sat Mar 31 10:32:17 2018
 # by the following command:
 # g_wham -it tpr-files.dat -if pullf-files.dat -b 2000 -o -hist -unit kCal 
 #
 # g_wham is part of G R O M A C S:
 #
-# GRoups of Organic Molecules in ACtion for Science
+# GROningen MAchine for Chemical Simulation
 #
 @    title "Umbrella histograms"
 @    xaxis  label "z"

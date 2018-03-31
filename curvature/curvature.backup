@@ -8,7 +8,7 @@ from scipy.optimize import curve_fit
 
 # VARIABLES
 DIR = "/old/rvanlehn/planar_insertion/unbiased/musot/ribbon_extended/unb_7_2500ps_1"
-HEAD = "O* P*"
+HEAD = "O* P*" #(Nitrogen trimethyl)
 GRO = "{}/ribbon_musot_7_2500ps_1_400ns_center.gro".format(DIR)
 XTC = "{}/ribbon_musot_7_2500ps_1_400ns_center.xtc".format(DIR)
 u = mda.Universe(GRO, XTC) # Universe created
@@ -30,8 +30,8 @@ time = np.array([])
 for ts in u.trajectory:
     print ts.frame
     lipids_com = u.select_atoms("resname DOPC").center_of_mass()
-    u_heads = u.select_atoms("resname DOPC and prop x>65 and prop x<165 and prop z>{} and name {}".format(lipids_com[2],HEAD))
-    l_heads = u.select_atoms("resname DOPC and prop x>65 and prop x<165 and prop z<{} and name {}".format(lipids_com[2],HEAD))
+    u_heads = u.select_atoms("prop x>65 and prop x<165 and prop z>{} and name {}".format(lipids_com[2],HEAD))
+    l_heads = u.select_atoms("prop x>65 and prop x<165 and prop z<{} and name {}".format(lipids_com[2],HEAD))
     # u_heads_pos = u_heads.positions
     l_heads_pos = l_heads.positions 
     x = [sublist[0] for sublist in l_heads_pos]
@@ -41,7 +41,7 @@ for ts in u.trajectory:
     p_initial = [1.0, 115.0, 0.1]
     # TODO Fix negative variances and failed calculations
     popt_UXZ, pcov_UXZ = curve_fit(gauss, x, z, p0=p_initial, maxfev = 10000000)
-    popt_UYZ, pcov_UYZ = curve_fit(gauss, y, z, p0=p_initial, maxfev = 10000000)
+    # popt_UYZ, pcov_UYZ = curve_fit(gauss, y, z, p0=p_initial)
     result_UXZ = popt_UXZ[2] #2 is variance. Or can switch to 2nd derivative at peak.
     result_UYZ = popt_UYZ[2]
     # Save to curvature array.
@@ -49,14 +49,7 @@ for ts in u.trajectory:
     curvatureYZ = np.append(curvatureYZ, result_UYZ)
     time = np.append(time, ts.time) #time in ps
 
-np.savetxt('Lower_Curvature.txt', np.c[time, curvatureXZ, curvatureYZ])
-# plt.plot(time, curvatureXZ, 'rx', label='data')
-# plt.plot(x, z, 'rx')
-# plt.plot(time, curvatureYZ)
-
-# Plot fitted curve
-# x_fit = np.linspace(65,165,1000)
-# z_fit = gauss(x_fit, *popt_UXZ)
-# plt.plot(x_fit, z_fit, 'b-', label='fit')
-# plt.show()
+np.savetxt('Upper_Curvature.txt', np.c[time, curvatureXZ, curvatureYZ])
+plt.plot(time, curvatureXZ)
+plt.plot(time, curvatureYZ)
 
