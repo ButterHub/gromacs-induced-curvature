@@ -26,6 +26,7 @@ for i, molecule in enumerate(files):
         yShift=y-np.amin(y)
         plt.plot(x, yShift, label=mol, linewidth=2)
     legend = ax.legend(loc='upper center', shadow=True)
+    plt.xlim(xmax=3.5)
 
     date=time.strftime("%Y_%m_%d")
     plt.savefig("convergencePMF-{0}-{1}.pdf".format(molecule, date))
