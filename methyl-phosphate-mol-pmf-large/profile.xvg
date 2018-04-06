@@ -1,10 +1,10 @@
-# This file was created Sat Mar 31 10:32:19 2018
+# This file was created Fri Apr  6 10:04:40 2018
 # by the following command:
 # g_wham -it tpr-files.dat -if pullf-files.dat -b 2000 -o -hist -unit kCal 
 #
 # g_wham is part of G R O M A C S:
 #
-# Gallium Rubidium Oxygen Manganese Argon Carbon Silicon
+# GROup of MAchos and Cynical Suckers
 #
 #    title "Umbrella potential"
 #    xaxis  label "z"
