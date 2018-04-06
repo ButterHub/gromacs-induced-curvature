@@ -22,5 +22,9 @@ for file in os.listdir(cwd):
 		PMFs = np.append(PMFs, PMF)
 
 # Save files
-plt.plot(times,PMFs, "rx")
+times= times.astype(np.int)
+times_ps = times*20
+plt.plot(times_ps,PMFs, "rx")
+plt.ylabel('PMF')
+plt.xlabel('Sampling time / ns')
 plt.savefig("convergence.pdf")
