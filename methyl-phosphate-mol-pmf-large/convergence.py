@@ -23,7 +23,7 @@ for file in os.listdir(cwd):
 
 # Save files
 times= times.astype(np.int)
-times_ps = times*20
+times_ps = times*3
 plt.plot(times_ps,PMFs, "rx")
 plt.ylabel('PMF')
 plt.xlabel('Sampling time / ns')
