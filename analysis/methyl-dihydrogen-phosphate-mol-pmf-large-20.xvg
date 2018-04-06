@@ -1,10 +1,10 @@
-# This file was created Fri Apr  6 11:31:43 2018
+# This file was created Fri Apr  6 12:14:56 2018
 # by the following command:
 # g_wham -it tpr-files.dat -if pullf-files.dat -b 2000 -e 20000 -o -hist -unit kCal 
 #
 # g_wham is part of G R O M A C S:
 #
-# GRowing Old MAkes el Chrono Sweat
+# Guyana Rwanda Oman Macau Angola Cameroon Senegal
 #
 #    title "Umbrella potential"
 #    xaxis  label "z"

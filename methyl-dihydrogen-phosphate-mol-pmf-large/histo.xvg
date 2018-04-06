@@ -1,10 +1,10 @@
-# This file was created Fri Apr  6 12:13:04 2018
+# This file was created Fri Apr  6 12:15:08 2018
 # by the following command:
-# g_wham -it tpr-files.dat -if pullf-files.dat -b 2000 -e 60000 -o -hist -unit kCal 
+# g_wham -it tpr-files.dat -if pullf-files.dat -b 2000 -o -hist -unit kCal 
 #
 # g_wham is part of G R O M A C S:
 #
-# Gromacs Runs On Most of All Computer Systems
+# S  C  A  M  O  R  G
 #
 @    title "Umbrella histograms"
 @    xaxis  label "z"
