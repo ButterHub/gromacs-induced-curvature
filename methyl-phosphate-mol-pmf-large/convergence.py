@@ -22,5 +22,5 @@ for file in os.listdir(cwd):
 		PMFs = np.append(PMFs, PMF)
 
 # Save files
-plt.plot(times,PMFs)
+plt.plot(times,PMFs, "rx")
 plt.savefig("convergence.pdf")
