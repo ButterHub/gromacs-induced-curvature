@@ -22,7 +22,7 @@ for i, molecule in enumerate(files):
 
     # Loop over 20 40 60ns
     for i, mol in enumerate(molecules):
-        x, y = np.genfromtxt("".format(mol), unpack=True, dtype="float_")
+        x, y = np.genfromtxt(mol, unpack=True, dtype="float_")
         yShift=y-np.amin(y)
         plt.plot(x, yShift, label=mol, linewidth=2)
     legend = ax.legend(loc='upper center', shadow=True)
