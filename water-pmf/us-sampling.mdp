@@ -1,0 +1,65 @@
+
+title               = umbrella sampling
+
+integrator          = md
+nsteps              = 5000000; As per ACS paper...60ns sampling time -> 60ns/0.000002ns/step-> 30,000,000steps
+;distance in nm, time in ns.
+dt                  = 0.002;don't change this. picoseonds...therefore 0.000002ns
+;10ns -> 10000ps -> 5000000 stetps ->
+
+nstxout             = 50000
+nstvout             = 50000
+nstxtcout           = 1000
+nstenergy           = 1000
+nstlog              = 1000
+energygrps          = Lipids Solvent
+
+ns_type             = grid
+nstlist             = 5
+rlist               = 1.0 
+rcoulomb            = 1.0 
+rvdw                = 1.0 
+pbc                 = xyz 
+DispCorr            = EnerPres
+
+coulombtype         = PME 
+pme_order           = 4
+fourierspacing      = 0.16
+
+tcoupl              = V-rescale
+tc-grps             = Lipids Solvent
+tau_t               = 0.1 0.1 
+ref_t               = 310 310
+
+pcoupl              = parrinello-rahman
+pcoupltype          = semiisotropic
+tau_p               = 2.0 
+ref_p               = 1.0 1.0
+compressibility     = 4.5e-5 4.5e-5
+
+gen_vel             = no
+gen_temp            = 310 
+gen_seed            = -1
+continuation        = yes 
+
+constraint_algorithm = lincs
+constraints         = all-bonds
+lincs_iter          = 1
+lincs_order         = 4
+
+comm-mode           = Linear
+comm-grps           = System
+refcoord_scaling    = com
+
+pull                    = yes
+pull_ngroups            = 2
+pull_ncoords            = 1
+pull_group1_name        = Lipids
+pull_group2_name        = Pull
+pull_coord1_type        = umbrella      
+pull_coord1_geometry    = distance      
+pull_coord1_groups      = 1 2
+;pull_coord1_dim         = N N Y;possible bug cause for WHAM. too much data
+pull_coord1_rate        = 0.0
+pull_coord1_k           = 1000      
+pull_coord1_start       = yes   

@@ -1,0 +1,10 @@
+#include "../included/gromos_54a7.itp"
+#include "../included/gromos_54a7_spc.itp"
+#include "../included/gromos_54a7_dopc.itp"
+
+[ system ]
+Water through Bilayer
+
+[ molecules ]
+DOPC        128
+SOL         8515
