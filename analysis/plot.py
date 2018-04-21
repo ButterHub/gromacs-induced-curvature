@@ -12,8 +12,8 @@ ions = ['na-mol-pmf.xvg', 'ca-mol-pmf.xvg']
 nps = ['mus-2nm-sym-pmf.xvg', 'dopc494-mus-ot-2nm-sym-pmf.xvg', 'dopc398-ribbon-mus-ot-2nm-asym-pmf.xvg']
 water = ['water-pmf.xvg']
 # EDIT 'FILES' ONLY
-files = molsL
-name = "molsL"
+files = water
+name = "water"
 
 # Create figure
 fig, ax = plt.subplots(1)
@@ -38,7 +38,7 @@ legend = ax.legend(loc='upper center', shadow=True)
 # Set Max and Min Y
 plt.ylim(ymax=np.around(MaxY, -1))
 plt.ylim(ymin=-5)
-plt.xlim(xmax=3.5)
+plt.xlim(xmax=3)
 
 save_name=time.strftime("%Y_%m_%d")
 plt.savefig("PMF-{0}{1}_{2}.pdf".format(n_plots, name, save_name))
