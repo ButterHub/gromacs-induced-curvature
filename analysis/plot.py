@@ -12,8 +12,8 @@ ions = ['na-mol-pmf.xvg', 'ca-mol-pmf.xvg']
 nps = ['mus-2nm-sym-pmf.xvg', 'dopc494-mus-ot-2nm-sym-pmf.xvg', 'dopc398-ribbon-mus-ot-2nm-asym-pmf.xvg']
 water = ['water-pmf.xvg']
 # EDIT 'FILES' ONLY
-files = ions
-name = "ions"
+files = molsL
+name = "molsL"
 
 # Create figure
 fig, ax = plt.subplots(1)
@@ -29,7 +29,7 @@ MaxY = 0
 # Loop over files
 for i, file_name in enumerate(files):
 	x, y = np.genfromtxt(file_name, unpack=True, dtype="float_")
-	shiftedValue=y-np.amin(y)
+	shiftedValue=y-y[-1] # np.amin(y) for minimum, y[-1]
 	if np.max(shiftedValue) > MaxY:
 		MaxY = np.max(shiftedValue)
 	plt.plot(x, shiftedValue, label=file_name, linewidth=2)
