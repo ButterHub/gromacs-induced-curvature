@@ -1,10 +1,10 @@
-# This file was created Mon Apr 23 06:20:33 2018
+# This file was created Mon Apr 23 09:41:31 2018
 # by the following command:
 # g_wham -it tpr-files.dat -if pullf-files.dat -b 0 -e 35700.00000000000000000000 -o profile-17.xvg -unit kCal 
 #
 # g_wham is part of G R O M A C S:
 #
-# Great Red Oystrich Makes All Chemists Sane
+# S  C  A  M  O  R  G
 #
 #    title "Umbrella potential"
 #    xaxis  label "z"

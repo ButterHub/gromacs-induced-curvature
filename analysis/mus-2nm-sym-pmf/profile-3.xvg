@@ -1,10 +1,10 @@
-# This file was created Mon Apr 23 06:19:18 2018
+# This file was created Mon Apr 23 09:40:10 2018
 # by the following command:
 # g_wham -it tpr-files.dat -if pullf-files.dat -b 0 -e 6300.00000000000000000000 -o profile-3.xvg -unit kCal 
 #
 # g_wham is part of G R O M A C S:
 #
-# Georgetown Riga Oslo Madrid Amsterdam Chisinau Stockholm
+# Good gRace! Old Maple Actually Chews Slate
 #
 #    title "Umbrella potential"
 #    xaxis  label "z"

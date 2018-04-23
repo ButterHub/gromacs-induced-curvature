@@ -1,10 +1,10 @@
-# This file was created Mon Apr 23 06:19:07 2018
+# This file was created Mon Apr 23 09:39:54 2018
 # by the following command:
 # g_wham -it tpr-files.dat -if pullf-files.dat -b 0 -e 2100.00000000000000000000 -o profile-1.xvg -unit kCal 
 #
 # g_wham is part of G R O M A C S:
 #
-# GROwing Monsters And Cloning Shrimps
+# Good gRace! Old Maple Actually Chews Slate
 #
 #    title "Umbrella potential"
 #    xaxis  label "z"

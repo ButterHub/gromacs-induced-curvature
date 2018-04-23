@@ -1,10 +1,10 @@
-# This file was created Mon Apr 23 06:20:17 2018
+# This file was created Mon Apr 23 09:41:14 2018
 # by the following command:
 # g_wham -it tpr-files.dat -if pullf-files.dat -b 0 -e 29400.00000000000000000000 -o profile-14.xvg -unit kCal 
 #
 # g_wham is part of G R O M A C S:
 #
-# GROwing Monsters And Cloning Shrimps
+# Gyas ROwers Mature At Cryogenic Speed
 #
 #    title "Umbrella potential"
 #    xaxis  label "z"
