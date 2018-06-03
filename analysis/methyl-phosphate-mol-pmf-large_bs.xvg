@@ -6,11 +6,11 @@
 #
 # GROup of MAchos and Cynical Suckers
 #
-@    title "Average and stddev from bootstrapping"
-@    xaxis  label "z"
-@    yaxis  label "E (kcal mol\S-1\N)"
-@TYPE xy
-@TYPE xydy
+#    title "Average and stddev from bootstrapping"
+#    xaxis  label "z"
+#    yaxis  label "E (kcal mol\S-1\N)"
+#TYPE xy
+#TYPE xydy
 9.118308e-03	0.000000e+00	0.000000e+00
 2.735118e-02	-2.740091e-01	1.944551e-02
 4.558406e-02	-6.684416e-01	2.356063e-02

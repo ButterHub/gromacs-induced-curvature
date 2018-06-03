@@ -10,10 +10,10 @@ mols = ['methyl-phosphate-mol-pmf.xvg', 'methyl-hydrogen-phosphate-mol-pmf.xvg',
 molsL = ['methyl-phosphate-mol-pmf-large.xvg', 'methyl-hydrogen-phosphate-mol-pmf-large.xvg', 'methyl-dihydrogen-phosphate-mol-pmf-large.xvg', 'methyl-sulfonate-mol-pmf-large.xvg']
 ions = ['na-mol-pmf.xvg', 'ca-mol-pmf.xvg']
 nps = ['mus-2nm-sym-pmf.xvg', 'dopc494-mus-ot-2nm-sym-pmf.xvg', 'dopc398-ribbon-mus-ot-2nm-asym-pmf.xvg']
-water = ['water-pmf_bs.xvg']
+water = ['water-pmf.xvg']
 # EDIT 'FILES' ONLY
 files = water
-name = "water-error"
+name = "water"
 
 # Create figure
 fig, ax = plt.subplots(1)
@@ -28,13 +28,11 @@ MaxY = 0
 
 # Loop over files
 for i, file_name in enumerate(files):
-	x, y, s = np.genfromtxt(file_name, unpack=True, dtype="float_")
+	x, y = np.genfromtxt(file_name, unpack=True, dtype="float_")
 	shiftedValue=y-y[-1] # np.amin(y) for minimum, y[-1]
-	shiftedS=s-y[-1]
 	if np.max(shiftedValue) > MaxY:
 		MaxY = np.max(shiftedValue)
-	#plt.plot(x, shiftedValue, label=file_name, linewidth=2)
-	plt.errorbar(x, shiftedValue, yerr=shiftedS, label=file_name, linewidth=2)
+	plt.plot(x, shiftedValue, label=file_name, linewidth=2)
 legend = ax.legend(loc='upper center', shadow=True)
 
 # Set Max and Min Y

@@ -6,11 +6,11 @@
 #
 # GROningen MAchine for Chemical Simulation
 #
-@    title "Average and stddev from bootstrapping"
-@    xaxis  label "z"
-@    yaxis  label "E (kcal mol\S-1\N)"
-@TYPE xy
-@TYPE xydy
+#    title "Average and stddev from bootstrapping"
+#    xaxis  label "z"
+#    yaxis  label "E (kcal mol\S-1\N)"
+#TYPE xy
+#TYPE xydy
 9.118523e-03	0.000000e+00	0.000000e+00
 2.735473e-02	-1.044623e-01	1.806232e-02
 4.559094e-02	-3.126453e-01	2.225587e-02

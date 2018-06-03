@@ -10,10 +10,10 @@
 #
 # Giant Rising Ordinary Mutants for A Clerical Setup
 #
-@    title "Umbrella potential"
-@    xaxis  label "\xx\f{} (nm)"
-@    yaxis  label "E (kcal mol\S-1\N)"
-@TYPE xy
+#    title "Umbrella potential"
+#    xaxis  label "\xx\f{} (nm)"
+#    yaxis  label "E (kcal mol\S-1\N)"
+#TYPE xy
 8.136908e-03	0.000000e+00
 2.441021e-02	5.841123e-03
 4.068352e-02	7.785138e-03
