@@ -1,14 +1,14 @@
-# This file was created Sat Jun  2 12:06:28 2018
+# This file was created Sun Jun  3 12:33:49 2018
 # Created by:
 #                   :-) GROMACS - gmx wham, VERSION 5.1.4 (-:
 # 
 # Executable:   /pool/shared/gromacs5/bin/gmx
 # Data prefix:  /pool/shared/gromacs5
 # Command line:
-#   gmx wham -it tpr-files.dat -if pullf-files.dat -b 0 -o -hist -unit kCal -nBootstrap 100 -bs-method traj -bsres -ac
+#   gmx wham -it tpr-files.dat -if pullf-files.dat -b 0 -o -hist -unit kCal -nBootstrap 100 -bs-method b-hist -temp 310 -vbs -bsres
 # gmx wham is part of G R O M A C S:
 #
-# God Rules Over Mankind, Animals, Cosmos and Such
+# Georgetown Riga Oslo Madrid Amsterdam Chisinau Stockholm
 #
 @    title "Umbrella histograms"
 @    xaxis  label "\xx\f{} (nm)"
