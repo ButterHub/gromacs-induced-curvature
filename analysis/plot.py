@@ -34,7 +34,7 @@ for i, file_name in enumerate(files):
 	if np.max(shiftedValue) > MaxY:
 		MaxY = np.max(shiftedValue)
 	#plt.plot(x, shiftedValue, label=file_name, linewidth=2)
-	plt.errorbar(x, shiftedValue, yerr=shiftedS/10, label=file_name, linewidth=2)
+	plt.errorbar(x, shiftedValue, yerr=shiftedS, label=file_name, linewidth=2)
 legend = ax.legend(loc='upper center', shadow=True)
 
 # Set Max and Min Y
