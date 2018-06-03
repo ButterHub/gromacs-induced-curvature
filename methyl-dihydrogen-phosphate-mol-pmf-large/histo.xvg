@@ -1,10 +1,10 @@
-# This file was created Fri Apr  6 12:15:08 2018
+# This file was created Sat Jun  2 12:32:10 2018
 # by the following command:
-# g_wham -it tpr-files.dat -if pullf-files.dat -b 2000 -o -hist -unit kCal 
+# g_wham -it tpr-files.dat -if pullf-files.dat -b 2000 -o -hist -unit kCal -nBootstrap 100 -bs-method traj -bsres -ac 
 #
 # g_wham is part of G R O M A C S:
 #
-# S  C  A  M  O  R  G
+# Gravel Rubs Often Many Awfully Cauterized Sores
 #
 @    title "Umbrella histograms"
 @    xaxis  label "z"
