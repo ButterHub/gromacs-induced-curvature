@@ -12,8 +12,8 @@ ions = ['na-mol-pmf.xvg', 'ca-mol-pmf.xvg']
 nps = ['mus-2nm-sym-pmf.xvg', 'dopc494-mus-ot-2nm-sym-pmf.xvg', 'dopc398-ribbon-mus-ot-2nm-asym-pmf.xvg']
 water = ['water-pmf_bs.xvg']
 # EDIT 'FILES' ONLY
-files = water
-name = "water-error"
+files = ions 
+name = "ions"
 
 # Create figure
 fig, ax = plt.subplots(1)
@@ -28,13 +28,16 @@ MaxY = 0
 
 # Loop over files
 for i, file_name in enumerate(files):
-	x, y, s = np.genfromtxt(file_name, unpack=True, dtype="float_")
-	shiftedValue=y-y[-1] # np.amin(y) for minimum, y[-1]
-	shiftedS=s-y[-1]
-	if np.max(shiftedValue) > MaxY:
-		MaxY = np.max(shiftedValue)
+	molname = file_name.replace('.xvg','') # Molecule name without format
+	file_name_err = file_name.replace('.xvg','-bs.xvg') # BsResult file name 
+	x, y = np.genfromtxt(file_name, unpack=True, dtype="float_")
+	xave, yave, ys = np.genfromtxt(file_name_err, unpack=True, dtype="float_")
+	y=y-y[-1] # np.amin(y) for minimum, y[-1]
+	ys=ys-y[-1]
+	if np.max(y) > MaxY:
+		MaxY = np.max(y)
 	#plt.plot(x, shiftedValue, label=file_name, linewidth=2)
-	plt.errorbar(x, shiftedValue, yerr=shiftedS, label=file_name, linewidth=2)
+	plt.errorbar(x, y, yerr=ys, label=molname, linewidth=2)
 legend = ax.legend(loc='upper center', shadow=True)
 
 # Set Max and Min Y

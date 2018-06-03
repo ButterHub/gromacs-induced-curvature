@@ -1,10 +1,10 @@
-# This file was created Sat Jun  2 12:17:07 2018
+# This file was created Sun Jun  3 12:19:38 2018
 # by the following command:
-# g_wham -it tpr-files.dat -if pullf-files.dat -b 2000 -o -hist -unit kCal -nBootstrap 100 -bs-method traj -bsres -ac 
+# g_wham -it tpr-files.dat -if pullf-files.dat -b 2000 -o -hist -unit kCal -nBootstrap 100 -bs-method b-hist -temp 310 -vbs -bsres 
 #
 # g_wham is part of G R O M A C S:
 #
-# GROup of MAchos and Cynical Suckers
+# Getting the Right Output Means no Artefacts in Calculating Stuff
 #
 @    title "Umbrella histograms"
 @    xaxis  label "z"
